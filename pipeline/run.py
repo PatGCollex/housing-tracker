@@ -1,16 +1,11 @@
-"""Twice-daily update job.
-
-Pulls new and changed housing bills, writes plain-English recaps and
-"what changed" notes, and publishes docs/data/bills.json for the app.
-
-    python pipeline/run.py            # normal run
-    python pipeline/run.py --recap    # also rebuild the weekly recap
-"""
+"""Twice-daily update job."""
 import json
 import sys
 import traceback
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+import anthropic
 
 import sources
 import summarize
@@ -22,10 +17,20 @@ NOW = datetime.now(timezone.utc)
 STAMP = NOW.strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+class StopRun(Exception):
+    """A problem that will hit every bill (bad key, no credits), so stop and fail loudly."""
+
+
+def is_fatal(err):
+    if isinstance(err, (anthropic.AuthenticationError, anthropic.PermissionDeniedError)):
+        return True
+    return isinstance(err, anthropic.BadRequestError) and "credit balance" in str(err)
+
+
 def load_state():
     if STATE.exists():
         return json.loads(STATE.read_text())
-    return {"lastRun": None, "bills": {}, "gaHashes": {}, "rejected": {}, "events": []}
+    return {"lastRun": None, "bills": {}, "gaHashes": {}, "rejected": {}, "events": [], "federalRetry": []}
 
 
 def save(state):
@@ -43,16 +48,14 @@ def log_event(state, bill, text):
 
 
 def process(state, fresh, get_text):
-    """Merge a freshly fetched bill into state, calling Claude only for what changed."""
     old = state["bills"].get(fresh["id"])
     if old is None and fresh["id"] in state["rejected"]:
-        return  # already judged not housing-related
+        return
 
     fresh_versions = fresh["versions"]
     old_versions = {v["id"]: v for v in (old or {}).get("versions", [])}
     new_versions = [v for v in fresh_versions if v["id"] not in old_versions]
 
-    # Carry forward the "what changed" notes we already wrote.
     for v in fresh_versions:
         if v["id"] in old_versions and "changes" in old_versions[v["id"]]:
             v["changes"] = old_versions[v["id"]]["changes"]
@@ -71,7 +74,6 @@ def process(state, fresh, get_text):
             return
         bill.update(headline=recap.headline, recap=recap.recap, impact=recap.impact)
 
-        # "What changed" for each new version that has a previous version to compare to.
         for v in new_versions:
             i = fresh_versions.index(v)
             if i == 0:
@@ -82,7 +84,6 @@ def process(state, fresh, get_text):
             this_text = text if v is latest else get_text(v)
             v["changes"] = summarize.what_changed(fresh, prev["name"], prev_text, v["name"], this_text)
 
-    # Figure out what kind of change this was, for the New tab and alerts.
     if old is None:
         kind, msg = "new", f"new bill tracked ({bill['status']})"
     elif new_versions:
@@ -105,14 +106,23 @@ def process(state, fresh, get_text):
 
 
 def run_federal(state):
-    since = datetime.fromisoformat(state["lastRun"].replace("Z", "+00:00")) - timedelta(hours=2) if state["lastRun"] else sources.default_since()
-    stubs = sources.federal_updated_since(since)
+    if state.get("lastRun") and "federalRetry" in state:
+        since = datetime.fromisoformat(state["lastRun"].replace("Z", "+00:00")) - timedelta(hours=2)
+    else:
+        since = sources.default_since()
+    stubs = state.get("federalRetry", []) + sources.federal_updated_since(since)
     print(f"Federal: {len(stubs)} candidate bills")
+    retry = []
     for stub in stubs:
         try:
             process(state, sources.federal_bill(stub), sources.federal_text)
-        except Exception:
+        except Exception as err:
+            if is_fatal(err):
+                state["federalRetry"] = retry + stubs[stubs.index(stub):]
+                raise StopRun(str(err))
             traceback.print_exc()
+            retry.append(stub)
+    state["federalRetry"] = retry
 
 
 def run_georgia(state):
@@ -123,7 +133,9 @@ def run_georgia(state):
             fresh = sources.georgia_bill(stub["bill_id"])
             process(state, fresh, sources.georgia_text)
             state["gaHashes"][str(stub["bill_id"])] = stub["change_hash"]
-        except Exception:
+        except Exception as err:
+            if is_fatal(err):
+                raise StopRun(str(err))
             traceback.print_exc()
 
 
@@ -147,11 +159,14 @@ def main():
     for step in (run_federal, run_georgia):
         try:
             step(state)
+        except StopRun as err:
+            save(state)
+            sys.exit(f"Stopped early: {err}\nCheck the Anthropic key and credit balance, then run again.")
         except Exception:
             traceback.print_exc()
             federal_ok = federal_ok and step is not run_federal
-        save(state)  # save after each source so one failure doesn't lose the other
-    if federal_ok:  # only move the federal window forward if that fetch worked
+        save(state)
+    if federal_ok:
         state["lastRun"] = STAMP
     save(state)
     if "--recap" in sys.argv or NOW.weekday() == 0 and NOW.hour < 14:
