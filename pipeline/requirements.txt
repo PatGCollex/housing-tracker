@@ -1,0 +1,4 @@
+anthropic>=1.0
+pydantic>=2.7
+pypdf>=5.0
+requests>=2.31
