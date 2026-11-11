@@ -3,14 +3,19 @@ import SwiftUI
 struct BillDetailView: View {
     @EnvironmentObject var store: BillStore
     let bill: Bill
+    @State private var askingNewFolder = false
+    @State private var folderName = ""
 
     var body: some View {
         List {
             Section {
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("\(bill.jurisdiction) · \(bill.number)")
+                    Text("Georgia · \(bill.number) · \(bill.year)")
                         .font(.subheadline).foregroundStyle(.secondary)
-                    Text(bill.displayHeadline).font(.title3.weight(.semibold))
+                    HStack(alignment: .firstTextBaseline, spacing: 8) {
+                        OutcomeDot(bill: bill)
+                        Text(bill.displayHeadline).font(.title3.weight(.semibold))
+                    }
                     HStack(spacing: 8) {
                         Tag(text: bill.status)
                         if let impact = bill.impact { Tag(text: impact) }
@@ -71,9 +76,24 @@ struct BillDetailView: View {
             }
         }
         .navigationBarTitleDisplayMode(.inline)
+        .alert("New folder", isPresented: $askingNewFolder) {
+            TextField("Name, like Property tax", text: $folderName)
+            Button("Cancel", role: .cancel) {}
+            Button("Create") {
+                if let folder = store.addFolder(folderName) { store.toggle(bill, in: folder) }
+            }
+        }
         .toolbar {
             ToolbarItemGroup(placement: .topBarTrailing) {
                 ShareLink(item: bill.shareText) { Image(systemName: "square.and.arrow.up") }
+                Menu {
+                    FolderButtons(bill: bill)
+                    Divider()
+                    Button("New folder…", systemImage: "folder.badge.plus") { folderName = ""; askingNewFolder = true }
+                } label: {
+                    Image(systemName: "folder")
+                }
+                .accessibilityLabel("Folders")
                 Button { store.toggleStar(bill) } label: {
                     Image(systemName: store.starred.contains(bill.id) ? "star.fill" : "star")
                 }

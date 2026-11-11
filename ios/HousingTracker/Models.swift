@@ -39,6 +39,63 @@ struct Bill: Codable, Identifiable, Hashable {
 
     var isIndirect: Bool { relevance == "Indirect" }
 
+    var isLaw: Bool { status == "Signed into law" }
+
+    /// Date used to put the most recent bills first.
+    var sortDate: String { lastActionDate ?? updatedAt ?? "" }
+
+    /// "House bill", "Senate bill" or "Resolution", from the bill number (HB 12, S 45, H.Res. 3...).
+    var billType: String {
+        let letters = number.uppercased().filter { $0.isLetter }
+        if isGeorgia {
+            return letters == "HB" ? "House bill" : letters == "SB" ? "Senate bill" : "Resolution"
+        }
+        return letters == "HR" ? "House bill" : letters == "S" ? "Senate bill" : "Resolution"
+    }
+
+    /// Year the bill was introduced, for the Watching dropdowns.
+    var year: String {
+        String((timeline.first?.date ?? lastActionDate ?? updatedAt ?? "").prefix(4))
+    }
+
+    /// HB first, then SB, then resolutions, each in number order.
+    var numberOrder: (Int, Int) {
+        let letters = number.uppercased().filter { $0.isLetter }
+        let typeRank = ["HB": 0, "SB": 1, "HR": 2, "SR": 3][letters] ?? 4
+        return (typeRank, Int(number.filter { $0.isNumber }) ?? 0)
+    }
+
+    /// Green when the bill passed a step, red when it failed or was vetoed, nil otherwise.
+    var outcome: Bool? {
+        switch status {
+        case "Vetoed", "Failed": return false
+        case "Introduced", "In committee": return nil
+        default: return true
+        }
+    }
+
+    /// Words for an alert, like "HB 31 passed both chambers".
+    var stageVerb: String {
+        switch status {
+        case "Passed one chamber": return "passed its first chamber"
+        case "Passed both chambers": return "passed both chambers"
+        case "Signed into law": return "was signed into law"
+        case "Vetoed": return "was vetoed"
+        case "Failed": return "failed"
+        default: return "is now: \(status.lowercased())"
+        }
+    }
+
+    /// Simple status groups for filtering.
+    var statusGroup: String {
+        switch status {
+        case "Signed into law": return "Became law"
+        case "Vetoed", "Failed": return "Stopped"
+        case "Introduced", "In committee": return "Introduced"
+        default: return "Moving"
+        }
+    }
+
     var url: URL? { link.flatMap(URL.init(string:)) }
 
     var changeLabel: String? {
@@ -54,7 +111,7 @@ struct Bill: Codable, Identifiable, Hashable {
 
     /// The fields that, when they change, deserve an alert on a starred bill.
     var alertFingerprint: String {
-        "\(status)|\(versions.count)|\(upcoming.first?.date ?? "")"
+        "\(status)|\(versions.count)|\(timeline.count)|\(upcoming.first?.date ?? "")"
     }
 
     var shareText: String {
@@ -63,6 +120,13 @@ struct Bill: Codable, Identifiable, Hashable {
         if let link { parts.append(link) }
         return parts.joined(separator: "\n\n")
     }
+}
+
+/// A folder the user makes on Watching, such as "Property tax" or "Rentals".
+struct Folder: Codable, Identifiable, Hashable {
+    var id = UUID()
+    var name: String
+    var billIds: [String] = []
 }
 
 struct TimelineItem: Codable, Hashable {

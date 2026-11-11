@@ -18,7 +18,10 @@ struct HousingTrackerApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(store)
-                .task { await store.refresh() }
+                .task {
+                    Notifier.requestPermission()   // for "became law" alerts
+                    await store.refresh()
+                }
         }
         .onChange(of: scenePhase) { _, phase in
             if phase == .background { Self.scheduleBackgroundRefresh() }
