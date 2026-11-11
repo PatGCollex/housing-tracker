@@ -4,6 +4,7 @@ import SwiftUI
 @main
 struct HousingTrackerApp: App {
     @StateObject private var store = BillStore()
+    @StateObject private var workspace = Workspace()
     @Environment(\.scenePhase) private var scenePhase
 
     static let refreshTaskID = "org.garealtors.housingtracker.refresh"
@@ -18,6 +19,7 @@ struct HousingTrackerApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(store)
+                .environmentObject(workspace)
                 .task {
                     Notifier.requestPermission()   // for "became law" alerts
                     await store.refresh()

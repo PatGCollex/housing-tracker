@@ -1,205 +1,29 @@
 import SwiftUI
 
+/// Four tabs: Bills (the legislation), My Work (your workspace), Capitol (today, calendar, people), Reports.
 struct ContentView: View {
     var body: some View {
         TabView {
-            NewView()
-                .tabItem { Label("This Week", systemImage: "sparkles") }
-            WatchingView()
-                .tabItem { Label("Watching", systemImage: "star") }
-            SearchView()
-                .tabItem { Label("Search", systemImage: "magnifyingglass") }
+            BillsTab()
+                .tabItem { Label("Bills", systemImage: "doc.text") }
+            WorkTab()
+                .tabItem { Label("My Work", systemImage: "briefcase") }
+            CapitolTab()
+                .tabItem { Label("Capitol", systemImage: "building.columns") }
+            ReportsTab()
+                .tabItem { Label("Reports", systemImage: "chart.bar.doc.horizontal") }
         }
     }
 }
 
-// MARK: - New
+// MARK: - Navigation
 
-struct NewView: View {
-    @EnvironmentObject var store: BillStore
-    @State private var filter = BillFilter()
-
-    private var shown: [Bill] { filter.apply(store.newBills) }
-
-    private var emptyText: String? {
-        if let error = store.loadError { return error }
-        if !shown.isEmpty { return nil }
-        if filter.isActive { return "Nothing matches." }
-        return "No bill activity in the past week. This fills up when the session starts in January."
-    }
-
-    var body: some View {
-        NavigationStack {
-            List {
-                if let recap = store.recap, !filter.isActive {
-                    Section {
-                        NavigationLink { RecapView(recap: recap) } label: {
-                            VStack(alignment: .leading, spacing: 4) {
-                                Text("Weekly recap").font(.headline)
-                                Text(recap.summary).font(.subheadline).foregroundStyle(.secondary).lineLimit(2)
-                            }
-                            .padding(.vertical, 4)
-                        }
-                    }
-                }
-                BillSections(bills: shown)
-                if let updated = store.lastUpdated {
-                    Section {} footer: { Text("Updated \(DateText.pretty(updated))") }
-                }
-            }
-            .overlay {
-                EmptyMessage(text: emptyText)
-            }
-            .navigationTitle("This Week")
-            .toolbar { FilterMenu(filter: $filter) }
+extension View {
+    /// Lets any list open a bill or a legislator.
+    func appDestinations() -> some View {
+        self
             .navigationDestination(for: Bill.self) { BillDetailView(bill: $0) }
-            .refreshable { await store.refresh() }
-        }
-    }
-}
-
-// MARK: - Watching
-
-struct WatchingView: View {
-    @EnvironmentObject var store: BillStore
-    @State private var byFolder = false
-    @State private var open: Set<String> = []
-    @State private var askingNewFolder = false
-    @State private var renaming: Folder?
-    @State private var nameText = ""
-
-    private var years: [String] {
-        Array(Set(store.watching.map(\.year))).sorted(by: >)
-    }
-
-    var body: some View {
-        NavigationStack {
-            List {
-                if !store.watching.isEmpty {
-                    Section {
-                        Picker("Group by", selection: $byFolder) {
-                            Text("By year").tag(false)
-                            Text("By folder").tag(true)
-                        }
-                        .pickerStyle(.segmented)
-                        .listRowBackground(Color.clear)
-                        .listRowInsets(EdgeInsets())
-                    }
-                }
-                if byFolder {
-                    ForEach(store.folders) { folder in
-                        Section {
-                            dropdown(key: folder.id.uuidString, title: folder.name, bills: store.bills(in: folder), folder: folder)
-                        }
-                    }
-                    let loose = store.watchingWithoutFolder
-                    if !loose.isEmpty {
-                        Section {
-                            dropdown(key: "none", title: "Not in a folder", bills: loose)
-                        } footer: {
-                            Text("Press and hold a bill to put it in a folder. Press and hold a folder to rename or delete it.")
-                        }
-                    }
-                } else {
-                    ForEach(years, id: \.self) { year in
-                        Section {
-                            dropdown(key: year, title: year, bills: store.watching.filter { $0.year == year })
-                        }
-                    }
-                }
-            }
-            .overlay {
-                EmptyMessage(text: store.watching.isEmpty
-                             ? "Tap the star on any bill to watch it. You'll get an alert when it changes."
-                             : nil)
-            }
-            .navigationTitle("Watching")
-            .toolbar {
-                Button { nameText = ""; askingNewFolder = true } label: {
-                    Label("New folder", systemImage: "folder.badge.plus")
-                }
-            }
-            .alert("New folder", isPresented: $askingNewFolder) {
-                TextField("Name, like Property tax", text: $nameText)
-                Button("Cancel", role: .cancel) {}
-                Button("Create") {
-                    store.addFolder(nameText)
-                    byFolder = true
-                }
-            }
-            .alert("Rename folder", isPresented: Binding(get: { renaming != nil }, set: { if !$0 { renaming = nil } })) {
-                TextField("Name", text: $nameText)
-                Button("Cancel", role: .cancel) {}
-                Button("Save") { if let f = renaming { store.renameFolder(f, to: nameText) } }
-            }
-            .navigationDestination(for: Bill.self) { BillDetailView(bill: $0) }
-            .refreshable { await store.refresh() }
-        }
-    }
-
-    private func dropdown(key: String, title: String, bills: [Bill], folder: Folder? = nil) -> some View {
-        DisclosureGroup(isExpanded: Binding(
-            get: { open.contains(key) },
-            set: { if $0 { open.insert(key) } else { open.remove(key) } }
-        )) {
-            ForEach(bills) { bill in
-                NavigationLink(value: bill) { BillRow(bill: bill) }
-                    .contextMenu { FolderButtons(bill: bill) }
-                    .swipeActions {
-                        Button("Unwatch", role: .destructive) { store.toggleStar(bill) }
-                    }
-            }
-        } label: {
-            Text("\(title) (\(bills.count))").font(.headline)
-                .contextMenu {
-                    if let folder {
-                        Button("Rename", systemImage: "pencil") { nameText = folder.name; renaming = folder }
-                        Button("Delete folder", systemImage: "trash", role: .destructive) { store.deleteFolder(folder) }
-                    }
-                }
-        }
-    }
-}
-
-/// Folder check marks for one bill, used in menus.
-struct FolderButtons: View {
-    @EnvironmentObject var store: BillStore
-    let bill: Bill
-
-    var body: some View {
-        if store.folders.isEmpty {
-            Text("Make a folder first with the folder button on Watching.")
-        }
-        ForEach(store.folders) { folder in
-            Button { store.toggle(bill, in: folder) } label: {
-                if store.isBill(bill, in: folder) {
-                    Label(folder.name, systemImage: "checkmark")
-                } else {
-                    Text(folder.name)
-                }
-            }
-        }
-    }
-}
-
-// MARK: - Search
-
-struct SearchView: View {
-    @EnvironmentObject var store: BillStore
-    @State private var query = ""
-    @State private var filter = BillFilter()
-
-    private var shown: [Bill] { filter.apply(store.search(query)) }
-
-    var body: some View {
-        NavigationStack {
-            List { BillSections(bills: shown) }
-                .overlay { EmptyMessage(text: shown.isEmpty ? "Nothing matches." : nil) }
-                .searchable(text: $query, prompt: "Bill number or topic")
-                .navigationTitle("Search")
-                .toolbar { FilterMenu(filter: $filter) }
-                .navigationDestination(for: Bill.self) { BillDetailView(bill: $0) }
-        }
+            .navigationDestination(for: Person.self) { LegislatorView(person: $0) }
     }
 }
 
@@ -207,14 +31,13 @@ struct SearchView: View {
 
 struct BillFilter: Equatable {
     var type = "All"      // All, House bill, Senate bill, Resolution
-    var status = "All"    // All, Became law, Moving, Introduced, Stopped
+    var status = "All"    // All or a status group
 
     var isActive: Bool { self != BillFilter() }
 
     func apply(_ bills: [Bill]) -> [Bill] {
         bills.filter {
-            (type == "All" || $0.billType == type)
-                && (status == "All" || $0.statusGroup == status)
+            (type == "All" || $0.billType == type) && (status == "All" || $0.statusGroup == status)
         }
     }
 }
@@ -227,12 +50,12 @@ struct FilterMenu: View {
         Menu {
             Picker("Type", selection: $filter.type) {
                 Text("All types").tag("All")
-                ForEach(["House bill", "Senate bill", "Resolution"], id: \.self) { Text($0 + "s") }
+                ForEach(["House bill", "Senate bill", "Resolution"], id: \.self) { Text($0 + "s").tag($0) }
             }
             .pickerStyle(.menu)
             Picker("Status", selection: $filter.status) {
                 Text("Any status").tag("All")
-                ForEach(["Became law", "Moving", "Introduced", "Stopped"], id: \.self) { Text($0) }
+                ForEach(Bill.statusGroupOrder, id: \.self) { Text($0).tag($0) }
             }
             .pickerStyle(.menu)
             if filter.isActive {
@@ -246,50 +69,90 @@ struct FilterMenu: View {
     }
 }
 
-// MARK: - Shared pieces
+// MARK: - Bill lists
 
-/// Bills that are mainly about housing, then indirect ones tucked in a closed dropdown.
+/// High priority bills, then housing bills, with indirect and other bills tucked in closed dropdowns.
 struct BillSections: View {
+    @EnvironmentObject var workspace: Workspace
     let bills: [Bill]
     @State private var showIndirect = false
-
-    private var direct: [Bill] { bills.filter { !$0.isIndirect } }
-    private var indirect: [Bill] { bills.filter { $0.isIndirect } }
+    @State private var showOther = false
 
     var body: some View {
+        let priority = bills.filter { workspace.isPriority($0) }
+        let rest = bills.filter { !workspace.isPriority($0) }
+        let direct = rest.filter { $0.relevance == "Direct" }
+        let indirect = rest.filter(\.isIndirect)
+        let other = rest.filter { !$0.isHousing }
+
+        if !priority.isEmpty {
+            Section("🚩 High priority") {
+                ForEach(priority) { bill in NavigationLink(value: bill) { BillRow(bill: bill) } }
+            }
+        }
         if !direct.isEmpty {
-            Section {
-                ForEach(direct) { bill in
-                    NavigationLink(value: bill) { BillRow(bill: bill) }
-                }
+            Section("Housing") {
+                ForEach(direct) { bill in NavigationLink(value: bill) { BillRow(bill: bill) } }
             }
         }
         if !indirect.isEmpty {
             Section {
                 DisclosureGroup(isExpanded: $showIndirect) {
-                    ForEach(indirect) { bill in
-                        NavigationLink(value: bill) { BillRow(bill: bill) }
-                    }
+                    ForEach(indirect) { bill in NavigationLink(value: bill) { BillRow(bill: bill) } }
                 } label: {
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text("Indirectly related (\(indirect.count))").font(.headline)
-                        Text("Bills that touch housing but aren't mainly about it")
-                            .font(.caption).foregroundStyle(.secondary)
-                    }
+                    DropdownLabel(title: "Indirectly related", count: indirect.count,
+                                  caption: "Bills that touch housing but aren't mainly about it")
+                }
+            }
+        }
+        if !other.isEmpty {
+            Section {
+                DisclosureGroup(isExpanded: $showOther) {
+                    ForEach(other) { bill in NavigationLink(value: bill) { BillRow(bill: bill) } }
+                } label: {
+                    DropdownLabel(title: "Other bills", count: other.count, caption: "Not about housing")
                 }
             }
         }
     }
 }
 
+struct DropdownLabel: View {
+    let title: String
+    let count: Int
+    var caption: String? = nil
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 2) {
+            Text("\(title) (\(count))").font(.headline)
+            if let caption {
+                Text(caption).font(.caption).foregroundStyle(.secondary)
+            }
+        }
+    }
+}
+
 struct BillRow: View {
+    @EnvironmentObject var workspace: Workspace
     let bill: Bill
 
     var body: some View {
+        let work = workspace.work(bill)
         VStack(alignment: .leading, spacing: 6) {
-            Text(bill.number)
-                .font(.caption.weight(.semibold))
-                .foregroundStyle(.secondary)
+            HStack(spacing: 6) {
+                Text(bill.displayNumber)
+                if work.priority { Image(systemName: "flag.fill").foregroundStyle(.red) }
+                if !work.note.isEmpty { Image(systemName: "note.text") }
+                if workspace.needsReview(bill) {
+                    Text("New version").foregroundStyle(.orange)
+                }
+                Spacer()
+                if let position = work.position {
+                    PositionTag(position: position, approved: work.positionApproved)
+                }
+            }
+            .font(.caption.weight(.semibold))
+            .foregroundStyle(.secondary)
             HStack(alignment: .firstTextBaseline, spacing: 8) {
                 OutcomeDot(bill: bill)
                 Text(bill.displayHeadline).font(.body).lineLimit(3)
@@ -308,6 +171,28 @@ struct BillRow: View {
     }
 }
 
+struct PositionTag: View {
+    let position: Position
+    var approved = true
+
+    var color: Color {
+        switch position {
+        case .support: return .green
+        case .oppose: return .red
+        case .monitor: return .blue
+        case .neutral: return .gray
+        }
+    }
+
+    var body: some View {
+        Text(approved ? position.rawValue : "\(position.rawValue)?")
+            .font(.caption2.weight(.bold))
+            .foregroundStyle(color)
+            .padding(.horizontal, 6).padding(.vertical, 2)
+            .background(color.opacity(0.15), in: Capsule())
+    }
+}
+
 /// Green dot when a bill passed, red when it failed or was vetoed.
 struct OutcomeDot: View {
     let bill: Bill
@@ -322,6 +207,17 @@ struct OutcomeDot: View {
     }
 }
 
+struct Tag: View {
+    let text: String
+
+    var body: some View {
+        Text(text)
+            .font(.caption.weight(.medium))
+            .padding(.horizontal, 8).padding(.vertical, 3)
+            .background(Color.secondary.opacity(0.15), in: Capsule())
+    }
+}
+
 struct EmptyMessage: View {
     let text: String?
 
@@ -332,6 +228,30 @@ struct EmptyMessage: View {
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
                 .padding(40)
+        }
+    }
+}
+
+/// Folder check marks for one bill, used in menus.
+struct FolderButtons: View {
+    @EnvironmentObject var store: BillStore
+    @EnvironmentObject var workspace: Workspace
+    let bill: Bill
+
+    var body: some View {
+        if workspace.data.folders.isEmpty {
+            Text("No folders yet")
+        }
+        ForEach(workspace.data.folders) { folder in
+            Button {
+                if workspace.toggle(bill, in: folder) { store.star(bill) }
+            } label: {
+                if workspace.isBill(bill, in: folder) {
+                    Label(folder.name, systemImage: "checkmark")
+                } else {
+                    Text(folder.name)
+                }
+            }
         }
     }
 }
@@ -350,5 +270,50 @@ struct RecapView: View {
         }
         .navigationTitle("Weekly recap")
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+// MARK: - Inbox
+
+/// Alerts for starred bills, newest first.
+struct InboxView: View {
+    @EnvironmentObject var store: BillStore
+
+    var body: some View {
+        List(store.inbox) { item in
+            if let bill = store.bill(id: item.billId) {
+                NavigationLink(value: bill) { InboxRow(item: item) }
+            } else {
+                InboxRow(item: item)
+            }
+        }
+        .overlay { EmptyMessage(text: store.inbox.isEmpty ? "Alerts for your starred bills show up here." : nil) }
+        .navigationTitle("Inbox")
+        .toolbar {
+            if !store.inbox.isEmpty {
+                Button("Clear", role: .destructive) { store.inbox = [] }
+            }
+        }
+        .onDisappear { store.markAllRead() }
+    }
+}
+
+struct InboxRow: View {
+    let item: InboxItem
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            HStack {
+                if !item.read {
+                    Circle().fill(Color.accentColor).frame(width: 8, height: 8)
+                }
+                Text(item.title).font(.subheadline.weight(item.read ? .regular : .semibold))
+                Spacer()
+                Text(item.date, format: .relative(presentation: .named))
+                    .font(.caption).foregroundStyle(.secondary)
+            }
+            Text(item.body).font(.caption).foregroundStyle(.secondary).lineLimit(2)
+        }
+        .padding(.vertical, 2)
     }
 }

@@ -162,17 +162,49 @@ def _legiscan(op, **params):
     return data
 
 
-def georgia_changed(known_hashes, tracked_ids):
-    """Georgia bills in the current session whose LegiScan change_hash moved."""
+def georgia_masterlist():
+    """Every Georgia bill in the current session, plus the session info."""
     master = _legiscan("getMasterList", state="GA")["masterlist"]
-    changed = []
-    for key, b in master.items():
-        if key == "session" or not isinstance(b, dict):
-            continue
-        if known_hashes.get(str(b["bill_id"])) == b["change_hash"]:
-            continue
-        changed.append(b)  # Claude screens every bill, so indirect ones aren't missed
-    return changed
+    session_info = master.get("session") or {}
+    bills = [b for k, b in master.items() if k != "session" and isinstance(b, dict)]
+    return session_info, bills
+
+
+def georgia_people(session_id):
+    """Every legislator in the session."""
+    people = _legiscan("getSessionPeople", id=session_id)["sessionpeople"]["people"]
+    return [
+        {
+            "id": p["people_id"],
+            "name": p.get("name"),
+            "first": p.get("first_name"),
+            "last": p.get("last_name"),
+            "party": p.get("party"),
+            "chamber": "House" if p.get("role") == "Rep" else "Senate" if p.get("role") == "Sen" else p.get("role"),
+            "district": _district(p.get("district")),
+            "ballotpedia": p.get("ballotpedia") or None,
+        }
+        for p in people
+    ]
+
+
+def _district(d):
+    """'HD-012' -> '12'."""
+    m = re.search(r"(\d+)", d or "")
+    return str(int(m.group(1))) if m else (d or None)
+
+
+def georgia_rollcall(roll_call_id):
+    """How each legislator voted on one roll call: {"Y": [ids], "N": [...], "NV": [...], "A": [...]}."""
+    rc = _legiscan("getRollCall", id=roll_call_id)["roll_call"]
+    codes = {1: "Y", 2: "N", 3: "NV", 4: "A"}
+    out = {"Y": [], "N": [], "NV": [], "A": []}
+    for v in rc.get("votes") or []:
+        out[codes.get(v.get("vote_id"), "NV")].append(v["people_id"])
+    return out
+
+
+CHAMBERS = {"H": "House", "S": "Senate"}
 
 
 def georgia_bill(bill_id):
@@ -185,28 +217,48 @@ def georgia_bill(bill_id):
         for c in (b.get("calendar") or []) if (c.get("date") or "") >= today
     ]
     versions = [
-        {"id": str(t["doc_id"]), "name": t.get("type") or "Version", "date": t.get("date"), "url": t.get("state_link") or t.get("url")}
+        {"id": str(t["doc_id"]), "name": t.get("type") or "Version", "date": t.get("date"),
+         "url": t.get("state_link") or t.get("url")}
         for t in sorted(b.get("texts") or [], key=lambda t: (t.get("date") or "", t["doc_id"]))
     ]
-    sponsor = (b.get("sponsors") or [{}])[0]
+    sponsors = [
+        {"id": s.get("people_id"), "name": s.get("name"), "party": s.get("party"),
+         "chamber": "House" if s.get("role") == "Rep" else "Senate" if s.get("role") == "Sen" else s.get("role"),
+         "district": _district(s.get("district")), "primary": s.get("sponsor_type_id") == 1}
+        for s in sorted(b.get("sponsors") or [], key=lambda s: s.get("sponsor_order") or 99)
+    ]
+    committee = b.get("committee") or {}
+    committee_name = None
+    if isinstance(committee, dict) and committee.get("name"):
+        committee_name = f"{CHAMBERS.get(committee.get('chamber'), '')} {committee['name']}".strip()
+    votes = [
+        {"id": v.get("roll_call_id"), "date": v.get("date"), "desc": v.get("desc"),
+         "chamber": CHAMBERS.get(v.get("chamber"), v.get("chamber")),
+         "yea": v.get("yea"), "nay": v.get("nay"), "nv": v.get("nv"), "absent": v.get("absent"),
+         "passed": bool(v.get("passed"))}
+        for v in b.get("votes") or []
+    ]
     subjects = " ".join(s.get("subject_name", "") for s in b.get("subjects") or [])
     return {
         "id": f"GA-{b['bill_id']}",
         "legiscanId": b["bill_id"],
         "changeHash": b.get("change_hash"),
         "jurisdiction": "Georgia",
+        "session": (b.get("session") or {}).get("session_name"),
         "number": b.get("bill_number"),
         "title": b.get("title"),
-        "description": b.get("description"),
         "summary": b.get("description"),
         "subjects": subjects,
-        "sponsor": sponsor.get("name"),
+        "sponsor": sponsors[0]["name"] if sponsors else None,
+        "sponsors": sponsors,
+        "committee": committee_name,
         "introduced": history[0]["date"] if history else None,
         "status": GA_STATUS.get(b.get("status"), "In committee" if history and len(history) > 1 else "Introduced"),
         "lastAction": history[-1]["action"] if history else None,
         "lastActionDate": history[-1]["date"] if history else None,
         "timeline": [{"date": h.get("date"), "text": f"{h.get('chamber', '')}: {h.get('action')}"} for h in history][-40:],
         "versions": versions,
+        "votes": votes,
         "upcoming": sorted(upcoming, key=lambda u: u["date"] or ""),
         "link": b.get("state_link") or b.get("url"),
     }

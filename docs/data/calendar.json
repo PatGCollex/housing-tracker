@@ -1,0 +1,9 @@
+{
+  "note": "Edit this file on GitHub when the session schedule is set. kind is session or committee. Dates are YYYY-MM-DD.",
+  "milestones": [
+    { "date": "2027-01-11", "title": "Session begins" }
+  ],
+  "days": [
+    { "date": "2027-01-11", "kind": "session", "label": "Legislative Day 1" }
+  ]
+}
