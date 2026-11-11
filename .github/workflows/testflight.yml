@@ -1,0 +1,47 @@
+name: Send to TestFlight
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate Xcode project
+        working-directory: ios
+        run: |
+          brew install xcodegen
+          sed -i '' "s#https://USERNAME.github.io#https://${{ github.repository_owner }}.github.io#" project.yml
+          sed -i '' "s#DEVELOPMENT_TEAM: \"\"#DEVELOPMENT_TEAM: \"${{ secrets.APPLE_TEAM_ID }}\"#" project.yml
+          xcodegen generate
+      - name: Build and upload
+        working-directory: ios
+        env:
+          KEY_P8: ${{ secrets.APP_STORE_CONNECT_KEY_P8 }}
+          KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID }}
+          ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
+          TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: |
+          KEY_PATH="$RUNNER_TEMP/AuthKey.p8"
+          printf '%s' "$KEY_P8" > "$KEY_PATH"
+          AUTH="-allowProvisioningUpdates -authenticationKeyPath $KEY_PATH -authenticationKeyID $KEY_ID -authenticationKeyIssuerID $ISSUER_ID"
+          xcodebuild -project HousingTracker.xcodeproj -scheme HousingTracker \
+            -configuration Release -destination 'generic/platform=iOS' \
+            -archivePath "$RUNNER_TEMP/App.xcarchive" \
+            CURRENT_PROJECT_VERSION=${{ github.run_number }} \
+            archive $AUTH
+          cat > "$RUNNER_TEMP/export.plist" <<PLIST
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0"><dict>
+            <key>method</key><string>app-store-connect</string>
+            <key>destination</key><string>upload</string>
+            <key>teamID</key><string>$TEAM_ID</string>
+            <key>signingStyle</key><string>automatic</string>
+          </dict></plist>
+          PLIST
+          xcodebuild -exportArchive -archivePath "$RUNNER_TEMP/App.xcarchive" \
+            -exportOptionsPlist "$RUNNER_TEMP/export.plist" \
+            -exportPath "$RUNNER_TEMP/export" $AUTH
