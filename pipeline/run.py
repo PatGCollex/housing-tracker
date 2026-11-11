@@ -20,6 +20,8 @@ NOW = datetime.now(timezone.utc)
 STAMP = NOW.strftime("%Y-%m-%dT%H:%M:%SZ")
 CRITERIA = 3  # bump when the housing test changes, so every bill is looked at again
 SUMMARY_CHARS = 1200
+INCLUDE_FEDERAL = False  # Georgia only for now; set to True to track federal bills again
+MAX_FEDERAL_PER_RUN = 400  # federal bills fetched per run; the rest wait for the next run (API limit is 5,000 calls/hour)
 
 
 def load_state():
@@ -42,7 +44,8 @@ def save(state):
     STATE.parent.mkdir(parents=True, exist_ok=True)
     STATE.write_text(json.dumps(state, indent=1, sort_keys=True))
     OUT.mkdir(parents=True, exist_ok=True)
-    public = sorted(state["bills"].values(), key=lambda b: b.get("updatedAt") or "", reverse=True)
+    public = [b for b in state["bills"].values() if INCLUDE_FEDERAL or b.get("jurisdiction") == "Georgia"]
+    public.sort(key=lambda b: (b.get("lastActionDate") or "", b.get("updatedAt") or ""), reverse=True)
     (OUT / "bills.json").write_text(json.dumps({"generatedAt": STAMP, "bills": public}, separators=(",", ":")))
 
 
@@ -122,17 +125,27 @@ def run_federal(state):
     stubs = state.get("federalRetry", []) + [
         b for b in updated if federal_id(b) in state["bills"] or classify(b.get("title"))[0]]
     print(f"Federal: {len(updated)} updated bills, {len(stubs)} to look at")
-    retry, seen = [], set()
+    retry, seen, fetched = [], set(), 0
     for stub in stubs:
         if federal_id(stub) in seen:
             continue
         seen.add(federal_id(stub))
+        if fetched >= MAX_FEDERAL_PER_RUN:
+            retry.append(stub)  # over this run's limit; fetch it next run
+            continue
+        fetched += 1
         try:
             process(state, sources.federal_bill(stub))
         except Exception:
             traceback.print_exc()
             retry.append(stub)  # try again next run
+        if fetched % 50 == 0:
+            state["federalRetry"] = retry + [s for s in stubs if federal_id(s) not in seen]
+            save(state)  # save progress in case the run is cut off
+            print(f"  ...{fetched} federal bills checked")
     state["federalRetry"] = retry
+    if retry:
+        print(f"  {len(retry)} federal bills will be checked on later runs")
 
 
 def run_georgia(state):
@@ -180,7 +193,7 @@ def main():
     state = load_state()
     migrate(state)
     federal_ok = True
-    for step in (run_federal, run_georgia):
+    for step in ((run_federal, run_georgia) if INCLUDE_FEDERAL else (run_georgia,)):
         try:
             step(state)
         except Exception:
