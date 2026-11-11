@@ -94,6 +94,9 @@ def federal_bill(stub):
         if url:
             versions.append({"id": url, "name": tv.get("type") or "Version", "date": (tv.get("date") or "")[:10], "url": url})
 
+    summaries = _congress(f"{base}/summaries").get("summaries", [])
+    official = html_to_text(summaries[-1].get("text", "")) if summaries else None
+
     latest = detail.get("latestAction") or {}
     sponsor = (detail.get("sponsors") or [{}])[0]
     pa = (detail.get("policyArea") or {}).get("name")
@@ -102,6 +105,8 @@ def federal_bill(stub):
         "jurisdiction": "Federal",
         "number": f"{stub['type']} {num}",
         "title": detail.get("title"),
+        "summary": official,
+        "policyArea": pa,
         "sponsor": sponsor.get("fullName"),
         "introduced": detail.get("introducedDate"),
         "status": federal_status(actions, latest.get("text", "")),
@@ -111,7 +116,6 @@ def federal_bill(stub):
         "versions": versions,
         "upcoming": [],
         "link": f"https://www.congress.gov/bill/{congress}th-congress/{_long_type(btype)}/{num}",
-        "housingHint": pa in HOUSING_POLICY_AREAS,
     }
 
 
@@ -194,6 +198,8 @@ def georgia_bill(bill_id):
         "number": b.get("bill_number"),
         "title": b.get("title"),
         "description": b.get("description"),
+        "summary": b.get("description"),
+        "subjects": subjects,
         "sponsor": sponsor.get("name"),
         "introduced": history[0]["date"] if history else None,
         "status": GA_STATUS.get(b.get("status"), "In committee" if history and len(history) > 1 else "Introduced"),
@@ -203,7 +209,6 @@ def georgia_bill(bill_id):
         "versions": versions,
         "upcoming": sorted(upcoming, key=lambda u: u["date"] or ""),
         "link": b.get("state_link") or b.get("url"),
-        "housingHint": looks_housing(subjects),
     }
 
 

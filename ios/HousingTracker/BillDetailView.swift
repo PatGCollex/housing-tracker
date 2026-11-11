@@ -20,7 +20,7 @@ struct BillDetailView: View {
             }
 
             if let recap = bill.recap {
-                Section("In plain English") { Text(recap) }
+                Section("Summary") { Text(recap) }
             }
 
             if let why = bill.whyHousing {
