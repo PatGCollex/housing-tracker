@@ -1,0 +1,120 @@
+Checked 2026-11-11T23:37:26.177068+00:00
+
+== home page
+https://www.legis.ga.gov/
+status 200 type text/html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Georgia General Assembly</title>
+    <base href="/" />
+    <meta name="description" content="Georgia General Assembly, is one of the largest state legislatures in the nation. The General Assembly consists of two chambers, the House of Representatives and the Senate.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    
+<link rel="stylesheet" href="styles.b51230a1b1157a84339d.css"></head>
+<body>
+ <app-root>
+       <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center align-items-center vh-100">
+                    <div class="loadingContainer">
+                        <div class="loading">
+							<div class="mt-4 ">
+							    Loading...<br />
+                                <span>Georgia General Assembly</span>
+							    <small>This might take a few seconds.</small>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</app-root>
+<script src="runtime.c1fda2df42dadafc24c6.js" defer></script><script src="polyfills-es5.6258ece23fdc8c556a18.js" nomodule defer></script><script src="polyfills.c6ed03603d311d3d2fa8.js" defer></script><script src="main.dd75361baa9eae716eba.js" defer></script></body>
+</html>
+
+
+== schedule page
+https://www.legis.ga.gov/schedule/all
+status 200 type text/html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Georgia General Assembly</title>
+    <base href="/" />
+    <meta name="description" content="Georgia General Assembly, is one of the largest state legislatures in the nation. The General Assembly consists of two chambers, the House of Representatives and the Senate.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    
+<link rel="stylesheet" href="styles.b51230a1b1157a84339d.css"></head>
+<body>
+ <app-root>
+       <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center align-items-center vh-100">
+                    <div class="loadingContainer">
+                        <div class="loading">
+							<div class="mt-4 ">
+							    Loading...<br />
+                                <span>Georgia General Assembly</span>
+							    <small>This might take a few seconds.</small>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</app-root>
+<script src="runtime.c1fda2df42dadafc24c6.js" defer></script><script src="polyfills-es5.6258ece23fdc8c556a18.js" nomodule defer></script><script src="polyfills.c6ed03603d311d3d2fa8.js" defer></script><script src="main.dd75361baa9eae716eba.js" defer></script></body>
+</html>
+
+
+== api meetings
+https://www.legis.ga.gov/api/meetings?startDate=2026-01-15T00:00:00.000Z&endDate=2027-01-10T00:00:00.000Z
+status 401 type None
+
+
+== api sessions
+https://www.legis.ga.gov/api/sessions
+status 401 type None
+
+
+== api committees
+https://www.legis.ga.gov/api/committees/List/1
+status 401 type None
+
+
+== old web service: committees
+https://webservices.legis.ga.gov/GGAServices/Committees/Service.svc?wsdl
+ERROR HTTPSConnectionPool(host='webservices.legis.ga.gov', port=443): Max retries exceeded with url: /GGAServices/Committees/Service.svc?wsdl (Caused by ConnectTimeoutError(<HTTPSConnection(host='webservices.legis.ga.gov', port=443) at 0x7497f13c1c10>, 'Connection to webservices.legis.ga.gov timed out. (connect timeout=30)'))
+
+== old web service: sessions
+https://webservices.legis.ga.gov/GGAServices/Session/Service.svc?wsdl
+ERROR HTTPSConnectionPool(host='webservices.legis.ga.gov', port=443): Max retries exceeded with url: /GGAServices/Session/Service.svc?wsdl (Caused by ConnectTimeoutError(<HTTPSConnection(host='webservices.legis.ga.gov', port=443) at 0x7497f13c3f20>, 'Connection to webservices.legis.ga.gov timed out. (connect timeout=30)'))
+
+== script https://www.legis.ga.gov/runtime.c1fda2df42dadafc24c6.js
+2460 chars
+API paths: []
+Token code: []
+
+== script https://www.legis.ga.gov/polyfills-es5.6258ece23fdc8c556a18.js
+259930 chars
+API paths: []
+Token code: []
+
+== script https://www.legis.ga.gov/polyfills.c6ed03603d311d3d2fa8.js
+174928 chars
+API paths: []
+Token code: []
+
+== script https://www.legis.ga.gov/main.dd75361baa9eae716eba.js
+2719019 chars
+API paths: []
+Token code: ['n(e,t){var n=this;return localStorage.getItem("token")&&(e=this.addToken(e,localStorage.getItem("token"))),t.handle(e).pipe(Object(Dt.a)((function(r){return r instanceof v.e&&401===r.status?n.handleUnauthorized(e,t):Object(xt.a)(r)})))},e.prototype.addToken=function(e,t){return e.clone({setHeaders:{Authorization:"Bearer "+t}})},e.prototype.handleUnauthorized=function(e,t){var n=this;return this.isRefreshing?this.refreshTokenSubject.pipe(Object(F.a)((function(e){return null!==e})),Object(Nt.a)(1),Object(Lt.a)((function(r){return t.handle(n.addToken(e,r))}))):(this.isRefreshing=!0,this.refreshTokenSubject.ne', 'r))}))):(this.isRefreshing=!0,this.refreshTokenSubject.next(null),this.refreshToken().pipe(Object(Lt.a)((function(r){return n.isRefreshing=!1,n.refreshTokenSubject.next(r),t.handle(n.addToken(e,r))}))))},e.prototype.refreshToken=function(){var e=(new Date).getTime();return this.http.get(i.a.apiUrl+"authentication/token",{params:(new v.g).append("key",this.getKey("letvarconst",e)).append("ms",e.toString())}).pipe(Object(kt.a)((function(e){localStorage.setItem("token",e)})))},e.prototype.getKey=function(e,t){return Vt.SHA512("QFpCwKfd7f"+i.a.obscureKey+e+t)},e.\\u0275fac=function(t){return new(t||e)(r.ac(v.b))},e.\\u']
