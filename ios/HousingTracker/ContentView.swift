@@ -116,6 +116,12 @@ struct BillRow: View {
                 Text(bill.isGeorgia ? "GA \(bill.number)" : bill.number)
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(.secondary)
+                if bill.isIndirect {
+                    Text("Indirect")
+                        .font(.caption2.weight(.semibold))
+                        .padding(.horizontal, 6).padding(.vertical, 2)
+                        .background(Color.secondary.opacity(0.15), in: Capsule())
+                }
                 if let label = bill.changeLabel {
                     Text(label)
                         .font(.caption2.weight(.semibold))

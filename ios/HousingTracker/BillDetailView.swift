@@ -23,6 +23,12 @@ struct BillDetailView: View {
                 Section("In plain English") { Text(recap) }
             }
 
+            if let why = bill.whyHousing {
+                Section(bill.isIndirect ? "How it affects housing (indirectly)" : "How it affects housing") {
+                    Text(why)
+                }
+            }
+
             if let next = bill.upcoming.first {
                 Section("Coming up") {
                     VStack(alignment: .leading, spacing: 2) {

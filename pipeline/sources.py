@@ -68,16 +68,13 @@ def _congress(path, **params):
 
 
 def federal_updated_since(since):
-    """Bills updated since `since` whose title or policy area is housing-related."""
+    """Every bill updated since `since`. Housing relevance is decided later by Claude."""
     out, offset = [], 0
     from_dt = since.strftime("%Y-%m-%dT%H:%M:%SZ")
     while True:
         page = _congress("/bill", fromDateTime=from_dt, sort="updateDate desc", limit=250, offset=offset)
         bills = page.get("bills", [])
-        for b in bills:
-            pa = (b.get("policyArea") or {}).get("name")
-            if pa == "Housing and Community Development" or looks_housing(b.get("title")):
-                out.append(b)
+        out.extend(bills)
         if len(bills) < 250:
             break
         offset += 250
@@ -170,9 +167,7 @@ def georgia_changed(known_hashes, tracked_ids):
             continue
         if known_hashes.get(str(b["bill_id"])) == b["change_hash"]:
             continue
-        # Only look closer at bills we already track, or whose title/description sound like housing.
-        if f"GA-{b['bill_id']}" in tracked_ids or looks_housing(b.get("title"), b.get("description")):
-            changed.append(b)
+        changed.append(b)  # Claude screens every bill, so indirect ones aren't missed
     return changed
 
 

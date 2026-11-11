@@ -28,12 +28,16 @@ struct Bill: Codable, Identifiable, Hashable {
     let headline: String?
     let recap: String?
     let impact: String?
+    let relevance: String?            // "Direct" or "Indirect"
+    let whyHousing: String?
     let changeKind: String?           // new, amended, status, action, hearing
     let updatedAt: String?
 
     var displayHeadline: String { headline ?? title }
 
     var isGeorgia: Bool { jurisdiction == "Georgia" }
+
+    var isIndirect: Bool { relevance == "Indirect" }
 
     var url: URL? { link.flatMap(URL.init(string:)) }
 
