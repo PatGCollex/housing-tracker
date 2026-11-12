@@ -1,4 +1,4 @@
-Checked 2026-11-11T23:37:26.177068+00:00
+Checked 2026-11-12T03:40:54.495465+00:00
 
 == home page
 https://www.legis.ga.gov/
@@ -77,7 +77,7 @@ status 200 type text/html
 
 
 == api meetings
-https://www.legis.ga.gov/api/meetings?startDate=2026-01-15T00:00:00.000Z&endDate=2027-01-10T00:00:00.000Z
+https://www.legis.ga.gov/api/meetings?startDate=2026-01-16T00:00:00.000Z&endDate=2027-01-11T00:00:00.000Z
 status 401 type None
 
 
@@ -93,11 +93,11 @@ status 401 type None
 
 == old web service: committees
 https://webservices.legis.ga.gov/GGAServices/Committees/Service.svc?wsdl
-ERROR HTTPSConnectionPool(host='webservices.legis.ga.gov', port=443): Max retries exceeded with url: /GGAServices/Committees/Service.svc?wsdl (Caused by ConnectTimeoutError(<HTTPSConnection(host='webservices.legis.ga.gov', port=443) at 0x7497f13c1c10>, 'Connection to webservices.legis.ga.gov timed out. (connect timeout=30)'))
+ERROR HTTPSConnectionPool(host='webservices.legis.ga.gov', port=443): Max retries exceeded with url: /GGAServices/Committees/Service.svc?wsdl (Caused by ConnectTimeoutError(<HTTPSConnection(host='webservices.legis.ga.gov', port=443) at 0x783803c627e0>, 'Connection to webservices.legis.ga.gov timed out. (connect timeout=30)'))
 
 == old web service: sessions
 https://webservices.legis.ga.gov/GGAServices/Session/Service.svc?wsdl
-ERROR HTTPSConnectionPool(host='webservices.legis.ga.gov', port=443): Max retries exceeded with url: /GGAServices/Session/Service.svc?wsdl (Caused by ConnectTimeoutError(<HTTPSConnection(host='webservices.legis.ga.gov', port=443) at 0x7497f13c3f20>, 'Connection to webservices.legis.ga.gov timed out. (connect timeout=30)'))
+ERROR HTTPSConnectionPool(host='webservices.legis.ga.gov', port=443): Max retries exceeded with url: /GGAServices/Session/Service.svc?wsdl (Caused by ConnectTimeoutError(<HTTPSConnection(host='webservices.legis.ga.gov', port=443) at 0x783803c63f80>, 'Connection to webservices.legis.ga.gov timed out. (connect timeout=30)'))
 
 == script https://www.legis.ga.gov/runtime.c1fda2df42dadafc24c6.js
 2460 chars
