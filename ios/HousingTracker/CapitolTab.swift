@@ -3,6 +3,7 @@ import SwiftUI
 /// Capitol mode: big buttons for people on the move, countdowns, hearings, the session calendar and legislators.
 struct CapitolTab: View {
     @EnvironmentObject var store: BillStore
+    @EnvironmentObject var committees: CommitteeStore
     @EnvironmentObject var workspace: Workspace
     @State private var showMeeting = false
     @State private var showDeadline = false
@@ -68,6 +69,9 @@ struct CapitolTab: View {
                 }
 
                 Section {
+                    NavigationLink { CommitteesView() } label: {
+                        Label("Committees, 2027 outlook and staff news", systemImage: "person.3.sequence")
+                    }
                     NavigationLink { SessionCalendarView() } label: { Label("Session calendar", systemImage: "calendar") }
                     NavigationLink { LegislatorsView(meetingMode: false) } label: { Label("Legislators", systemImage: "person.3") }
                     if let url = URL(string: "https://openstates.org/find_your_legislator/") {
@@ -85,7 +89,7 @@ struct CapitolTab: View {
             .sheet(isPresented: $showMeeting) { MeetingEditor() }
             .sheet(isPresented: $showDeadline) { DeadlineEditor() }
             .appDestinations()
-            .refreshable { await store.refresh() }
+            .refreshable { await store.refresh(); await committees.refresh() }
         }
     }
 
@@ -307,6 +311,7 @@ struct LegislatorsView: View {
 /// Everything about one legislator, ready for a meeting.
 struct LegislatorView: View {
     @EnvironmentObject var store: BillStore
+    @EnvironmentObject var committees: CommitteeStore
     @EnvironmentObject var workspace: Workspace
     let person: Person
     @State private var showMeeting = false
@@ -331,6 +336,23 @@ struct LegislatorView: View {
                 }
                 if let url = URL(string: "https://www.legis.ga.gov/members/\(person.chamber == "Senate" ? "senate" : "house")") {
                     Link(destination: url) { Label("Contact info on legis.ga.gov", systemImage: "phone") }
+                }
+            }
+
+            let seats = committees.committees(of: person)
+            if !seats.isEmpty {
+                Section("Committees (\(seats.count))") {
+                    ForEach(seats, id: \.0.id) { seat in
+                        NavigationLink { CommitteeDetailView(committee: seat.0) } label: {
+                            HStack {
+                                Text(seat.0.name)
+                                Spacer()
+                                if seat.1.position != "Member" {
+                                    Text(seat.1.position).font(.caption.weight(.semibold)).foregroundStyle(.blue)
+                                }
+                            }
+                        }
+                    }
                 }
             }
 

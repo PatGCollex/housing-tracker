@@ -5,6 +5,7 @@ import SwiftUI
 struct HousingTrackerApp: App {
     @StateObject private var store = BillStore()
     @StateObject private var workspace = Workspace()
+    @StateObject private var committees = CommitteeStore()
     @Environment(\.scenePhase) private var scenePhase
 
     static let refreshTaskID = "org.garealtors.housingtracker.refresh"
@@ -20,14 +21,16 @@ struct HousingTrackerApp: App {
             ContentView()
                 .environmentObject(store)
                 .environmentObject(workspace)
+                .environmentObject(committees)
                 .task {
                     Notifier.requestPermission()   // for "became law" alerts
                     await store.refresh()
+                    await committees.refresh()
                 }
         }
         .onChange(of: scenePhase) { _, phase in
             if phase == .background { Self.scheduleBackgroundRefresh() }
-            if phase == .active { Task { await store.refresh() } }
+            if phase == .active { Task { await store.refresh(); await committees.refresh() } }
         }
     }
 
@@ -42,6 +45,7 @@ struct HousingTrackerApp: App {
         scheduleBackgroundRefresh()
         let work = Task { @MainActor in
             await BillStore().refresh()
+            await CommitteeStore().refresh()
             task.setTaskCompleted(success: true)
         }
         task.expirationHandler = { work.cancel() }

@@ -11,6 +11,7 @@ struct ReportsTab: View {
     @AppStorage("alertNewBills") private var alertNewBills = true
     @AppStorage("alertHearings") private var alertHearings = true
     @AppStorage("alertRecap") private var alertRecap = true
+    @AppStorage("alertCommittees") private var alertCommittees = true
 
     private var years: [String] { Array(Set(store.watching.map(\.year))).sorted(by: >) }
 
@@ -81,6 +82,7 @@ struct ReportsTab: View {
                     Toggle("New housing bills", isOn: $alertNewBills)
                     Toggle("High priority: reminder the day before a hearing", isOn: $alertHearings)
                     Toggle("Monday weekly recap", isOn: $alertRecap)
+                    Toggle("2027 committee reports and staff news", isOn: $alertCommittees)
                 } header: { Text("Alerts") } footer: {
                     Text("Unstar a bill to stop its alerts. High priority alerts are flagged and use a different sound.")
                 }
