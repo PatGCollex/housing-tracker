@@ -3,14 +3,16 @@ name: Update bills
 on:
   schedule:
     - cron: "0 11 * * *"
+    - cron: "0 17 * * *"
     - cron: "0 23 * * *"
+    - cron: "0 5 * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 concurrency:
-  group: update-bills
+  group: update-data
   cancel-in-progress: false
 
 jobs:
@@ -34,5 +36,7 @@ jobs:
           git config user.name "bill-updater"
           git config user.email "actions@users.noreply.github.com"
           git add data docs/data
-          git diff --cached --quiet || git commit -m "Update bills"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "Update bills"
+          for i in 1 2 3 4; do git pull --rebase && git push && exit 0; sleep $((i * 10)); done
+          exit 1

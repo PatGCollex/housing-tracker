@@ -1,0 +1,40 @@
+name: Update committees and 2027 news
+
+# 4 times a day: 6 AM, noon, 6 PM and midnight Eastern (standard time).
+on:
+  schedule:
+    - cron: "30 11 * * *"
+    - cron: "30 17 * * *"
+    - cron: "30 23 * * *"
+    - cron: "30 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r pipeline/requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - run: python pipeline/committees.py
+      - name: Save results
+        if: always()
+        run: |
+          git config user.name "committee-updater"
+          git config user.email "actions@users.noreply.github.com"
+          git add data docs/data
+          git diff --cached --quiet && exit 0
+          git commit -m "Update committees and 2027 news"
+          for i in 1 2 3 4; do git pull --rebase && git push && exit 0; sleep $((i * 10)); done
+          exit 1
