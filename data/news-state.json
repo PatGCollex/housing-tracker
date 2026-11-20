@@ -381,10 +381,232 @@
 "653592131360b63b": "2026-11-18T03:33:00Z",
 "031633673217d3b9": "2026-11-11T12:00:00Z",
 "e7ea4b0e5528c444": "2026-11-10T12:00:00Z",
-"eeff5fd010862b2e": "2026-11-10T12:00:00Z"
+"eeff5fd010862b2e": "2026-11-10T12:00:00Z",
+"270274ddada77315": "2026-11-20T20:07:55Z",
+"1bded41f2225d4fb": "2026-11-20T19:54:48Z",
+"54771e969d0ab8ed": "2026-11-20T18:48:47Z",
+"1c5beb2b451ccf0b": "2026-11-20T21:34:38Z",
+"2640c22086aca5be": "2026-11-20T17:35:35Z",
+"4599060eed27680c": "2026-11-20T19:38:21Z",
+"5058768a00110b8b": "2026-11-20T17:35:27Z",
+"3bfada88285f1244": "2026-11-20T19:17:20Z",
+"33e562d138992829": "2026-11-20T18:29:59Z",
+"9d4f2bc626fed2c1": "2026-11-20T19:17:33Z",
+"fc573d7809134938": "2026-11-20T18:33:32Z",
+"4586afe864cb6a55": "2026-11-20T18:03:24Z",
+"f12580411051314d": "2026-11-20T17:53:12Z",
+"68240fb40015887b": "2026-11-20T17:00:00Z",
+"ee723cb46918fbac": "2026-11-20T22:11:29Z",
+"5681b82c40a6cc14": "2026-11-20T21:18:26Z",
+"7d7dcb2772d09d77": "2026-11-20T20:51:38Z",
+"95cb70d6bdf1c16e": "2026-11-20T19:03:33Z",
+"8b93e1c3907d42aa": "2026-11-20T18:57:34Z",
+"909a75924b4cdd8c": "2026-11-20T17:06:33Z",
+"ba5614af7e280505": "2026-11-20T17:06:00Z",
+"551201fc6d6b3ea4": "2026-11-20T17:00:09Z",
+"533f71c9dbd8d645": "2026-11-20T22:20:34Z",
+"3420ea20f35d13e0": "2026-11-20T23:00:09Z",
+"3bf85da8b1b71339": "2026-11-20T22:36:25Z",
+"45a9e60038d0f466": "2026-11-20T22:24:08Z",
+"9d8b68b7fdaf18b1": "2026-11-20T22:04:33Z",
+"68dae2f92db0f4eb": "2026-11-20T21:15:46Z",
+"6bdf53e5995098d2": "2026-11-20T21:15:10Z",
+"60b6e9252d20d404": "2026-11-20T21:13:17Z",
+"8de541ea291b4bc0": "2026-11-20T20:52:52Z",
+"786efdaa121e7cdc": "2026-11-20T20:50:42Z",
+"af4d9713db02952a": "2026-11-20T20:45:57Z",
+"364c2a4b890c2f53": "2026-11-20T20:43:31Z",
+"dff26d59578a509b": "2026-11-20T20:43:01Z",
+"1594805809a1fe0f": "2026-11-20T20:36:51Z",
+"490e9bb4f7e9ba57": "2026-11-20T20:29:06Z",
+"a106963c1ae46c2b": "2026-11-20T20:21:12Z",
+"b5445ea43b9c2911": "2026-11-20T20:17:48Z",
+"ff7cd9def556987a": "2026-11-20T20:15:37Z",
+"13d2cd90b67527b1": "2026-11-20T20:11:46Z",
+"846dae0818fbdd82": "2026-11-09T08:00:00Z",
+"61fdc319de29c8bb": "2026-11-06T15:07:00Z",
+"090068130ed6b167": "2026-11-06T14:14:00Z",
+"0c8caa5cf7e032ee": "2026-11-20T11:00:00Z",
+"87a3ad9d17f65159": "2026-11-11T08:45:00Z",
+"d5ef718cdea0f5ca": "2026-11-12T08:00:00Z",
+"453d0d9ac3954a35": "2026-11-11T08:00:00Z",
+"95b7963f51190317": "2026-11-20T11:08:00Z",
+"16bcd6174540c82e": "2026-11-18T07:53:00Z",
+"a46edff71d236c74": "2026-11-18T05:33:00Z",
+"3d36b4cf6211ae51": "2026-11-20T16:24:16Z",
+"018cd40c4429df5c": "2026-11-09T20:59:43Z",
+"535b8844a8f3f31b": "2026-11-08T21:09:00Z",
+"ca52bd88cc09b912": "2026-11-06T15:02:00Z",
+"9696c6da062a20bf": "2026-11-06T14:13:00Z",
+"d7669a2587f7ceb8": "2026-11-06T12:46:00Z",
+"37428b20e9500f15": "2026-11-06T12:28:00Z",
+"b18ef923542d52e1": "2026-11-06T12:02:00Z",
+"29320c5177c6e0b5": "2026-11-06T11:43:00Z",
+"668af0d60f74df08": "2026-11-06T11:17:00Z",
+"dd7297b1925fcb6a": "2026-11-06T11:09:00Z",
+"f9062bd0eb73d3d1": "2026-11-07T11:39:03Z",
+"20a5bf2e51b1bfbd": "2026-11-06T14:38:00Z",
+"7c51b19e598b8720": "2026-11-06T14:21:00Z",
+"b518001b7d5d93d8": "2026-11-06T13:33:00Z",
+"1f4c3d81dcfef886": "2026-11-06T12:50:00Z",
+"7d873a54e055ef4f": "2026-11-06T12:11:00Z",
+"5c4f4403b9eb4e58": "2026-11-17T10:23:00Z",
+"380fdfb93c5fb013": "2026-11-16T03:16:00Z",
+"210475b8f5ad7d8f": "2026-11-13T17:25:00Z",
+"10027586dad7197c": "2026-11-09T09:46:00Z",
+"8c99cbf4ea08dbe4": "2026-11-05T08:00:00Z",
+"6fbc51dedd6d3f5f": "2026-11-09T08:00:00Z",
+"cf74627deb03f2aa": "2026-11-12T15:13:33Z",
+"deea3f7939324e8b": "2026-11-12T08:00:00Z",
+"3e80bacbb8962475": "2026-11-09T01:36:00Z",
+"d220d2f5b027ffca": "2026-11-20T19:45:29Z",
+"74170425601b1c84": "2026-11-20T07:02:00Z",
+"688cc8ac7839a75c": "2026-11-19T09:22:00Z",
+"08fb1813f3c2d15a": "2026-11-18T16:01:00Z",
+"2ff1be8eb0dcd6b9": "2026-11-18T16:01:00Z",
+"d53dbdcd6c836bcd": "2026-11-17T07:13:00Z"
 },
-"reports": [],
+"reports": [
+{
+"chamber": "House",
+"committee": "Human Relations & Aging",
+"role": "Chair",
+"name": "Jesse Petrea",
+"district": "166",
+"party": "R",
+"personId": 16725,
+"memberElect": false,
+"level": "Announced",
+"quote": "ATLANTA \u2013 State Representative Jesse Petrea (R-Savannah), chairman of the House Human Relations and Aging Committee, was recently appointed by House Speaker Jon Burns (R-Newington) to serve on the Georgia Outdoor Stewardship Trust Fund.",
+"source": "House Press Office",
+"url": "https://house-press.com/rep-jesse-petrea-appointed-by-speaker-jon-burns-to-georgia-outdoor-stewardship-trust-fund/",
+"title": "Rep. Jesse Petrea Appointed by Speaker Jon Burns to Georgia Outdoor Stewardship Trust Fund",
+"date": "2026-11-20T20:07:55Z",
+"foundAt": "2026-11-20T23:14:27Z"
+},
+{
+"chamber": "House",
+"committee": "Human Relations & Aging",
+"role": "Chair",
+"name": "Jon Burns",
+"district": "159",
+"party": "R",
+"personId": 1799,
+"memberElect": false,
+"level": "Announced",
+"quote": "ATLANTA \u2013 State Representative Jesse Petrea (R-Savannah), chairman of the House Human Relations and Aging Committee, was recently appointed by House Speaker Jon Burns (R-Newington) to serve on the Georgia Outdoor Stewardship Trust Fund.",
+"source": "House Press Office",
+"url": "https://house-press.com/rep-jesse-petrea-appointed-by-speaker-jon-burns-to-georgia-outdoor-stewardship-trust-fund/",
+"title": "Rep. Jesse Petrea Appointed by Speaker Jon Burns to Georgia Outdoor Stewardship Trust Fund",
+"date": "2026-11-20T20:07:55Z",
+"foundAt": "2026-11-20T23:14:27Z"
+}
+],
 "news": [
+{
+"id": "270274ddada77315",
+"title": "Rep. Jesse Petrea Appointed by Speaker Jon Burns to Georgia Outdoor Stewardship Trust Fund",
+"url": "https://house-press.com/rep-jesse-petrea-appointed-by-speaker-jon-burns-to-georgia-outdoor-stewardship-trust-fund/",
+"outlet": "House Press Office",
+"date": "2026-11-20T20:07:55Z",
+"kinds": [
+"assignment",
+"leadership"
+],
+"people": [
+"Jesse Petrea",
+"Jon Burns"
+],
+"assignments": 2,
+"snippet": "ATLANTA \u2013 State Representative Jesse Petrea (R-Savannah), chairman of the House Human Relations and Aging Committee, was recently appointed by House Speaker Jon Burns (R-Newington) to serve on the Georgia Outdoor Stewardship Trust Fund. \u201cI am honored by Speaker Burns\u2019 appointment and grateful for th",
+"social": false,
+"foundAt": "2026-11-20T23:14:27Z"
+},
+{
+"id": "4599060eed27680c",
+"title": "It\u2019s official: Raffensperger certifies Nov. 3 election results",
+"url": "https://capitol-beat.org/2026/11/its-official-raffensperger-certifies-nov-3-election-results/?utm_source=rss&utm_medium=rss&utm_campaign=its-official-raffensperger-certifies-nov-3-election-results",
+"outlet": "Capitol Beat",
+"date": "2026-11-20T19:38:21Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley",
+"Gerald Greene",
+"Jasmine Clark",
+"Josh McLaurin",
+"Mike Cheokas"
+],
+"assignments": 0,
+"snippet": "ATLANTA \u2014 The Democratic candidates who swept Republicans out of power on Nov. 3 no longer have an asterisk beside their names. Secretary of State Brad Raffensperger certified the election results on Friday, declaring the official winners, including his own successor, Penny Brown Reynolds, a Democra",
+"social": false,
+"foundAt": "2026-11-20T23:14:27Z"
+},
+{
+"id": "9d4f2bc626fed2c1",
+"title": "Atlanta City Council committee holds work session on surveillance usage and oversight",
+"url": "https://roughdraftatlanta.com/2026/11/20/atlanta-surveillance-oversight-debate/",
+"outlet": "Rough Draft Atlanta",
+"date": "2026-11-20T19:17:33Z",
+"kinds": [
+"assignment"
+],
+"people": [],
+"assignments": 0,
+"snippet": "During an Atlanta City Council Public Safety & Legal Administration Committee meeting, members and citizens expressed fear and confusion abou the use, oversight, and existing safeguards around surveillance cameras in Atlanta. The work session, held Nov. 18, was called to discuss legislation to promo",
+"social": false,
+"foundAt": "2026-11-20T23:14:27Z"
+},
+{
+"id": "54771e969d0ab8ed",
+"title": "Rep. Robert Dawson Appointed to Serve on Martin Luther King, Jr. Advisory Council by Speaker Jon Burns",
+"url": "https://house-press.com/rep-robert-dawson-appointed-to-serve-on-martin-luther-king-jr-advisory-council-by-speaker-jon-burns/",
+"outlet": "House Press Office",
+"date": "2026-11-20T18:48:47Z",
+"kinds": [
+"assignment",
+"leadership"
+],
+"people": [
+"Jon Burns",
+"Robert Dawson"
+],
+"assignments": 0,
+"snippet": "ATLANTA \u2013 State Representative Robert Dawson (D-Atlanta) was recently appointed by House Speaker Jon Burns (R-Newington) to serve on the Martin Luther King, Jr. Advisory Council. \u201cI am deeply honored to have been appointed to the Martin Luther King, Jr. Advisory Council,\u201d said Rep. Dawson. \u201cDr. King",
+"social": false,
+"foundAt": "2026-11-20T23:14:27Z"
+},
+{
+"id": "f12580411051314d",
+"title": "Board of Regents elects new leadership for 2027",
+"url": "https://roughdraftatlanta.com/2026/11/20/deep-shah-to-chair-usg/",
+"outlet": "Rough Draft Atlanta",
+"date": "2026-11-20T17:53:12Z",
+"kinds": [
+"leadership"
+],
+"people": [],
+"assignments": 0,
+"snippet": "The Georgia Board of Regents elected Dr. Deep J. Shah, a primary care physician, as the incoming chair and retired real estate executive Mat Swift as the next vice chair. Shah, the CEO of Gwinnett Clinic and the current vice chair, will succeed Chairman David B. Dove for a one-year term Jan. 1, when",
+"social": false,
+"foundAt": "2026-11-20T23:14:27Z"
+},
+{
+"id": "5058768a00110b8b",
+"title": "Board of Regents elects new leadership for 2027",
+"url": "https://capitol-beat.org/2026/11/board-of-regents-elects-new-leadership-for-2027/?utm_source=rss&utm_medium=rss&utm_campaign=board-of-regents-elects-new-leadership-for-2027",
+"outlet": "Capitol Beat",
+"date": "2026-11-20T17:35:27Z",
+"kinds": [
+"leadership"
+],
+"people": [],
+"assignments": 0,
+"snippet": "ATLANTA \u2014 Two Bulldogs will take leadership roles at the Georgia Board of Regents next year, after the body elected Dr. Deep J. Shah, a primary care physician, as the incoming chair and retired real estate executive Mat Swift as the next vice chair. Shah, the CEO of Gwinnett Clinic and the current v",
+"social": false,
+"foundAt": "2026-11-20T23:14:27Z"
+},
 {
 "id": "6719d58753a1b6ca",
 "title": "\ud83e\udd6f That\u2019s a lot o\u2019 bagels",
@@ -414,6 +636,21 @@
 "snippet": "Dirty Dozen Friday, Nov. 20 \u2014 The Georgia Water Coalition has released its 2026 \u201cDirty Dozen\u201d report , highlighting 12 of the worst offenses to the state\u2019s waters. Rather than identifying the \u201cmost polluted places,\u201d the report highlights the politics, policies, and issues that are threatening Georgi",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "95b7963f51190317",
+"title": "Keisha Lance Bottoms Taps Kandi Burruss, T.I., Dr. Jamal Bryant And More For Georgia Transition Team",
+"url": "https://www.blackenterprise.com/keisha-lance-bottoms-kandi-burruss-t-i-georgia-transition-team/",
+"outlet": "Bing News",
+"date": "2026-11-20T11:08:00Z",
+"kinds": [
+"assignment"
+],
+"people": [],
+"assignments": 0,
+"snippet": "Georgia Gov.-elect Keisha Lance Bottoms has named a coalition of prominent Black public figures to her transition committee.",
+"social": false,
+"foundAt": "2026-11-20T23:14:27Z"
 },
 {
 "id": "a32773a608fdf4c8",
@@ -709,6 +946,22 @@
 "snippet": "The Georgia House Republican Caucus convened today to elect its leadership team for the 2027-2028 legislative term. House Speaker Jon Burns (R-Newington) was nominated by the Republican Caucus to serve as House Speaker Emeritus for the 2027-2028 legislative term. \u201cGeorgia House Republicans have sele",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "16bcd6174540c82e",
+"title": "Statesboro Mayor Jonathan McCollar appointed to Georgia governor-elect's transition team",
+"url": "https://www.griceconnect.com/local-news/statesboro-mayor-jonathan-mccollar-appointed-to-georgia-governor-elects-transition-team-13032698",
+"outlet": "Bing News",
+"date": "2026-11-18T07:53:00Z",
+"kinds": [
+"assignment",
+"staff"
+],
+"people": [],
+"assignments": 0,
+"snippet": "Statesboro Mayor Jonathan McCollar has been appointed to Georgia Governor-elect Keisha Lance Bottoms ' transition committee, giving Statesboro and Bulloch County representation as Georgia's incoming administration prepares to take office in January. McCollar announced the appointment during Tuesday ",
+"social": false,
+"foundAt": "2026-11-20T23:14:27Z"
 },
 {
 "id": "e64e40f026bfde63",
@@ -1252,6 +1505,23 @@
 "snippet": "Georgia selects first Black woman to serve as house speaker FOX 5 Atlanta",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "cf74627deb03f2aa",
+"title": "Georgia Democrats make historic nomination for speaker of the House",
+"url": "https://www.msn.com/en-us/news/other/georgia-democrats-make-historic-nomination-for-speaker-of-the-house/ar-AA2hiYlH",
+"outlet": "Bing News",
+"date": "2026-11-12T15:13:33Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "Carolyn Hugley\u2019s nomination follows midterms that saw Keisha Lance Bottoms elected as the nation\u2019s first Black female governor.",
+"social": false,
+"foundAt": "2026-11-20T23:14:27Z"
 },
 {
 "id": "aa4f86da9ffa4953",
@@ -1827,6 +2097,21 @@
 "snippet": "Congressman Mike Collins addresses supporters on Wednesday, Nov. 4 after losing his run for U.S. Senate. Collins lost to U.S. Sen. Jon Ossoff by 18 percentage points. Ross Williams/Georgia Recorder Tuesday night was a great night for the Republican Party. I\u2019m dead serious. The GOP needed to be slapp",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "8c99cbf4ea08dbe4",
+"title": "Georgia Democrats prepare for new leadership after winning control of state House",
+"url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPemtpX0YtWGRTTHlmeTVtN2haNHNnUmQtRDhhODNTRTlDOUdZYXdPNFpQLVFLUURTYjRCNkNaaWtWWkd4RjhCN0lPTGItTTRXRmVuQ2hBQkhKWG5tclBtNUlYRmdZd293R2V4cHdhU2dnSHFuSGVtRHBraDZ3Rnl4MTdqME91SThpd1F3RTlDNWI3empLTXBIaFNtYWFsTXFWc1lMYnQwOU45emJuTnhkNTlyMEhwaFluR2xwQldKWGFrNUQzTTZUMDVybkFxZGdUYU9fZNIB6AFBVV95cUxQZ2oyaC1CMTQwaGpPTVV3V3o2MjR1MjJuQm9yVWZkZXAwN2xqb3VQTGJfUW1nWFpCUUZRc1BmM3VXQXU0VFpkOFZub1c1N0lMdVMxTkd4VklTYkZUaE9maWtfajRHZTA1V1ZfT3l3T1hnLTdPYlhCc0l5MEN2aFJhVExyU0s5LTNrOUNPRnRGemRJU1RWeUh3YkozZ2I2RldVdERBNlQ3WUxJeWl3UER0aXlUWEg1SHk4aTBhQ1B0YnNwSjBMdU1mMlFVdlRGX3lKZms2RG5lNFpvZFhaazNXM016dmV4TzIx?oc=5",
+"outlet": "95.5 WSB",
+"date": "2026-11-05T08:00:00Z",
+"kinds": [
+"leadership"
+],
+"people": [],
+"assignments": 0,
+"snippet": "Georgia Democrats prepare for new leadership after winning control of state House 95.5 WSB",
+"social": false,
+"foundAt": "2026-11-20T23:14:27Z"
 },
 {
 "id": "d46b70ba3e1484b6",
