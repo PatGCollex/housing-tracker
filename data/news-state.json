@@ -568,7 +568,42 @@
 "f0a0e833ce0f573b": "2026-11-19T16:00:00Z",
 "7d1cf76327a8217e": "2026-11-12T14:51:00Z",
 "b907ca6a32639dc8": "2026-11-20T16:00:00Z",
-"be89b34cc5b604cf": "2026-11-21T06:00:00Z"
+"be89b34cc5b604cf": "2026-11-21T06:00:00Z",
+"c8f98da260852303": "2026-11-21T19:26:53Z",
+"582452bca47a3f9c": "2026-11-21T19:05:49Z",
+"51c5fed922a00962": "2026-11-21T18:13:38Z",
+"d88debac62148cc9": "2026-11-21T20:37:35Z",
+"241ff9f0f5c17195": "2026-11-21T18:22:46Z",
+"17e60ae4347bb312": "2026-11-21T18:08:55Z",
+"31d19c68ed09181c": "2026-11-21T21:51:13Z",
+"2015dc9afa06b604": "2026-11-21T21:49:00Z",
+"68469cae32d3e587": "2026-11-21T21:12:57Z",
+"e294c0e4fc5dcedf": "2026-11-21T21:08:02Z",
+"b44a46dff5905c1f": "2026-11-21T20:34:27Z",
+"8df4b6f1525ce9f8": "2026-11-21T19:19:06Z",
+"fe20c4bcf1967a6f": "2026-11-16T13:42:00Z",
+"c8790dfe92449eac": "2026-11-12T10:06:00Z",
+"9e22aa70011ced20": "2026-11-12T04:00:00Z",
+"146beb67bfef0e09": "2026-11-11T15:56:00Z",
+"cd4f567a6545f003": "2026-11-18T12:00:00Z",
+"a3d3b7cb4d32fc90": "2026-11-14T07:36:00Z",
+"e3e584bb121d08f2": "2026-11-16T04:04:00Z",
+"14801a9b0653cd4c": "2026-11-13T07:46:00Z",
+"1e0e620e83bfb4e5": "2026-11-12T14:59:09Z",
+"d723f0fcb3e1aed5": "2026-11-20T09:15:00Z",
+"efd00f5a68ed3a52": "2026-11-19T22:00:00Z",
+"762147ef177df921": "2026-11-19T02:00:00Z",
+"7044556aa6d8df14": "2026-11-18T14:25:00Z",
+"f7488d27f571efd6": "2026-11-17T16:00:00Z",
+"1b988fe273951b87": "2026-11-21T05:45:00Z",
+"9467b46dd9ad870d": "2026-11-19T16:00:00Z",
+"395a85b6c535b307": "2026-11-19T08:29:00Z",
+"389c0eb5e9c8ada6": "2026-11-16T05:18:00Z",
+"9d4677b64fc6b73e": "2026-11-12T17:01:00Z",
+"4b5f4a87e55aa6b3": "2026-11-09T06:34:00Z",
+"ba1842434a7b120d": "2026-11-19T11:13:00Z",
+"8bd5da9f53191287": "2026-11-17T14:42:00Z",
+"21fd792224ea87ba": "2026-11-17T05:52:00Z"
 },
 "reports": [
 {
@@ -1229,6 +1264,23 @@
 "foundAt": "2026-11-20T16:52:58Z"
 },
 {
+"id": "8bd5da9f53191287",
+"title": "Sen. Harold Jones II reelected to Senate Minority Leader",
+"url": "https://www.yahoo.com/news/politics/articles/sen-harold-jones-ii-reelected-224207729.html",
+"outlet": "Bing News",
+"date": "2026-11-17T14:42:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Harold Jones"
+],
+"assignments": 0,
+"snippet": "ATLANTA (WJBF) \u2013 Georgia State Senator Harold Jones II will serve as Senate Minority Leader once again. State Democrats voted to elect Jones to the position Monday. This is his second term as minority leader, as he was originally elected to that position in 2024. Jones serves the 22nd District in Ge",
+"social": false,
+"foundAt": "2026-11-21T22:15:23Z"
+},
+{
 "id": "238bd8ef089f637a",
 "title": "Carolyn Hugley Could Become Georgia\u2019s First Black Woman House Speaker",
 "url": "https://tntribune.com/carolyn-hugley-could-become-georgias-first-black-woman-house-speaker/",
@@ -1512,6 +1564,34 @@
 "foundAt": "2026-11-20T16:52:58Z"
 },
 {
+"id": "fe20c4bcf1967a6f",
+"title": "Georgia House GOP to shuffle leadership after election losses",
+"url": "https://www.yahoo.com/news/politics/articles/georgia-house-gop-shuffle-leadership-214212048.html",
+"outlet": "Bing News",
+"date": "2026-11-16T13:42:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Beth Camp",
+"Carolyn Hugley",
+"Chuck Efstration",
+"Derek Mallow",
+"Elena Parent",
+"Harold Jones",
+"Jaha Howard",
+"James Burchett",
+"Jon Burns",
+"Josh Bonner",
+"Josh McLaurin",
+"Kim Jackson"
+],
+"assignments": 0,
+"snippet": "Rep. Todd Jones, a South Forsyth Republican, makes a speech during a session of the Georgia House of Representative at the state Capitol in Atlanta on March 3, 2026. Alander Rocha/Georgia Recorder House Republicans will be led by a new leader when Democrats take control of the chamber in January. Th",
+"social": false,
+"foundAt": "2026-11-21T22:15:23Z"
+},
+{
 "id": "9fc3ad9275644502",
 "title": "Georgia House Republicans elect new caucus leadership",
 "url": "https://www.11alive.com/article/news/politics/georgia-house-republicans-elect-new-caucus-leadership-2027-2028/85-0f85a44c-198f-44ab-93f7-f737215d3e01",
@@ -1601,6 +1681,23 @@
 "foundAt": "2026-11-20T16:52:58Z"
 },
 {
+"id": "e3e584bb121d08f2",
+"title": "Carolyn Hugley poised to take historic step into Georgia history books",
+"url": "https://www.ledger-enquirer.com/opinion/article318068439.html",
+"outlet": "Bing News",
+"date": "2026-11-16T04:04:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "Being the first Black female governor is going to be easier than being the first Black female Speaker of the House.\u201d ...",
+"social": false,
+"foundAt": "2026-11-21T22:15:23Z"
+},
+{
 "id": "b50a85b27ed26540",
 "title": "Hugley officially nominated as Georgia House speaker",
 "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM1R6WDJYc2g2RDFxbmwwSlFCam42cldqQ1lkdHM5Q0lWRmp4UFhCSENxTktucVpVbEtOOWtfeG5OcjlCVFlvOEtlYzR2elZiX0c5UjZUNTVObU1Qdi1VWEtXQmp6TnRsQkdSMUdwTDRKSkVmV01qNlY5a05wTzFZRDNTNFZYRkN2c1VBbWxIWUg4UVBNaHpaMmY2TEJWc3dfbTJz?oc=5",
@@ -1654,6 +1751,23 @@
 "foundAt": "2026-11-20T16:33:15Z"
 },
 {
+"id": "a3d3b7cb4d32fc90",
+"title": "Carolyn Hugley Could Become Georgia\u2019s First Black Woman House Speaker",
+"url": "https://atlantadailyworld.com/2026/11/14/carolyn-hugley-could-become-georgias-first-black-woman-house-speaker-2/",
+"outlet": "Bing News",
+"date": "2026-11-14T07:36:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "Georgia State Rep. Carolyn Hugley has been selected as the Democratic nominee for House speaker, putting her in position to become the first Black woman to lead the Georgia House of Representatives.",
+"social": false,
+"foundAt": "2026-11-21T22:15:23Z"
+},
+{
 "id": "37cd1fb3125856fe",
 "title": "Carolyn Hugley Could Become Georgia\u2019s First Black Woman House Speaker",
 "url": "https://atlantadailyworld.com/2026/11/13/carolyn-hugley-could-become-georgias-first-black-woman-house-speaker/",
@@ -1689,6 +1803,23 @@
 "snippet": "November 13, 2026 / 11:06 AM EST / CBS Atlanta Georgia House Democrats have picked state Rep. Carolyn Hugley of Columbus to lead the chamber. The full House will vote for speaker Jan. 11, when lawmakers convene for the 2027 session. \"Putting the needs of Georgia's citizens at the center of our campa",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "14801a9b0653cd4c",
+"title": "Hugley becomes Georgia\u2019s first Black woman Speaker nominee",
+"url": "https://ijr.com/discover/hugley-becomes-georgia-s-first-black-woman-speaker-nominee-00350a4d",
+"outlet": "Bing News",
+"date": "2026-11-13T07:46:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "Georgia House Democrats, newly in control of the chamber for the first time in more than two decades, nominated Rep. Carolyn Hugley to become speaker; if elected by the full House in January, she ...",
+"social": false,
+"foundAt": "2026-11-21T22:15:23Z"
 },
 {
 "id": "09d53d4e46f59bd4",
@@ -1727,6 +1858,25 @@
 "foundAt": "2026-11-20T16:52:58Z"
 },
 {
+"id": "9d4677b64fc6b73e",
+"title": "Georgia House Democrats make historic Speaker nomination",
+"url": "https://www.wsbtv.com/news/local/georgia-house-democrats-make-historic-speaker-nomination/GJTF5FCDYBFJPNBCWFXXT3QC5I/",
+"outlet": "Bing News",
+"date": "2026-11-12T17:01:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley",
+"Jon Burns",
+"Stacey Evans"
+],
+"assignments": 0,
+"snippet": "ATLANTA \u2014 Georgia House Democrats met for the first time since last week\u2019s election swept them into the majority. [DOWNLOAD: Free WSB-TV News app for alerts as news breaks ] Channel 2\u2019s Richard Elliot reports their leader is now one step closer to making history in Georgia. In the House of Represent",
+"social": false,
+"foundAt": "2026-11-21T22:15:23Z"
+},
+{
 "id": "cf74627deb03f2aa",
 "title": "Georgia Democrats make historic nomination for speaker of the House",
 "url": "https://www.msn.com/en-us/news/other/georgia-democrats-make-historic-nomination-for-speaker-of-the-house/ar-AA2hiYlH",
@@ -1759,6 +1909,23 @@
 "snippet": "Carolyn Hugley\u2019s nomination follows midterms that saw Keisha Lance Bottoms elected as the nation\u2019s first Black female governor.",
 "social": false,
 "foundAt": "2026-11-21T04:10:42Z"
+},
+{
+"id": "1e0e620e83bfb4e5",
+"title": "Rep. Carolyn Hugley poised to become Georgia's first Black woman to hold House Speaker title",
+"url": "https://www.msn.com/en-us/news/other/rep-carolyn-hugley-poised-to-become-georgias-first-black-woman-to-hold-house-speaker-title/vi-AA2hkgbs",
+"outlet": "Bing News",
+"date": "2026-11-12T14:59:09Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "After Dems flipped control of the State House, Rep. Carolyn Hugley is poised to become Georgia's first Black woman to hold House Speaker title.",
+"social": false,
+"foundAt": "2026-11-21T22:15:23Z"
 },
 {
 "id": "7d1cf76327a8217e",
@@ -1961,6 +2128,35 @@
 "foundAt": "2026-11-21T13:38:57Z"
 },
 {
+"id": "c8790dfe92449eac",
+"title": "Democrats select new leadership for state House",
+"url": "https://valdostadailytimes.com/2026/11/12/democrats-select-new-leadership-for-state-house/",
+"outlet": "Bing News",
+"date": "2026-11-12T10:06:00Z",
+"kinds": [
+"assignment",
+"leadership"
+],
+"people": [
+"Anissa Jones",
+"Billy Mitchell",
+"Bryce Berry",
+"Carolyn Hugley",
+"Gerald Greene",
+"Imani Barnes",
+"Jan Jones",
+"Jon Burns",
+"Robert Flournoy",
+"Samuel Park",
+"Spencer Frye",
+"Stacey Evans"
+],
+"assignments": 0,
+"snippet": "You are using an outdated browser. Please upgrade your browser or activate Google Chrome Frame to improve your experience. Subscribe Home News Sports Obituaries Community Classifieds Notices Contests Best of Contest E-Edition --> Home Subscriptions Newsletter signup E-Edition News Your News State Ne",
+"social": false,
+"foundAt": "2026-11-21T22:15:23Z"
+},
+{
 "id": "4ddbbd714e0e1f88",
 "title": "Democratic wins revive Medicaid expansion push in Georgia, but new hurdles await",
 "url": "https://georgiarecorder.com/2026/11/12/democratic-wins-revive-medicaid-expansion-push-in-georgia-but-new-hurdles-await/",
@@ -2127,6 +2323,24 @@
 "snippet": "The Georgia House Democratic Caucus convened today to elect its leadership team for the 2027-2028 legislative term. House Minority Leader Carolyn Hugley (D-Columbus) was nominated by the Democratic ...",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "146beb67bfef0e09",
+"title": "Election losses force changes in Georgia Senate GOP leadership",
+"url": "https://www.northwestgeorgianews.com/election-losses-force-changes-in-georgia-senate-gop-leadership/article_c7d2a4e4-07ab-4eba-926e-03fa47129c52.html",
+"outlet": "Bing News",
+"date": "2026-11-11T15:56:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Josh McLaurin",
+"Timothy Bearden"
+],
+"assignments": 0,
+"snippet": "Sen. Josh McLaurin, D-Sandy Springs, speaks on the Senate floor during the final day of the 2026 legislative session at the Georgia Capitol in Atlanta. McLaurin was elected lieutenant governor in the Nov. 3 election. ATLANTA \u2014 The Republican majority in the Georgia Senate chose two new leaders after",
+"social": false,
+"foundAt": "2026-11-21T22:15:23Z"
 },
 {
 "id": "d3401b09361cbe39",
