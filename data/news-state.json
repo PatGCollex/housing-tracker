@@ -464,7 +464,50 @@
 "688cc8ac7839a75c": "2026-11-19T09:22:00Z",
 "08fb1813f3c2d15a": "2026-11-18T16:01:00Z",
 "2ff1be8eb0dcd6b9": "2026-11-18T16:01:00Z",
-"d53dbdcd6c836bcd": "2026-11-17T07:13:00Z"
+"d53dbdcd6c836bcd": "2026-11-17T07:13:00Z",
+"f0fa86884e8ef7c5": "2026-11-21T01:05:48Z",
+"2dac22e7a82431af": "2026-11-21T00:49:57Z",
+"81e713809bbe16cd": "2026-11-21T03:51:28Z",
+"69390210f064945e": "2026-11-21T01:51:51Z",
+"8827269f54989be7": "2026-11-21T01:38:02Z",
+"8ec20e0b0cef3e36": "2026-11-21T01:34:04Z",
+"46498a297b021378": "2026-11-21T01:08:16Z",
+"313f425068ed9951": "2026-11-21T00:54:06Z",
+"ee39b0fd14a0143b": "2026-11-21T00:37:40Z",
+"413a6bf96aa4fb54": "2026-11-21T00:00:21Z",
+"0b2486252baadb1f": "2026-11-20T23:44:46Z",
+"dea5e9fb16abd25d": "2026-11-20T23:14:32Z",
+"01671bbe9d644f3d": "2026-11-06T08:00:00Z",
+"469360ba2e0aafea": "2026-11-04T08:00:00Z",
+"bdb3d22e845fc268": "2026-11-07T08:00:00Z",
+"71854b6063ca5469": "2026-11-14T06:11:00Z",
+"57f3e0fdb5f5bf32": "2026-11-19T23:55:20Z",
+"32ca31d32534911e": "2026-11-05T08:00:00Z",
+"fe96321460be1886": "2026-11-04T08:00:00Z",
+"048e7ba3764cc2bf": "2026-11-15T15:15:21Z",
+"c50f075859dcc01b": "2026-11-15T15:11:39Z",
+"8bd058733b9bb291": "2026-11-12T15:13:33Z",
+"00170ba0bf2f3a34": "2026-11-04T04:27:00Z",
+"50e12fdea4c532f7": "2026-11-18T16:08:00Z",
+"8af31b43ab8be6f7": "2026-11-04T08:00:00Z",
+"a4a7843cec0824db": "2026-11-19T15:23:00Z",
+"19e57ae349e8e6dd": "2026-11-13T16:00:00Z",
+"6f38ddee7fc49d88": "2026-11-20T09:37:00Z",
+"79ebc0075d675056": "2026-11-10T08:00:00Z",
+"9a01aaf98e3fcc5d": "2026-11-06T08:00:00Z",
+"63d5c04a03d09b23": "2026-11-17T11:00:00Z",
+"3ccf9db7a5b11d13": "2026-11-09T08:00:00Z",
+"4bd4e97c115ef643": "2026-11-09T11:03:00Z",
+"e4627f83bf4a69f3": "2026-11-06T16:44:00Z",
+"ec8d34beafb6d791": "2026-11-06T17:56:00Z",
+"fe7e70df3b20ecd8": "2026-11-06T17:37:00Z",
+"9b3eac1aa75b909a": "2026-11-06T16:19:00Z",
+"5ef61ce21f4e627a": "2026-11-17T08:52:00Z",
+"c4c389caaf260793": "2026-11-09T01:36:00Z",
+"905548c949c1e3c2": "2026-11-08T08:00:00Z",
+"7b41e6c41cd9e727": "2026-11-19T17:07:00Z",
+"c50a2c6c2f1026be": "2026-11-17T12:00:00Z",
+"d872a0770cf308b0": "2026-11-21T12:00:00Z"
 },
 "reports": [
 {
@@ -897,6 +940,23 @@
 "foundAt": "2026-11-20T16:52:58Z"
 },
 {
+"id": "50e12fdea4c532f7",
+"title": "Savannah State alumnus Derek Mallow elected Senate Democratic Caucus Chair",
+"url": "https://www.wsav.com/news/local-news/savannah-state-alumnus-derek-mallow-elected-senate-democratic-caucus-chair/",
+"outlet": "Bing News",
+"date": "2026-11-18T16:08:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Derek Mallow"
+],
+"assignments": 0,
+"snippet": "The Georgia Senate Democrats elected State Sen. Derek Mallow of Savannah as their new Democratic Caucus Chair on Nov. 16, giving the Savannah State University alumnus ...",
+"social": false,
+"foundAt": "2026-11-21T04:10:42Z"
+},
+{
 "id": "f87fa574e079dc6b",
 "title": "Rep. Chas Cannon Elected House Minority Caucus Vice-Chairman",
 "url": "https://house-press.com/rep-chas-cannon-elected-house-minority-caucus-vice-chairman/",
@@ -1099,6 +1159,33 @@
 "snippet": "Georgia Republicans elected new leadership in the state House Monday after their losses on Election Day cost them the speakership.",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "5ef61ce21f4e627a",
+"title": "Republicans pick minority leadership for Ga. House for first time in a generation",
+"url": "https://www.times-georgian.com/news/local/republicans-pick-minority-leadership-for-ga-house-for-first-time-in-a-generation/article_580f443d-891e-56ab-9032-df92406fe01e.html",
+"outlet": "Bing News",
+"date": "2026-11-17T08:52:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley",
+"Derek Mallow",
+"Harold Jones",
+"Jaha Howard",
+"James Burchett",
+"Jon Burns",
+"Josh Bonner",
+"Josh McLaurin",
+"Kim Jackson",
+"Rob Leverett",
+"Todd Jones"
+],
+"assignments": 0,
+"snippet": "Georgia Republicans elected new leadership in the state House Monday after their losses on Election Day cost them the speakership. Speaker Jon Burns, R-Newington, won in his district but lost control of the House after Democrats took a slim majority of the chamber, currently at 92 seats to Republica",
+"social": false,
+"foundAt": "2026-11-21T04:10:42Z"
 },
 {
 "id": "20952f5a01a7543d",
@@ -1522,6 +1609,23 @@
 "snippet": "Carolyn Hugley\u2019s nomination follows midterms that saw Keisha Lance Bottoms elected as the nation\u2019s first Black female governor.",
 "social": false,
 "foundAt": "2026-11-20T23:14:27Z"
+},
+{
+"id": "8bd058733b9bb291",
+"title": "Georgia Democrats make historic nomination for speaker of the House",
+"url": "https://www.msn.com/en-us/news/other/georgia-democrats-make-historic-nomination-for-speaker-of-the-house/ar-AA2hijPj",
+"outlet": "Bing News",
+"date": "2026-11-12T15:13:33Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "Carolyn Hugley\u2019s nomination follows midterms that saw Keisha Lance Bottoms elected as the nation\u2019s first Black female governor.",
+"social": false,
+"foundAt": "2026-11-21T04:10:42Z"
 },
 {
 "id": "aa4f86da9ffa4953",
