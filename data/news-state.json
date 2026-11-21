@@ -536,7 +536,39 @@
 "425ff6b05bf49f20": "2026-11-20T22:16:00Z",
 "2b438f7d8b777c04": "2026-11-17T00:52:00Z",
 "d24b43862d9f1b84": "2026-11-08T08:00:00Z",
-"79e6951c62e95ac6": "2026-11-16T20:16:14Z"
+"79e6951c62e95ac6": "2026-11-16T20:16:14Z",
+"0ffd0695b7896773": "2026-11-21T17:40:02Z",
+"5a8a50a6e60e781d": "2026-11-21T14:05:08Z",
+"1728361980770259": "2026-11-21T14:00:22Z",
+"e0abe3d1fd4fc702": "2026-11-21T16:54:48Z",
+"950f94ae9fd4f966": "2026-11-21T16:21:00Z",
+"e76f37175f0bd6ed": "2026-11-21T15:40:00Z",
+"276b5fb4319ac214": "2026-11-21T14:40:00Z",
+"ed8bcdd2fe23265d": "2026-11-21T17:35:34Z",
+"15fc8270abb450de": "2026-11-21T14:18:47Z",
+"6e97d8c018a24172": "2026-11-21T13:58:33Z",
+"dc1a3d696f07d37a": "2026-11-21T15:10:00Z",
+"871a0b7a9277e93a": "2026-11-21T17:38:55Z",
+"50fdf7c3b7034f2a": "2026-11-21T17:28:05Z",
+"e81e340a1e93bfa7": "2026-11-21T14:16:19Z",
+"729566a462fa20ad": "2026-11-06T14:35:00Z",
+"a42c6ae484027376": "2026-11-04T13:57:00Z",
+"b8b2df24437ddd1b": "2026-11-13T09:31:25Z",
+"2be0a89c067ee612": "2026-11-17T14:41:00Z",
+"b9e40195bdc87436": "2026-11-04T01:21:29Z",
+"877b06d4f54f0e85": "2026-11-06T14:14:00Z",
+"f45cc00c3a5afa92": "2026-11-21T06:48:00Z",
+"7be2470a69d83077": "2026-11-21T10:03:00Z",
+"c286b1da6d8da29b": "2026-11-19T08:43:00Z",
+"b0b06e1adcbb0932": "2026-11-21T13:44:08Z",
+"bd57c3ddbeeaf3ef": "2026-11-19T11:50:00Z",
+"e865cae8720a1013": "2026-11-09T16:08:15Z",
+"e9f3d9b4b45fb7c3": "2026-11-07T03:30:00Z",
+"c42fa34f5e500f54": "2026-11-06T21:56:00Z",
+"f0a0e833ce0f573b": "2026-11-19T16:00:00Z",
+"7d1cf76327a8217e": "2026-11-12T14:51:00Z",
+"b907ca6a32639dc8": "2026-11-20T16:00:00Z",
+"be89b34cc5b604cf": "2026-11-21T06:00:00Z"
 },
 "reports": [
 {
@@ -575,6 +607,63 @@
 }
 ],
 "news": [
+{
+"id": "0ffd0695b7896773",
+"title": "Runoff in southwest Georgia becomes high-stakes battle after House Democrats claim narrow majority",
+"url": "https://thecurrentga.org/2026/11/21/runoff-in-southwest-georgia-becomes-high-stakes-battle-after-house-democrats-claim-narrow-majority/",
+"outlet": "The Current",
+"date": "2026-11-21T17:40:02Z",
+"kinds": [
+"assignment",
+"leadership"
+],
+"people": [
+"Mike Cheokas"
+],
+"assignments": 0,
+"snippet": "Voters in eight southwest Georgia counties have one more trip to make to their polling places before they ring in the new year, and they\u2019ll decide whether House Democrats expand their newly won majority or whether Republicans can save an incumbent lawmaker\u2019s seat. Early voting starts Monday for resi",
+"social": false,
+"foundAt": "2026-11-21T18:07:26Z"
+},
+{
+"id": "e0abe3d1fd4fc702",
+"title": "\ud83d\udcc9 Markets fall",
+"url": "https://roughdraftatlanta.com/2026/11/21/markets-fall/",
+"outlet": "Rough Draft Atlanta",
+"date": "2026-11-21T16:54:48Z",
+"kinds": [
+"assignment"
+],
+"people": [],
+"assignments": 0,
+"snippet": "Free fall Saturday, Nov. 21 \u2014 Six months after a rooftop fire shut down part of Parkview on Peachtree in Chamblee, some of the development\u2019s shops and restaurants are operating, but Michelin-recommended The Alden and Bad Daddy\u2019s Burger Bar will not reopen. Rain with a high in the low 60s today. Slig",
+"social": false,
+"foundAt": "2026-11-21T18:07:26Z"
+},
+{
+"id": "f45cc00c3a5afa92",
+"title": "Georgia Abortion Battle Heats Up As Bottoms Takes Aim At GOP Senate Wall",
+"url": "https://www.aol.com/articles/georgia-abortion-battle-heats-bottoms-144137000.html",
+"outlet": "Bing News",
+"date": "2026-11-21T06:48:00Z",
+"kinds": [
+"assignment",
+"leadership"
+],
+"people": [
+"Carolyn Hugley",
+"Darcy Castro",
+"Drew Echols",
+"Ed Setzler",
+"Harold Jones",
+"Jason Anavitarte",
+"Shea Roberts"
+],
+"assignments": 0,
+"snippet": "0 Keisha Lance Bottoms (CBS) Georgia Governor-elect Keisha Lance Bottoms is wasting no time revisiting her signature campaign promise to repeal the state\u2019s six-week abortion ban. Yet even before she takes the oath of office, a Republican-led state Senate is making it clear that any effort to undo th",
+"social": false,
+"foundAt": "2026-11-21T18:07:26Z"
+},
 {
 "id": "270274ddada77315",
 "title": "Rep. Jesse Petrea Appointed by Speaker Jon Burns to Georgia Outdoor Stewardship Trust Fund",
@@ -1672,6 +1761,35 @@
 "foundAt": "2026-11-21T04:10:42Z"
 },
 {
+"id": "7d1cf76327a8217e",
+"title": "Hugley is officially nominated as Georgia House speaker as Democrats choose their leaders",
+"url": "https://www.yahoo.com/news/politics/articles/hugley-officially-nominated-georgia-house-225155210.html",
+"outlet": "Bing News",
+"date": "2026-11-12T14:51:00Z",
+"kinds": [
+"assignment",
+"leadership"
+],
+"people": [
+"Anissa Jones",
+"Billy Mitchell",
+"Bryce Berry",
+"Carolyn Hugley",
+"Clint Dixon",
+"Drew Echols",
+"Imani Barnes",
+"Jan Jones",
+"Jason Anavitarte",
+"Jon Burns",
+"Kay Kirkpatrick",
+"Larry Walker"
+],
+"assignments": 0,
+"snippet": "Georgia House Speaker nominee Rep. Carolyn Hugley, a Columbus Democrat, speaks at a press conference on Nov. 12, 2026, at the state Capitol announcing the caucus' picks for leadership roles. Alander Rocha/Georgia Recorder Georgia House Democrats unveiled their picks to lead the chamber Thursday afte",
+"social": false,
+"foundAt": "2026-11-21T18:07:26Z"
+},
+{
 "id": "aa4f86da9ffa4953",
 "title": "Georgia House Democrats nominate Columbus Rep. Carolyn Hugley for speaker",
 "url": "https://www.wtvm.com/2026/11/12/georgia-house-democrats-nominate-columbus-rep-carolyn-hugley-speaker/",
@@ -2426,6 +2544,23 @@
 "snippet": "ATLANTA, Ga. (WRDW/WAGT) \u2014 Georgia House Democrats walked into the Capitol as the majority party for the first time since 2004. Incoming House Speaker Carolyn Hugley said she could become the first woman elected Speaker of the House. \u201cIf my colleagues say so, I could become the first woman elected S",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "a42c6ae484027376",
+"title": "Minority Leader Carolyn Hugley poised to be next Speaker of the Georgia House",
+"url": "https://www.ledger-enquirer.com/news/politics-government/article317924459.html",
+"outlet": "Bing News",
+"date": "2026-11-04T13:57:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "State Rep. Carolyn Hugley (D-Columbus), the Georgia House of Representatives minority leader, poses for a photo during a news conference at the state capitol in Atlanta on Nov. 4, 2026, the day after ...",
+"social": false,
+"foundAt": "2026-11-21T18:07:26Z"
 },
 {
 "id": "1d130f67c21044cc",
