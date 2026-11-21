@@ -507,7 +507,36 @@
 "905548c949c1e3c2": "2026-11-08T08:00:00Z",
 "7b41e6c41cd9e727": "2026-11-19T17:07:00Z",
 "c50a2c6c2f1026be": "2026-11-17T12:00:00Z",
-"d872a0770cf308b0": "2026-11-21T12:00:00Z"
+"d872a0770cf308b0": "2026-11-21T12:00:00Z",
+"3f9d84f9516e2e4b": "2026-11-21T12:30:00Z",
+"826e6966bd0e1baf": "2026-11-21T13:00:16Z",
+"ab3d9691920730db": "2026-11-21T12:46:03Z",
+"aee403bd6a55a1cd": "2026-11-21T12:46:00Z",
+"2a73604416cc55bd": "2026-11-21T12:30:16Z",
+"27d5350b4bb61280": "2026-11-21T10:01:07Z",
+"f5aa739e7b6012b7": "2026-11-21T10:00:48Z",
+"c2e33af3b81e9bd2": "2026-11-21T10:00:44Z",
+"ad4e2de3dad6a897": "2026-11-21T08:08:01Z",
+"2c5b9773ce764031": "2026-11-21T13:32:57Z",
+"4a108eb2a2615c8c": "2026-11-21T12:52:20Z",
+"029b2650056849d4": "2026-11-21T11:35:14Z",
+"0006e5083e15783a": "2026-11-12T10:06:00Z",
+"ebe5d07ea37d78fa": "2026-11-13T20:12:00Z",
+"a9c8e81043e30f85": "2026-11-04T15:59:00Z",
+"a66bf7be27cce979": "2026-11-20T08:55:00Z",
+"4e5a5c52a37d684e": "2026-11-16T16:00:00Z",
+"ee31e8fd4a48e677": "2026-11-04T08:00:00Z",
+"66a4533317a4bfa8": "2026-11-04T08:00:00Z",
+"d0adbb0f2783e492": "2026-11-21T01:50:00Z",
+"29982814eadeeee1": "2026-11-13T16:00:00Z",
+"f7aa94974f28f7d5": "2026-11-19T15:37:26Z",
+"b42eb1bcfc50e98c": "2026-11-19T04:03:00Z",
+"38291ebf100e8546": "2026-11-20T19:21:39Z",
+"fd23850bda5350a0": "2026-11-06T10:42:00Z",
+"425ff6b05bf49f20": "2026-11-20T22:16:00Z",
+"2b438f7d8b777c04": "2026-11-17T00:52:00Z",
+"d24b43862d9f1b84": "2026-11-08T08:00:00Z",
+"79e6951c62e95ac6": "2026-11-16T20:16:14Z"
 },
 "reports": [
 {
@@ -727,6 +756,21 @@
 "snippet": "Starting next week, some voters in southwest Georgia will be headed back to their polling places to participate in a runoff election that could help grow Democrats' majority in the state House or give Republicans another hand in resisting their agenda. Ross Williams/Georgia Recorder Voters in eight ",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "a66bf7be27cce979",
+"title": "DeKalb elected officials among new leadership nominated for state House",
+"url": "https://thechampionnewspaper.com/dekalb-elected-officials-among-new-leadership-nominated-for-state-house/",
+"outlet": "Bing News",
+"date": "2026-11-20T08:55:00Z",
+"kinds": [
+"leadership"
+],
+"people": [],
+"assignments": 0,
+"snippet": "Democrats in the Georgia House of Representatives recently nominated new leadership as a majority caucus, including elected officials from DeKalb County. For the first time in the 238 years since ...",
+"social": false,
+"foundAt": "2026-11-21T13:38:57Z"
 },
 {
 "id": "a2c75c1ceda0b914",
@@ -1770,6 +1814,35 @@
 "foundAt": "2026-11-20T16:33:15Z"
 },
 {
+"id": "0006e5083e15783a",
+"title": "Democrats select new leadership for state House",
+"url": "https://moultrieobserver.com/2026/11/12/democrats-select-new-leadership-for-state-house/",
+"outlet": "Bing News",
+"date": "2026-11-12T10:06:00Z",
+"kinds": [
+"assignment",
+"leadership"
+],
+"people": [
+"Anissa Jones",
+"Billy Mitchell",
+"Bryce Berry",
+"Carolyn Hugley",
+"Gerald Greene",
+"Imani Barnes",
+"Jan Jones",
+"Jon Burns",
+"Robert Flournoy",
+"Samuel Park",
+"Spencer Frye",
+"Stacey Evans"
+],
+"assignments": 0,
+"snippet": "You are using an outdated browser. Please upgrade your browser or activate Google Chrome Frame to improve your experience. Subscribe Home News Sports Obituaries Opinion Community Classifieds Notices E-Edition Contests Best of Moultrie --> Home Subscriptions Newsletter Signup E-Edition News Obituarie",
+"social": false,
+"foundAt": "2026-11-21T13:38:57Z"
+},
+{
 "id": "4ddbbd714e0e1f88",
 "title": "Democratic wins revive Medicaid expansion push in Georgia, but new hurdles await",
 "url": "https://georgiarecorder.com/2026/11/12/democratic-wins-revive-medicaid-expansion-push-in-georgia-but-new-hurdles-await/",
@@ -2152,6 +2225,25 @@
 "foundAt": "2026-11-20T16:52:58Z"
 },
 {
+"id": "fd23850bda5350a0",
+"title": "Columbus\u2019 Calvin Smyre joins Gov.-elect Keisha Lance Bottoms\u2019 transition team",
+"url": "https://www.yahoo.com/news/politics/articles/columbus-calvin-smyre-joins-gov-184225258.html",
+"outlet": "Bing News",
+"date": "2026-11-06T10:42:00Z",
+"kinds": [
+"staff",
+"leadership"
+],
+"people": [
+"Carolyn Hugley",
+"Harold Jones"
+],
+"assignments": 0,
+"snippet": "Gov.-elect Keisha Lance Bottoms announced members of her transition team at a Friday news conference. That team includes retired state Rep. and former Dean of the Georgia House, Calvin Smyre, as an honorary co-chair. Smyre represented Columbus in the General Assembly for 48 years. Smyre is also lead",
+"social": false,
+"foundAt": "2026-11-21T13:38:57Z"
+},
+{
 "id": "b229a7ff611dd798",
 "title": "Georgia Democrats ride national blue wave into power in history-making election",
 "url": "https://georgiarecorder.com/2026/11/06/georgia-democrats-ride-national-blue-wave-into-power-in-history-making-election/",
@@ -2296,6 +2388,23 @@
 "snippet": "Democrats have officially flipped the Georgia House of Representatives, ending more than two decades of Republican rule in the chamber after Tuesday\u2019s elections. What\u2019s Happening: Democrats won a net of 10 seats, surpassing the 91-seat threshold needed for a majority in the 180-member chamber. Unoff",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "a9c8e81043e30f85",
+"title": "Bottoms elected Georgia governor; Hugley in line to become House speaker",
+"url": "https://www.wtvm.com/2026/11/05/bottoms-elected-georgia-governor-hugley-line-become-house-speaker/",
+"outlet": "Bing News",
+"date": "2026-11-04T15:59:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "COLUMBUS, Ga. (WTVM) - Keisha Lance Bottoms won Georgia\u2019s race for governor Tuesday night, and House Minority Leader Carolyn Hugley is in line to become the first Black woman to serve as speaker of the Georgia House after Democrats won the majority in both chambers. \u201cThank you, Georgia, I am honored",
+"social": false,
+"foundAt": "2026-11-21T13:38:57Z"
 },
 {
 "id": "b53e064cfbccf0d6",
