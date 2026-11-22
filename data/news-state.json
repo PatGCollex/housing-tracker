@@ -624,7 +624,31 @@
 "a7b7fa2a57aecec6": "2026-11-06T11:00:00Z",
 "f20120a18d0140e0": "2026-11-06T08:01:00Z",
 "ebabaf26a47e62fb": "2026-11-05T16:00:00Z",
-"4a51beb239841116": "2026-11-18T04:00:00Z"
+"4a51beb239841116": "2026-11-18T04:00:00Z",
+"3da8cd3b1d1c4de4": "2026-11-22T09:00:41Z",
+"f6c305466a29c6d0": "2026-11-22T13:12:27Z",
+"dc1e31668b884d6a": "2026-11-22T13:00:00Z",
+"cad889bf35836c7b": "2026-11-22T13:12:18Z",
+"fe27b15d458e3396": "2026-11-22T13:12:15Z",
+"f02108b35ab54189": "2026-11-22T13:12:14Z",
+"69bca2a27a668b5d": "2026-11-22T13:11:04Z",
+"be4bbca20bbb3009": "2026-11-22T10:00:30Z",
+"30c56914f4555191": "2026-11-22T13:29:14Z",
+"67897e0b9daac1c0": "2026-11-22T13:16:19Z",
+"abcd1f2a982a0a7d": "2026-11-22T11:38:13Z",
+"5edb1e430a474a0a": "2026-11-22T10:51:21Z",
+"ad0d99b1e579e3ae": "2026-11-22T04:05:51Z",
+"5c5bcad27b48b21e": "2026-11-22T07:35:38Z",
+"237256842d8e811a": "2026-11-21T15:59:00Z",
+"a5d53855fe3f6df6": "2026-11-08T08:00:00Z",
+"3cf97caa629f5adb": "2026-11-09T08:00:00Z",
+"b75c3a352edc9dd6": "2026-11-10T05:50:00Z",
+"6c3101e093abb91a": "2026-11-06T15:32:45Z",
+"e33239683567b3a7": "2026-11-07T03:15:00Z",
+"49637359bfda94c7": "2026-11-22T04:00:00Z",
+"4a3b73084a3ad247": "2026-11-13T05:00:00Z",
+"18fb236dd4e0dc36": "2026-11-21T10:22:00Z",
+"2a4869fd5ff301bf": "2026-11-04T08:00:00Z"
 },
 "reports": [
 {
@@ -1883,6 +1907,24 @@
 "snippet": "ATLANTA, GEORGIA - AUGUST 15: The Georgia State Capitol on August 15, 2023 in Atlanta, Georgia. A Georgia grand jury handed up indictments against former President Donald Trump and his allies over his alleged efforts to undo the 2020 election results. (Photo by Joe Raedle/Getty Images) The longtime ",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "4a3b73084a3ad247",
+"title": "Georgia Democrats nominate first Black House speaker",
+"url": "https://www.northwestgeorgianews.com/catoosa_walker_news/news/georgia-democrats-nominate-first-black-house-speaker/article_8fd3b750-79d6-4d46-8785-baa61257acc7.html",
+"outlet": "Bing News",
+"date": "2026-11-13T05:00:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley",
+"Jan Jones"
+],
+"assignments": 0,
+"snippet": "Georgia Democrats nominate Carolyn Hugley as the first Black speaker and prepare to take control of the state House, holding a potentially one-seat majority. Rep. Carolyn Hugley, D-Columbus, announced her nomination as the next speaker of the Georgia House of Representatives, at the Georgia Capitol ",
+"social": false,
+"foundAt": "2026-11-22T13:31:24Z"
 },
 {
 "id": "ff2aa40d1d8bd850",
