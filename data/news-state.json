@@ -648,7 +648,41 @@
 "49637359bfda94c7": "2026-11-22T04:00:00Z",
 "4a3b73084a3ad247": "2026-11-13T05:00:00Z",
 "18fb236dd4e0dc36": "2026-11-21T10:22:00Z",
-"2a4869fd5ff301bf": "2026-11-04T08:00:00Z"
+"2a4869fd5ff301bf": "2026-11-04T08:00:00Z",
+"7c9b005cebea831a": "2026-11-22T16:36:08Z",
+"50a57b92d6ae6f3d": "2026-11-22T16:00:00Z",
+"7a0a3b7f9b2acb07": "2026-11-22T14:00:00Z",
+"ffb6fc8a4f4739b6": "2026-11-22T17:53:01Z",
+"a2d6253300f096c5": "2026-11-22T17:44:52Z",
+"c4994032065992e7": "2026-11-22T17:41:15Z",
+"d366969f56d63564": "2026-11-22T17:34:50Z",
+"529979ef68ed12da": "2026-11-22T15:39:49Z",
+"7280ab6f66a6e2e5": "2026-11-22T14:17:09Z",
+"d5fbd1e425dc3a96": "2026-11-22T17:26:39Z",
+"d0626d47c03d815d": "2026-11-22T17:10:35Z",
+"f9ecf6153aeabf2c": "2026-11-22T18:14:16Z",
+"b36b7543710c6b97": "2026-11-22T17:48:05Z",
+"0aaa322af03b2877": "2026-11-22T17:39:54Z",
+"2166d23f143945ad": "2026-11-22T17:18:16Z",
+"d4ef73092cf18a7d": "2026-11-22T16:08:38Z",
+"9b9bd115fee90d14": "2026-11-22T16:07:23Z",
+"9bcef7f4c2096fed": "2026-11-22T15:59:12Z",
+"7dacf1fa1bc294ce": "2026-11-22T15:35:07Z",
+"716ddbc707cf2778": "2026-11-22T14:53:46Z",
+"3e5e1367617a1657": "2026-11-22T14:32:43Z",
+"fb4b03b08169b42a": "2026-11-22T14:27:30Z",
+"049f5fb80bae9a2e": "2026-11-12T08:00:00Z",
+"61ab9c961cc8b73a": "2026-11-08T04:44:00Z",
+"f76829de256962b5": "2026-11-04T02:00:00Z",
+"70005ee0cf39b984": "2026-11-17T18:54:49Z",
+"e9e0a142ec90b85a": "2026-11-19T15:23:00Z",
+"256e364c42d88f0d": "2026-11-07T04:21:00Z",
+"334fac4b7bcd07db": "2026-11-06T11:50:00Z",
+"0a2601dcd7ed48b0": "2026-11-20T02:00:00Z",
+"73fe35cf736a255a": "2026-11-19T20:30:00Z",
+"cddbf7a019b1dc39": "2026-11-12T14:36:00Z",
+"f695064fb77b016c": "2026-11-09T12:19:00Z",
+"cb8e5df32d903a52": "2026-11-21T01:44:00Z"
 },
 "reports": [
 {
@@ -687,6 +721,27 @@
 }
 ],
 "news": [
+{
+"id": "9bcef7f4c2096fed",
+"title": "Bottoms outlines budget priorities as Georgia lawmakers prepare for new session | On The Record",
+"url": "https://www.atlantanewsfirst.com/2026/11/22/bottoms-outlines-budget-priorities-georgia-lawmakers-prepare-new-session-record/",
+"outlet": "Atlanta News First",
+"date": "2026-11-22T15:59:12Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley",
+"Ed Setzler",
+"Josh McLaurin",
+"Shea Roberts",
+"Todd Jones"
+],
+"assignments": 0,
+"snippet": "ATLANTA, Ga. (Atlanta News First) \u2014 Governor-elect Keisha Lance Bottoms said her first state budget will reflect her priorities, including a proposal to eliminate or suspend the grocery tax for local governments. Budget and transition Bottoms said her grocery tax proposal includes a state budget bac",
+"social": false,
+"foundAt": "2026-11-22T18:36:32Z"
+},
 {
 "id": "3a47b4360395cc1f",
 "title": "It\u2019s official: Raffensperger certifies Nov. 3 election results",
@@ -1277,6 +1332,23 @@
 "snippet": "Sen. Kay Kirkpatrick and Rep. Beth Camp listen to a foster parent talk about their experiences during a study committee meeting on Oct. 22, 2026. Jill Nolin/Georgia Recorder A bipartisan group of Georgia lawmakers is calling for a new third-party audit of the Division of Family and Children Services",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "70005ee0cf39b984",
+"title": "Carolyn Hugley Could Become Georgia\u2019s First Black Woman House Speaker",
+"url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT0pfSzlsdDV0OXNkQXV2bDUyLURuZVU3QW0tckJSMzJSbG9JS2FKd3JaSDR1NkR6V3BhNUsybGc2aXppYkhMeTdwaGlWbUQ5d0c3YXUxajUxczh0RHFTYTk3OVpHOFpyYi1XOHZzdE1ZTHlsc1MxMi14OUNVMXU3cFZWa21zZFp0eDQ1QVh2V2lERE90YWVrR1hXWQ?oc=5",
+"outlet": "BlackPressUSA",
+"date": "2026-11-17T18:54:49Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "Carolyn Hugley Could Become Georgia\u2019s First Black Woman House Speaker BlackPressUSA",
+"social": false,
+"foundAt": "2026-11-22T18:36:32Z"
 },
 {
 "id": "fe9c905ea756c872",
@@ -2308,6 +2380,21 @@
 "foundAt": "2026-11-20T16:52:58Z"
 },
 {
+"id": "049f5fb80bae9a2e",
+"title": "Georgia Democrats make historic nomination for Speaker of the House",
+"url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWV6OHF1b01OeFlaMXZjbUhuQ0pKeEMwNVpjc2FSZkR2MXp2OE5IUHZPc2szSVFoNWpEQnZWNWZ2c1ktNVlxV3IyOVYzM3VXcnpGbTV4bUsxaEhtS0gzWlRadnowQ0pzZm5kdDhoLUtSTmNnNGt4b1ludXNKVmRiOGlYcG82Y0FyVm1PenlEX0drUG5nRHRtbzlUYVhNTkhOVjVhOGszNVFyVXUwaGdZ0gHDAUFVX3lxTE5MaFJGMjNianpYQlozQW80aVctNWkzT0pNRDFtZTllOHk5cmRRUF91QnFlM29OVkVrMElrNjB6STNWbFpreXkwelZpcXVtNlUtU3hnbGVGUkFDNi03bC1kZTRPbkJWOGFLajM2cEZnRldTUVo0ckNiTEtSUGxqbWxfQWYwQUduVS15aThkM1JyOG9HdWd2d2F0b1EyVVhVX040V2VBcjBLTW1QSHdJS0VVUlNEcW14cGxpUmc2SHJZOVRTcw?oc=5",
+"outlet": "Atlanta News First",
+"date": "2026-11-12T08:00:00Z",
+"kinds": [
+"leadership"
+],
+"people": [],
+"assignments": 0,
+"snippet": "Georgia Democrats make historic nomination for Speaker of the House Atlanta News First",
+"social": false,
+"foundAt": "2026-11-22T18:36:32Z"
+},
+{
 "id": "3be8a7de0cf07582",
 "title": "Georgia House Democrats set to elect leaders for their new majority",
 "url": "https://www.ajc.com/politics/2026/11/georgia-house-democrats-set-to-elect-leaders-for-their-new-majority/",
@@ -2608,6 +2695,21 @@
 "snippet": "Rep. Stacy Evans joins Red Clay Rundown to lay out the new House Democratic majority's agenda on affordability, Medicaid expansion, and abortion laws. Plus, a missing memory card in Seminole County flips a key House race, and President Trump names Stephen Miller as White House Chief of Staff. ATLANT",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "61ab9c961cc8b73a",
+"title": "Georgia House seat flips after votes found on memory card",
+"url": "https://sports.yahoo.com/articles/georgia-house-seat-flips-votes-124459188.html",
+"outlet": "Bing News",
+"date": "2026-11-08T04:44:00Z",
+"kinds": [
+"leadership"
+],
+"people": [],
+"assignments": 0,
+"snippet": "Outgoing Speaker Mike Johnson called on his colleagues to be in attendance in order to push GOP priorities through. The Georgia Tech Yellow Jackets lost their in-state rivalry game to the Georgia ...",
+"social": false,
+"foundAt": "2026-11-22T18:36:32Z"
 },
 {
 "id": "56ebf9e531c56062",
