@@ -872,7 +872,44 @@
 "1f17212cdbda7664": "2026-11-04T11:50:00Z",
 "04c712bb572bdac7": "2026-11-04T05:47:00Z",
 "18fe0cb72d11067d": "2026-11-10T23:16:50Z",
-"6f8ddaa912e47e5e": "2026-11-22T16:00:00Z"
+"6f8ddaa912e47e5e": "2026-11-22T16:00:00Z",
+"60ff85996b748e72": "2026-11-23T23:49:52Z",
+"50b7d6606e7fbb57": "2026-11-24T02:37:42Z",
+"bb53cfbf7138e13f": "2026-11-24T02:37:28Z",
+"f208f0ddca075728": "2026-11-24T02:34:25Z",
+"574efdff155499aa": "2026-11-24T01:39:38Z",
+"5c6805570a38fc71": "2026-11-24T01:01:48Z",
+"dce5b667e922ca24": "2026-11-24T00:50:23Z",
+"bfe120395d27b46a": "2026-11-24T00:24:57Z",
+"4042859fd5ef833a": "2026-11-24T00:23:07Z",
+"035d46ae0f7abe38": "2026-11-24T00:17:45Z",
+"0788addf4f414045": "2026-11-24T00:16:00Z",
+"bf32c82bdbb1e3ab": "2026-11-23T23:53:09Z",
+"7169f02357c6079d": "2026-11-23T23:46:24Z",
+"c4b77e977ab09586": "2026-11-23T23:42:12Z",
+"a390160d61dda91d": "2026-11-23T23:33:47Z",
+"10344e1feb5d1e5b": "2026-11-23T23:12:08Z",
+"59dc3c4985af31a0": "2026-11-23T22:48:30Z",
+"651c5c152a3c95a8": "2026-11-09T14:21:00Z",
+"58daaaf1606e81d8": "2026-11-11T14:49:00Z",
+"364713bda9d09f2b": "2026-11-05T11:50:00Z",
+"1cd15203d0ac0334": "2026-11-21T08:00:00Z",
+"7956719da46664f0": "2026-11-23T23:37:00Z",
+"5f9d891b61c880c6": "2026-11-23T23:48:50Z",
+"9415491928e9f357": "2026-11-19T11:58:00Z",
+"0ff4b4a9eb29c2be": "2026-11-16T18:32:08Z",
+"3d5ad44fc60d74fc": "2026-11-23T23:37:28Z",
+"b57c390a68cfedc8": "2026-11-23T15:37:00Z",
+"1129528d9d6d6704": "2026-11-23T13:34:00Z",
+"90ff0c5b15c6b6dd": "2026-11-09T05:37:00Z",
+"879cc0afbe3d4326": "2026-11-24T00:07:00Z",
+"050fff134df31607": "2026-11-23T16:16:00Z",
+"9450d00bec1ea51c": "2026-11-23T16:06:07Z",
+"63e562cd6bdf5cdd": "2026-11-23T12:51:00Z",
+"0cf634bb325f75e5": "2026-11-23T12:27:00Z",
+"7ca23e9e498cee7a": "2026-11-21T00:01:42Z",
+"2dfe8e1b253e4017": "2026-11-23T15:15:00Z",
+"9df6767fef96998a": "2026-11-20T13:23:00Z"
 },
 "reports": [
 {
@@ -1154,6 +1191,21 @@
 "snippet": "ATLANTA (November 11, 2026) \u2014 Sen. Kenya Wicks (D\u2013Fayette), member of the Senate Committee on Veterans, Military and Homeland Security, has been selected to serve as a Southern regional representative on the Executive Board of the National Conference of State Legislatures\u2019 (NCSL) Women\u2019s Legislative",
 "social": false,
 "foundAt": "2026-11-23T16:20:17Z"
+},
+{
+"id": "1129528d9d6d6704",
+"title": "Georgia Rep. Mike Collins Must Repay $2,880 After House Ethics Probe Into Intern Pay",
+"url": "https://hoodline.com/2026/11/georgia-rep-mike-collins-must-repay-2-880-after-house-ethics-probe-into-intern-pay/",
+"outlet": "Bing News",
+"date": "2026-11-23T13:34:00Z",
+"kinds": [
+"leadership"
+],
+"people": [],
+"assignments": 0,
+"snippet": "Source: Xuthoria / Wikimedia Commons The House Ethics Committee has closed its investigation into Georgia Republican Rep. Mike Collins, finding that his congressional office improperly paid a woman through the House internship program while also accepting months of unpaid communications work from he",
+"social": false,
+"foundAt": "2026-11-24T03:30:24Z"
 },
 {
 "id": "8a8c36aa55406a63",
@@ -3033,6 +3085,21 @@
 "snippet": "Sen. Josh McLaurin, D-Sandy Springs, speaks on the Senate floor during the final day of the 2026 legislative session at the Georgia Capitol in Atlanta. McLaurin was elected lieutenant governor in the Nov. 3 election. ATLANTA \u2014 The Republican majority in the Georgia Senate chose two new leaders after",
 "social": false,
 "foundAt": "2026-11-21T22:15:23Z"
+},
+{
+"id": "58daaaf1606e81d8",
+"title": "Election losses force changes in Georgia Senate GOP leadership",
+"url": "https://thebrunswicknews.com/news/state_news/election-losses-force-changes-in-georgia-senate-gop-leadership/article_6577a042-2e9b-470e-b390-58e19d5eff9d.html",
+"outlet": "Bing News",
+"date": "2026-11-11T14:49:00Z",
+"kinds": [
+"leadership"
+],
+"people": [],
+"assignments": 0,
+"snippet": "The Republican majority in the Georgia Senate chose two new leaders after Democrats ousted two incumbent leaders in the Nov. 3 election, according a Senate announcement and unofficial ...",
+"social": false,
+"foundAt": "2026-11-24T03:30:24Z"
 },
 {
 "id": "d3401b09361cbe39",
