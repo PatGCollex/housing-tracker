@@ -988,7 +988,74 @@
 "33d101584ed7eed6": "2026-11-24T07:54:00Z",
 "15ebccdb4eb7a2a0": "2026-11-24T02:36:00Z",
 "61bb80c1d886f630": "2026-11-23T11:06:00Z",
-"db83aae808d2fd0d": "2026-11-23T09:08:00Z"
+"db83aae808d2fd0d": "2026-11-23T09:08:00Z",
+"037fdf99d6132627": "2026-11-24T15:40:44Z",
+"4b2089c4f82a33e5": "2026-11-24T18:41:10Z",
+"12b7635607f666a0": "2026-11-24T18:13:48Z",
+"186f75a53f0a9816": "2026-11-24T15:46:49Z",
+"7f082b5967449619": "2026-11-24T20:31:10Z",
+"7143de11ac206706": "2026-11-24T21:19:15Z",
+"6271bb39d2c213da": "2026-11-24T20:58:07Z",
+"641ad710004b44ed": "2026-11-24T19:14:33Z",
+"695f1591a179fe4e": "2026-11-24T19:00:12Z",
+"654f693e39c31738": "2026-11-24T18:28:41Z",
+"8e1516361ce8d6d3": "2026-11-24T17:55:13Z",
+"2f388c140c1a8f60": "2026-11-24T21:09:29Z",
+"3e7cb27c0ae9fcbc": "2026-11-24T20:25:00Z",
+"96690e201669e842": "2026-11-24T20:24:37Z",
+"74f9352c49aa3d8b": "2026-11-24T20:12:17Z",
+"1875ca32eba0f575": "2026-11-24T19:22:00Z",
+"22b48e3b994143c6": "2026-11-24T18:28:22Z",
+"1b0f08a51b4a8be3": "2026-11-24T17:47:45Z",
+"94f74f0f2e485817": "2026-11-24T17:09:48Z",
+"a9e690efb078a3e3": "2026-11-24T17:09:42Z",
+"a9496115ef4bb9a5": "2026-11-24T19:30:00Z",
+"5531ea09b88254aa": "2026-11-24T19:37:33Z",
+"9ce4c728317de3eb": "2026-11-24T18:40:22Z",
+"ceeb6ac71736c120": "2026-11-24T18:25:55Z",
+"08dff389d1609bd5": "2026-11-24T16:38:55Z",
+"41f87ca990592aca": "2026-11-24T16:36:00Z",
+"2b656d3c41301d20": "2026-11-24T16:31:41Z",
+"a17608a6883da09e": "2026-11-24T16:23:22Z",
+"51fe6c8d8d2451f3": "2026-11-24T21:11:55Z",
+"89eab7338733b2b8": "2026-11-24T21:06:50Z",
+"1b8699b29bbf83db": "2026-11-24T21:06:49Z",
+"986d9715f7310a48": "2026-11-24T20:51:27Z",
+"005c46546e4dc3f5": "2026-11-24T20:46:30Z",
+"ffba0d6db5c3d316": "2026-11-24T20:45:33Z",
+"ff523c73884c8b0c": "2026-11-24T20:43:22Z",
+"3d4f0b343c43ba97": "2026-11-24T20:39:23Z",
+"884b7f934cf2e897": "2026-11-24T20:17:56Z",
+"2edd75e143f769f4": "2026-11-24T20:11:11Z",
+"6d6c557bed7aa7f6": "2026-11-24T19:52:09Z",
+"38921d30bd5c8b5b": "2026-11-24T19:17:46Z",
+"0e41ec4a2b6775da": "2026-11-24T19:14:43Z",
+"e15593b82d42a237": "2026-11-24T19:13:02Z",
+"4b7096d533c94554": "2026-11-24T19:06:53Z",
+"12bb8064086da718": "2026-11-24T18:46:48Z",
+"caaa3bf49b35e4b9": "2026-11-24T18:43:54Z",
+"3e0d5da8a0793b9b": "2026-11-24T18:06:21Z",
+"1f3b9cb760f13b4f": "2026-11-24T18:01:24Z",
+"4a362f72dc0e468f": "2026-11-24T09:12:00Z",
+"0a9842a0891e2273": "2026-11-24T13:13:00Z",
+"32bf1f94f89b38c9": "2026-11-24T09:41:56Z",
+"552da54119e408a0": "2026-11-24T03:43:00Z",
+"8845055e256eb0fa": "2026-11-23T20:22:59Z",
+"8a42cba13b00d233": "2026-11-24T04:26:30Z",
+"c77a66ec77c19ef9": "2026-11-23T16:00:00Z",
+"fcc0d312bc89578a": "2026-11-24T09:15:00Z",
+"c2c20fe2c73ee20c": "2026-11-23T16:11:00Z",
+"a36b6bf18497ff07": "2026-11-24T18:18:27Z",
+"f8c2e017349643f9": "2026-11-24T18:49:51Z",
+"84ad0faf14bdb42d": "2026-11-24T18:45:24Z",
+"29ec139772fc4e26": "2026-11-24T11:29:07Z",
+"6cf42f9b73e1c026": "2026-11-24T10:13:00Z",
+"5e64373885106793": "2026-11-24T10:12:00Z",
+"e4605261a820381d": "2026-11-24T08:42:00Z",
+"b87268ea83552f7a": "2026-11-24T06:15:00Z",
+"64713bdd14bb0c58": "2026-11-24T09:12:00Z",
+"bf3c297f3eb468c8": "2026-11-23T22:04:00Z",
+"d9f2abdc373eb8de": "2026-11-24T12:00:00Z"
 },
 "reports": [
 {
@@ -1027,6 +1094,72 @@
 }
 ],
 "news": [
+{
+"id": "a9496115ef4bb9a5",
+"title": "The Circular Saw Test",
+"url": "https://peachpundit.com/the-circular-saw-test/",
+"outlet": "Peach Pundit",
+"date": "2026-11-24T19:30:00Z",
+"kinds": [
+"assignment",
+"staff",
+"leadership"
+],
+"people": [],
+"assignments": 0,
+"snippet": "Atlanta\u2019s AI policy debate needs an age ladder, not a ban. Last week the Atlanta Board of Education Policy Review Committee had its fourth meeting on an AI Policy for the district. Great idea. Honestly, we probably should have started this conversation in 2022 when ChatGPT went public, as the best t",
+"social": false,
+"foundAt": "2026-11-24T21:25:13Z"
+},
+{
+"id": "654f693e39c31738",
+"title": "One man\u2019s opinion: For the newly elected surfing that Big Blue-Nami",
+"url": "https://roughdraftatlanta.com/2026/11/24/one-mans-opinion-for-the-newly-elected-surfing-that-big-blue-nami/",
+"outlet": "Rough Draft Atlanta",
+"date": "2026-11-24T18:28:41Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "As election wins transition into planning and governing, I offer a few suggestions and free counsel to my many friends and newly elected officials who rode that Big Blue-Nami to victory. This sweep was historic and massive. This was the largest partisan shift, from local to state and federal electio",
+"social": false,
+"foundAt": "2026-11-24T21:25:13Z"
+},
+{
+"id": "12b7635607f666a0",
+"title": "Collins agrees to pay $2,880 after ethics probe concludes his office improperly paid intern",
+"url": "https://georgiarecorder.com/2026/11/24/collins-agrees-to-pay-2880-after-ethics-probe-concludes-his-office-improperly-paid-intern/",
+"outlet": "Georgia Recorder",
+"date": "2026-11-24T18:13:48Z",
+"kinds": [
+"staff"
+],
+"people": [],
+"assignments": 0,
+"snippet": "Republican U.S. Senate candidate Mike Collins speaks at a Georgia Chamber event in Athens, Aug. 5, 2026. Ross Williams/Georgia Recorder Republican Congressman Mike Collins\u2019 office broke House rules in paying more than $10,000 to an intern who was romantically involved with Collins\u2019 then-chief of sta",
+"social": false,
+"foundAt": "2026-11-24T21:25:13Z"
+},
+{
+"id": "41f87ca990592aca",
+"title": "Sen. Jason Anavitarte Congratulates Dallas, Rockmart and Cedartown on State Arts Grant Awards",
+"url": "https://allongeorgia.com/chattooga-local-news/sen-jason-anavitarte-congratulates-dallas-rockmart-and-cedartown-on-state-arts-grant-awards/",
+"outlet": "AllOnGeorgia",
+"date": "2026-11-24T16:36:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Jason Anavitarte"
+],
+"assignments": 0,
+"snippet": "Senate Majority Leader Jason Anavitarte (R\u2013Dallas) congratulated the cities of Dallas, Rockmart and Cedartown on receiving Fiscal Year 2027 arts grants through the Georgia Council for the Arts, a division of the Georgia Department of Economic Development. The Dallas Theater and Civic Center and the ",
+"social": false,
+"foundAt": "2026-11-24T21:25:13Z"
+},
 {
 "id": "dca9732957c3c1a0",
 "title": "Sen. Billy Hickman, Georgia Council on Literacy Concludes Work Ahead of December 31 Sunset",
@@ -1103,6 +1236,23 @@
 "snippet": "One grassroots political action committee played an outsized role in establishing a Democratic majority in the Georgia House of Representatives for the first time in more than 20 years. The Fighting Fifty \u2013 named after the 50 state House districts Republicans had previously run in uncontested \u2013 recr",
 "social": false,
 "foundAt": "2026-11-24T16:07:37Z"
+},
+{
+"id": "4a362f72dc0e468f",
+"title": "Nikki Randall, former Georgia leaders join Hugley\u2019s transition team",
+"url": "https://www.41nbc.com/carolyn-hugley-georgia-house-transition-team/",
+"outlet": "Bing News",
+"date": "2026-11-24T09:12:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "ATLANTA, Georgia (41NBC/WMGT) \u2013 Georgia House Speaker-nominee Carolyn Hugley has announced a transition team to help prepare the chamber for a change in leadership following more than two decades of Republican majorities. Hugley, a Democrat representing House District 141, announced the team in Atla",
+"social": false,
+"foundAt": "2026-11-24T21:25:13Z"
 },
 {
 "id": "acdca44c0d18ab2a",
