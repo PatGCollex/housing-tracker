@@ -909,7 +909,21 @@
 "0cf634bb325f75e5": "2026-11-23T12:27:00Z",
 "7ca23e9e498cee7a": "2026-11-21T00:01:42Z",
 "2dfe8e1b253e4017": "2026-11-23T15:15:00Z",
-"9df6767fef96998a": "2026-11-20T13:23:00Z"
+"9df6767fef96998a": "2026-11-20T13:23:00Z",
+"5cfef24a99733a51": "2026-11-24T05:24:56Z",
+"2f901a7055a2f874": "2026-11-24T04:40:02Z",
+"ce39c08cd4ce850f": "2026-11-24T03:29:43Z",
+"fde97a6d2b4ffae0": "2026-11-12T12:55:52Z",
+"9ee43d80fb03c15c": "2026-11-21T15:59:00Z",
+"a0e2b07d5269b333": "2026-11-10T11:18:00Z",
+"e96556084c94dc06": "2026-11-23T16:00:00Z",
+"8ea119c1840b7789": "2026-11-23T16:00:00Z",
+"0fe69cb8e74fd3f0": "2026-11-23T10:47:00Z",
+"3b78acfc338aa892": "2026-11-12T05:06:00Z",
+"e5c03a74fbff4480": "2026-11-23T16:00:00Z",
+"b8bfdd7c9847ad20": "2026-11-16T16:00:00Z",
+"74a6bc3bcad83b27": "2026-11-10T08:00:00Z",
+"36a2e41f04f9d204": "2026-11-20T13:23:00Z"
 },
 "reports": [
 {
@@ -2684,6 +2698,23 @@
 "snippet": "ATLANTA, Ga. (WTVM) - Georgia House Democrats on Thursday nominated state Rep. Carolyn Hugley of Columbus to be the next speaker of the Georgia House. The party captured a majority in the chamber for the first time in more than two decades. The announcement was made Thursday afternoon on the south s",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "fde97a6d2b4ffae0",
+"title": "Georgia House Democrats select Carolyn Hugley as state's first Black woman speaker",
+"url": "https://www.msn.com/en-us/news/other/georgia-house-democrats-select-carolyn-hugley-as-states-first-black-woman-speaker/ar-AA2hktww",
+"outlet": "Bing News",
+"date": "2026-11-12T12:55:52Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "\"The people of Columbus brought us here,\" Hugley said.",
+"social": false,
+"foundAt": "2026-11-24T07:02:22Z"
 },
 {
 "id": "3b00f531194852a4",
