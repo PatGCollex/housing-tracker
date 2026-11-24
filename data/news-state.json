@@ -923,7 +923,72 @@
 "e5c03a74fbff4480": "2026-11-23T16:00:00Z",
 "b8bfdd7c9847ad20": "2026-11-16T16:00:00Z",
 "74a6bc3bcad83b27": "2026-11-10T08:00:00Z",
-"36a2e41f04f9d204": "2026-11-20T13:23:00Z"
+"36a2e41f04f9d204": "2026-11-20T13:23:00Z",
+"dca9732957c3c1a0": "2026-11-24T15:19:13Z",
+"acdca44c0d18ab2a": "2026-11-24T09:00:47Z",
+"e08a3239f7361da0": "2026-11-24T15:35:51Z",
+"53edeb25d8e1c7b6": "2026-11-24T14:20:24Z",
+"5c6d9b7d14a40e2d": "2026-11-24T14:08:17Z",
+"20fe82fe3621511e": "2026-11-24T13:34:58Z",
+"e0c2e32b6eaf8b2b": "2026-11-24T12:20:46Z",
+"e8e8e72e13c4be9a": "2026-11-24T15:13:00Z",
+"c21923c206974cdd": "2026-11-24T14:57:26Z",
+"c8a6b3faaccdc816": "2026-11-24T13:40:49Z",
+"2a52ff01a2ccf853": "2026-11-24T12:15:55Z",
+"e07c85eb21fad5fe": "2026-11-24T12:12:25Z",
+"5696655b61b14831": "2026-11-24T11:42:59Z",
+"4ee7e006f6f3b5e4": "2026-11-24T11:40:53Z",
+"064b96035809e983": "2026-11-24T11:30:06Z",
+"a766a388cf243513": "2026-11-24T10:32:03Z",
+"2fab515469b833bb": "2026-11-24T10:02:01Z",
+"15cb65539ffbab32": "2026-11-24T10:01:56Z",
+"5a05c7d0e32c977f": "2026-11-24T10:00:06Z",
+"5fbdddc4f7ba7252": "2026-11-24T15:03:59Z",
+"9ab08a1e63f8954b": "2026-11-24T15:38:59Z",
+"3a91a508eb1ddf2b": "2026-11-24T15:21:08Z",
+"0353bfd231e1d90a": "2026-11-24T14:28:12Z",
+"07b90b9aa42abfe9": "2026-11-24T14:12:51Z",
+"0626a7c18fa52b45": "2026-11-24T13:49:30Z",
+"2858d19f934f5fc1": "2026-11-24T13:32:01Z",
+"31ff7c78b664b138": "2026-11-24T11:56:48Z",
+"c26222675bf4ee72": "2026-11-24T11:20:29Z",
+"598b1bce5ca07c1b": "2026-11-24T11:01:08Z",
+"4a74ab1d74d9a5e1": "2026-11-24T10:17:33Z",
+"6f0ed50bb987ab9f": "2026-11-24T06:59:18Z",
+"70c4385ba1d42d3e": "2026-11-24T02:28:00Z",
+"01e3f715cfe632b4": "2026-11-24T09:03:22Z",
+"3e5a6a177ad50324": "2026-11-17T14:25:56Z",
+"64d4d4805f1f75d9": "2026-11-22T21:48:28Z",
+"73364bcdd2cebcdf": "2026-11-24T14:16:32Z",
+"9899c35034aa2f7e": "2026-11-04T08:00:00Z",
+"b55c23027bb16c5c": "2026-11-24T10:28:00Z",
+"7b149e30c141bc05": "2026-11-24T06:16:00Z",
+"4544b8c1cd3d945f": "2026-11-16T16:00:00Z",
+"7e5cdf2dcd3e0440": "2026-11-12T08:00:00Z",
+"d417a5f898c37606": "2026-11-24T04:51:00Z",
+"03278af86e8c1bf3": "2026-11-23T23:50:00Z",
+"a328a3bf205802ca": "2026-11-23T23:00:00Z",
+"d56fa74a5f207189": "2026-11-19T12:27:52Z",
+"1105bf934163a8a9": "2026-11-06T08:00:00Z",
+"68f300f6d6c46246": "2026-11-24T04:26:30Z",
+"854bfaa7c3b807a9": "2026-11-22T21:43:00Z",
+"be371b26f53eac0f": "2026-11-11T17:14:00Z",
+"7fe96c9b50f5cb44": "2026-11-07T08:00:00Z",
+"9afc19ac450c95d7": "2026-11-23T12:25:00Z",
+"3c9217d0b2c97a0e": "2026-11-24T12:20:00Z",
+"2884275eaa04282b": "2026-11-24T06:00:00Z",
+"feb10279e6f8c7e2": "2026-11-17T08:31:00Z",
+"c9ef52f844fb2e52": "2026-11-04T08:00:00Z",
+"0ed39f64226382b2": "2026-11-24T02:32:43Z",
+"9e7115cf2cd2f0a5": "2026-11-24T13:50:44Z",
+"e017ec9f6da08fd1": "2026-11-23T11:51:00Z",
+"bbb10f59bdf8ff4c": "2026-11-24T07:50:09Z",
+"3843815b02ccdc05": "2026-11-24T02:00:00Z",
+"e0212acacfa6ff05": "2026-11-24T02:00:00Z",
+"33d101584ed7eed6": "2026-11-24T07:54:00Z",
+"15ebccdb4eb7a2a0": "2026-11-24T02:36:00Z",
+"61bb80c1d886f630": "2026-11-23T11:06:00Z",
+"db83aae808d2fd0d": "2026-11-23T09:08:00Z"
 },
 "reports": [
 {
@@ -962,6 +1027,108 @@
 }
 ],
 "news": [
+{
+"id": "dca9732957c3c1a0",
+"title": "Sen. Billy Hickman, Georgia Council on Literacy Concludes Work Ahead of December 31 Sunset",
+"url": "https://senatepress.net/sen-billy-hickman-georgia-council-on-literacy-concludes-work-ahead-of-december-31-sunset.html",
+"outlet": "Senate Press Office",
+"date": "2026-11-24T15:19:13Z",
+"kinds": [
+"assignment",
+"leadership"
+],
+"people": [
+"Billy Hickman",
+"Blake Tillery",
+"Freddie Sims",
+"Jon Burns",
+"Max Burns",
+"RaShaun Kemp"
+],
+"assignments": 0,
+"snippet": "ATLANTA (November 24, 2026) \u2014 The Georgia Council on Literacy recently held its final meeting at the Georgia State Capitol, marking the conclusion of its work ahead of its official sunset date of December 31, 2026. During its final meeting, members heard updates from the Governor\u2019s Office of Educati",
+"social": false,
+"foundAt": "2026-11-24T16:07:37Z"
+},
+{
+"id": "5fbdddc4f7ba7252",
+"title": "Outspoken Podcast: Joe Petito on Domestic Violence Prevention | Gabby Petito Foundation",
+"url": "https://peachpundit.com/outspoken-podcast-joe-petito-on-domestic-violence-prevention-gabby-petito-foundation/",
+"outlet": "Peach Pundit",
+"date": "2026-11-24T15:03:59Z",
+"kinds": [
+"staff"
+],
+"people": [],
+"assignments": 0,
+"snippet": "Joe Petito, vice president of the Gabby Petito Foundation, joins Julianne Thompson and Rob Adkerson on Outspoken Podcast to discuss domestic violence prevention, victim support, and efforts to expand lifesaving programs and legislation. Joe explains how lethality assessments can help identify risk, ",
+"social": false,
+"foundAt": "2026-11-24T16:07:37Z"
+},
+{
+"id": "07b90b9aa42abfe9",
+"title": "Turkey giveaways planned by Ebenezer Baptist Church, Fulton health board and more",
+"url": "https://www.atlantanewsfirst.com/2026/11/24/turkey-giveaway-set-ebenezer-baptist-church/",
+"outlet": "Atlanta News First",
+"date": "2026-11-24T14:12:51Z",
+"kinds": [
+"staff"
+],
+"people": [],
+"assignments": 0,
+"snippet": "ATLANTA, Ga. (Atlanta News First) \u2014 Several food giveaways are happening Tuesday ahead of Thanksgiving, including one at a historic Atlanta church. Ebenezer Baptist Church, located at 101 Jackson Street NE in Atlanta\u2019s Old Fourth Ward, will give away groceries and turkeys starting at 11 a.m. The eff",
+"social": false,
+"foundAt": "2026-11-24T16:07:37Z"
+},
+{
+"id": "e0c2e32b6eaf8b2b",
+"title": "Once seen as long shots, these Democrats in historically red districts helped turn Georgia blue",
+"url": "https://roughdraftatlanta.com/2026/11/24/fighting-fifty-democrats-red-districts-georgia-house/",
+"outlet": "Rough Draft Atlanta",
+"date": "2026-11-24T12:20:46Z",
+"kinds": [
+"assignment",
+"staff"
+],
+"people": [
+"Chris Luchey",
+"David Dillie",
+"Elisa Lassiter",
+"Eric Gisler",
+"Kasey Carpenter",
+"Mishael White",
+"Scott Soracco"
+],
+"assignments": 0,
+"snippet": "One grassroots political action committee played an outsized role in establishing a Democratic majority in the Georgia House of Representatives for the first time in more than 20 years. The Fighting Fifty \u2013 named after the 50 state House districts Republicans had previously run in uncontested \u2013 recr",
+"social": false,
+"foundAt": "2026-11-24T16:07:37Z"
+},
+{
+"id": "acdca44c0d18ab2a",
+"title": "Once seen as long shots, these Democrats in historically red districts helped turn Georgia blue",
+"url": "https://georgiarecorder.com/2026/11/24/once-seen-as-long-shots-these-democrats-in-historically-red-districts-helped-turn-georgia-blue/",
+"outlet": "Georgia Recorder",
+"date": "2026-11-24T09:00:47Z",
+"kinds": [
+"assignment",
+"staff"
+],
+"people": [
+"Chris Luchey",
+"Cynthia Starke-Jones",
+"David Dillie",
+"Elisa Lassiter",
+"Eric Gisler",
+"Kasey Carpenter",
+"Mishael White",
+"Scott Soracco"
+],
+"assignments": 0,
+"snippet": "Fifty Fighting-backed candidates are shown here clockwise starting top left: David Dillie, Elisa Lassiter, Chris Luchey, Mishael White, Cynthia Starke-Jones and Scott Soracco. Luchey's race had not been officially called as of Monday. Photos were provided by the candidates One grassroots political a",
+"social": false,
+"foundAt": "2026-11-24T16:07:37Z"
+},
 {
 "id": "b7c49ecaa8703ea6",
 "title": "House Ethics Committee finds improper intern payments in Mike Collins\u2019 office",
@@ -2980,6 +3147,23 @@
 "snippet": "Georgia Democrats make historic nomination for Speaker of the House Atlanta News First",
 "social": false,
 "foundAt": "2026-11-22T18:36:32Z"
+},
+{
+"id": "7e5cdf2dcd3e0440",
+"title": "Georgia House Democrats nominate Columbus Rep. Carolyn Hugley for speaker",
+"url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT0c0dW1DYXc1Ylp1Z2F4dHhzeGlhQnBDU0M4NnFMMnRzZDZqUEs0V0ItQVQyZUMzWVA4U2tBa2NaeThwMm0ydE5tcUxyWGJhek1UQkZYRUlaOWpMeUZEWmgxUU4wSThEcjExczhsNTkyck55NkJNYmtmS0M4RnRFZDh2SnU5MWpCUFdoTXZkSExEanZ5bmtNWFJuS0ZITDFCbUFr0gG3AUFVX3lxTFBrZjZhSXdJSjRHMFlLT2VoX2ZiX3BfVTVXLWNtZjJaWmdCZ1JTcWxoblIyZHFuem5lZU1obmxpYWxQRS0zcjhGYmlOejZqV2FhSlVRbjJHMlR0M21LcWd5QjliazlFOGNKRElfTnY4aUpHWUkycURJTUU2YWtIX19PUHhJc3IzbzRWQmdCT3pUYlh1NGlvbVBmS2RsN1UzRWFqdXB5QjlGSnFNVG5qX1RiTll5OVNqOA?oc=5",
+"outlet": "WTVM.com",
+"date": "2026-11-12T08:00:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "Georgia House Democrats nominate Columbus Rep. Carolyn Hugley for speaker WTVM.com",
+"social": false,
+"foundAt": "2026-11-24T16:07:37Z"
 },
 {
 "id": "3be8a7de0cf07582",
