@@ -1166,7 +1166,50 @@
 "ee601433be9e3c2f": "2026-11-25T14:29:00Z",
 "b19dcba545fe553e": "2026-11-25T14:41:40Z",
 "b5787c736c0466be": "2026-11-25T01:19:00Z",
-"c49af52770f25818": "2026-11-24T11:28:00Z"
+"c49af52770f25818": "2026-11-24T11:28:00Z",
+"a68b41de3fbb5981": "2026-11-25T19:56:09Z",
+"d055e648919fb7f6": "2026-11-25T16:01:32Z",
+"d5db76007bbd6573": "2026-11-25T19:07:22Z",
+"53079b1fe1f36ee6": "2026-11-25T16:00:00Z",
+"e61ec789aa20fd33": "2026-11-25T19:48:11Z",
+"5c6eca98cbd7510b": "2026-11-25T19:19:17Z",
+"e3b6979a161bf5af": "2026-11-25T17:34:18Z",
+"da5800a7642a59fb": "2026-11-25T17:06:00Z",
+"6e493ed8d7cebc48": "2026-11-25T16:56:42Z",
+"322c033a3f7907a2": "2026-11-25T20:29:19Z",
+"a75d8455b547faec": "2026-11-25T20:06:04Z",
+"9adb2b584ea6cf00": "2026-11-25T19:34:06Z",
+"730c2ca1824104f4": "2026-11-25T19:19:10Z",
+"a17f4a1969ae10fa": "2026-11-25T18:54:01Z",
+"f4bf167f6e724ba8": "2026-11-25T18:32:41Z",
+"a0456dbf124b0b22": "2026-11-25T18:25:23Z",
+"6c9562bb99bd7bbf": "2026-11-25T17:41:05Z",
+"06a36e21387ec4d4": "2026-11-25T17:27:39Z",
+"5d3ed65272c24c20": "2026-11-25T17:19:33Z",
+"4b5e239372e67e5e": "2026-11-25T17:02:19Z",
+"00226c8089d5234e": "2026-11-25T16:11:53Z",
+"071709729b2ed71d": "2026-11-24T14:00:00Z",
+"9df8dccc7268645a": "2026-11-24T22:15:42Z",
+"1830ccc069225610": "2026-11-25T08:03:00Z",
+"181e128e9e504cb3": "2026-11-25T02:00:00Z",
+"81a683dc4d45b533": "2026-11-24T01:00:00Z",
+"d42092f696415df4": "2026-11-25T09:01:00Z",
+"7b9682f56e0e979b": "2026-11-20T14:47:00Z",
+"92af0548b97dad77": "2026-11-23T13:19:00Z",
+"2d2b3175deee98c2": "2026-11-25T18:43:00Z",
+"326faed5b03bd584": "2026-11-25T18:54:53Z",
+"ec3c5d08f95bf458": "2026-11-25T10:54:00Z",
+"d5f6e1315187851d": "2026-11-07T08:00:00Z",
+"2f9364cff5499053": "2026-11-25T18:34:32Z",
+"b5f6904b3f8b8402": "2026-11-25T09:40:25Z",
+"8aab21fd85e09e0d": "2026-11-25T08:03:00Z",
+"4f631ee0f2b3a80a": "2026-11-25T07:24:41Z",
+"e5e2b7c6b7ad7a10": "2026-11-25T10:43:00Z",
+"d5fa3ae0e575a47d": "2026-11-18T07:41:00Z",
+"437f22063e6667df": "2026-11-25T16:02:00Z",
+"86d24f5492970874": "2026-11-25T14:29:00Z",
+"2135e23c9a555d3b": "2026-11-24T15:55:00Z",
+"26b7913946e4bb1f": "2026-11-24T15:19:00Z"
 },
 "reports": [
 {
@@ -1206,6 +1249,45 @@
 ],
 "news": [
 {
+"id": "a68b41de3fbb5981",
+"title": "Two Georgia GOP House lawmakers are challenging November losses",
+"url": "https://georgiarecorder.com/2026/11/25/two-georgia-gop-house-lawmakers-are-challenging-november-losses/",
+"outlet": "Georgia Recorder",
+"date": "2026-11-25T19:56:09Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Bill Hitchens",
+"Carolyn Hugley",
+"Chris Luchey",
+"David Dillie",
+"Mike Cheokas",
+"Soo Hong"
+],
+"assignments": 0,
+"snippet": "Top: Democrat Chris Luchey and Republican state Rep. Soo Hong. Bottom: Democrat David Dillie and Republican state Rep. Bill Hitchens. Hong and Hitchens are contesting their losses to Luchey and Dillie. Two Georgia House Republicans are challenging their defeats in the Nov. 3 midterm election after H",
+"social": false,
+"foundAt": "2026-11-25T20:32:48Z"
+},
+{
+"id": "d5db76007bbd6573",
+"title": "Gov.-elect Keisha Lance Bottoms announces inauguration plans",
+"url": "https://roughdraftatlanta.com/2026/11/25/bottoms-georgia-inauguration-date/",
+"outlet": "Rough Draft Atlanta",
+"date": "2026-11-25T19:07:22Z",
+"kinds": [
+"staff"
+],
+"people": [
+"Josh McLaurin"
+],
+"assignments": 0,
+"snippet": "Governor-elect Keisha Lance Bottoms announced initial plans for her inauguration on Nov. 25. Georgia\u2019s 84th governor will take the oath of office on Tuesday, Jan.12, 2027, at 11 a.m. at State Farm Arena in Downtown Atlanta, according to a press release from Bottoms\u2019 transition office. \u201cDue to the tr",
+"social": false,
+"foundAt": "2026-11-25T20:32:48Z"
+},
+{
 "id": "b7b227b57cf9da6c",
 "title": "State Farm Arena to host Keisha Lance Bottoms\u2019 historic inauguration",
 "url": "https://www.atlantanewsfirst.com/2026/11/25/details-announced-keisha-lance-bottoms-historic-gubernatorial-inauguration/",
@@ -1221,6 +1303,26 @@
 "snippet": "ATLANTA, Ga. (Atlanta News First) \u2014 Keisha Lance Bottoms will be sworn in as Georgia\u2019s 84th governor at State Farm Arena, where her transition team hopes to accommodate widespread interest in the historic ceremony. Bottoms\u2019 inauguration is set for Tuesday, Jan. 12, 2027, at 11 a.m. Bottoms \u2014 who def",
 "social": false,
 "foundAt": "2026-11-25T15:54:57Z"
+},
+{
+"id": "1830ccc069225610",
+"title": "Georgia House Speaker-nominee Carolyn Hugley announces transition team",
+"url": "https://www.yahoo.com/news/politics/articles/georgia-house-speaker-nominee-carolyn-160245245.html",
+"outlet": "Bing News",
+"date": "2026-11-25T08:03:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Anissa Jones",
+"Billy Mitchell",
+"Carolyn Hugley",
+"Imani Barnes"
+],
+"assignments": 0,
+"snippet": "Rep. Carolyn Hugley attends news conference after Georgia House Democrats voted for her to be the presumptive speaker, making her the first Black woman elected to lead the Georgia House. 11/12/2026 Georgia House Speaker-nominee Carolyn Hugley (D-Columbus) announced her transition team Tuesday, which",
+"social": false,
+"foundAt": "2026-11-25T20:32:48Z"
 },
 {
 "id": "f35b55c7fb96447e",
@@ -1440,6 +1542,35 @@
 "snippet": "Fifty Fighting-backed candidates are shown here clockwise starting top left: David Dillie, Elisa Lassiter, Chris Luchey, Mishael White, Cynthia Starke-Jones and Scott Soracco. Luchey's race had not been officially called as of Monday. Photos were provided by the candidates One grassroots political a",
 "social": false,
 "foundAt": "2026-11-24T16:07:37Z"
+},
+{
+"id": "81a683dc4d45b533",
+"title": "Burchett keeps leadership post",
+"url": "https://www.theblacksheartimes.com/article/14009,burchett-keeps-leadership-post",
+"outlet": "Bing News",
+"date": "2026-11-24T01:00:00Z",
+"kinds": [
+"assignment",
+"leadership"
+],
+"people": [
+"Billy Mitchell",
+"Carolyn Hugley",
+"Gerald Greene",
+"Harold Jones",
+"James Burchett",
+"Jason Anavitarte",
+"Jon Burns",
+"Kim Jackson",
+"Larry Walker",
+"Randy Robertson",
+"Samuel Park",
+"Stacey Evans"
+],
+"assignments": 0,
+"snippet": "Burchett Dist. 176 House member now part of minority Georgia House of Representatives member James Burchett, of Millwood, will remain in a leadership role for the Republican Party in the 2027 session of the Georgia Legislature. Burchett, who represents District 176 which includes Ware County, was se",
+"social": false,
+"foundAt": "2026-11-25T20:32:48Z"
 },
 {
 "id": "b7c49ecaa8703ea6",
