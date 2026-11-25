@@ -1055,7 +1055,46 @@
 "b87268ea83552f7a": "2026-11-24T06:15:00Z",
 "64713bdd14bb0c58": "2026-11-24T09:12:00Z",
 "bf3c297f3eb468c8": "2026-11-23T22:04:00Z",
-"d9f2abdc373eb8de": "2026-11-24T12:00:00Z"
+"d9f2abdc373eb8de": "2026-11-24T12:00:00Z",
+"12a5ebc14f2defab": "2026-11-25T00:11:20Z",
+"d01f12c6999c999f": "2026-11-24T21:39:49Z",
+"f7e18ba6db1b9dfa": "2026-11-25T00:30:00Z",
+"572ed8b3b05d5dba": "2026-11-24T22:34:20Z",
+"0ffab8879b922e8e": "2026-11-24T21:44:12Z",
+"0a0febbe1fee96e3": "2026-11-24T21:08:58Z",
+"a2e467b9e3664016": "2026-11-25T00:55:59Z",
+"2b99a4ac94ef0a78": "2026-11-25T01:17:42Z",
+"2b7dbc32af29c990": "2026-11-25T01:08:44Z",
+"0e939b7d102e3774": "2026-11-25T00:55:16Z",
+"f35b55c7fb96447e": "2026-11-25T00:33:32Z",
+"11b87dd3db8b0a79": "2026-11-25T00:25:22Z",
+"599f4670b2b99e9b": "2026-11-25T00:16:10Z",
+"3228bd6b95d2a8f4": "2026-11-24T23:36:44Z",
+"1f352563e9c96ac2": "2026-11-24T23:23:24Z",
+"396d1cd32415240a": "2026-11-24T23:13:28Z",
+"aa7aa8761718b811": "2026-11-24T22:55:12Z",
+"761ba500ee5ad2eb": "2026-11-24T22:53:27Z",
+"88930824eb8ff9f4": "2026-11-24T22:31:16Z",
+"221576516553a2ca": "2026-11-24T22:22:54Z",
+"c82f48284b85d3df": "2026-11-24T22:16:08Z",
+"ed35cd5980825c98": "2026-11-24T22:01:35Z",
+"9d815cfef58d26c1": "2026-11-15T08:00:00Z",
+"211f990b605a0ed3": "2026-11-18T07:47:00Z",
+"13fc2d37ffda8054": "2026-11-24T08:13:00Z",
+"fcb5148b36bb1750": "2026-11-11T08:00:00Z",
+"e5b02668fc123bf4": "2026-11-20T05:00:00Z",
+"a2c65ab05367a25c": "2026-11-18T17:07:00Z",
+"59916ac601733ae6": "2026-11-05T08:00:00Z",
+"a4d046c2aeb204f8": "2026-11-24T16:39:00Z",
+"a6dd54159599c814": "2026-11-24T21:56:01Z",
+"734d103c3e270ab2": "2026-11-24T08:31:00Z",
+"da57fec61bbf44a4": "2026-11-23T23:25:21Z",
+"d982f0024a4d4c28": "2026-11-24T22:16:26Z",
+"eb833777c68b85c5": "2026-11-24T18:31:36Z",
+"c37f65944d8eda1e": "2026-11-23T11:51:00Z",
+"3c1869f6b1513636": "2026-11-07T22:41:00Z",
+"6503040da2af28c9": "2026-11-24T14:14:00Z",
+"fbcfe61f80199602": "2026-11-24T10:49:00Z"
 },
 "reports": [
 {
@@ -1094,6 +1133,40 @@
 }
 ],
 "news": [
+{
+"id": "f35b55c7fb96447e",
+"title": "Lt. Gov. Burt Jones reflects on election losses, offers advice to his Democratic successor",
+"url": "https://www.atlantanewsfirst.com/2026/11/24/lt-gov-burt-jones-reflects-election-losses-offers-advice-his-democratic-successor/",
+"outlet": "Atlanta News First",
+"date": "2026-11-25T00:33:32Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Josh McLaurin"
+],
+"assignments": 0,
+"snippet": "ATLANTA, Ga. (Atlanta News First) \u2014 After 14 years at the Georgia Capitol, outgoing Lt. Gov. Burt Jones is preparing to return to his family\u2019s business and hand his office to Democrat Josh McLaurin, a former Senate colleague who will face a Republican-controlled chamber. Jones told Atlanta News Firs",
+"social": false,
+"foundAt": "2026-11-25T01:29:35Z"
+},
+{
+"id": "12a5ebc14f2defab",
+"title": "Judge orders Fulton County to turn over 2020 election records to State Election Board",
+"url": "https://georgiarecorder.com/2026/11/24/judge-orders-fulton-county-to-turn-over-2020-election-records-to-state-election-board/",
+"outlet": "Georgia Recorder",
+"date": "2026-11-25T00:11:20Z",
+"kinds": [
+"staff"
+],
+"people": [
+"Saira Draper"
+],
+"assignments": 0,
+"snippet": "Federal Bureau of Investigation agents seized 700 boxes of 2020 election records during a raid at the Fulton County Election Hub and Operation Center in January. Ross Williams/Georgia Recorder A Fulton County judge has ordered the county\u2019s Board of Registration and Elections to turn over a complete,",
+"social": false,
+"foundAt": "2026-11-25T01:29:35Z"
+},
 {
 "id": "a9496115ef4bb9a5",
 "title": "The Circular Saw Test",
