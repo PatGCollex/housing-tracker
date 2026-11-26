@@ -1253,7 +1253,26 @@
 "f950a37061376cd9": "2026-11-25T13:53:00Z",
 "b62107c01ccbdbda": "2026-11-25T06:29:00Z",
 "1a54e991aed7715a": "2026-11-24T15:59:00Z",
-"b3604c9a0e81c8cb": "2026-11-24T15:59:00Z"
+"b3604c9a0e81c8cb": "2026-11-24T15:59:00Z",
+"c6370b20354a7b24": "2026-11-26T03:30:00Z",
+"2d8e79e388dad571": "2026-11-26T01:27:37Z",
+"a4bd26c3c3b70f81": "2026-11-26T04:29:11Z",
+"46f17ecfdd487f8a": "2026-11-26T04:14:32Z",
+"2216a14fc022e42e": "2026-11-26T03:55:59Z",
+"59fc1aafb6939163": "2026-11-26T03:50:59Z",
+"67df542f4fd3919c": "2026-11-26T03:49:29Z",
+"2795098ea17ecb5f": "2026-11-26T02:57:27Z",
+"ccd842b68e5fd8c8": "2026-11-26T02:30:44Z",
+"338d11d62d6b0cf3": "2026-11-26T01:41:05Z",
+"29fb9467a9c260bb": "2026-11-26T01:19:15Z",
+"c5524f4a27d17fd2": "2026-11-09T12:27:00Z",
+"967f5a8a74afcf75": "2026-11-25T22:32:12Z",
+"0680eb277e5d4eb0": "2026-11-26T00:23:00Z",
+"f1e24a80c8cf5bdc": "2026-11-25T10:54:00Z",
+"9a9dac1aa7a1ed50": "2026-11-18T16:01:00Z",
+"5fd78f5d28f3ec56": "2026-11-25T16:00:00Z",
+"1061ab3078a1f5d0": "2026-11-25T11:33:00Z",
+"d51891443caa12a4": "2026-11-23T06:08:00Z"
 },
 "reports": [
 {
@@ -1292,6 +1311,28 @@
 }
 ],
 "news": [
+{
+"id": "2d8e79e388dad571",
+"title": "Two Georgia GOP House lawmakers are challenging losses that helped House Democrats flip chamber",
+"url": "https://roughdraftatlanta.com/2026/11/25/georgia-house-republicans-contest-election-losses/",
+"outlet": "Rough Draft Atlanta",
+"date": "2026-11-26T01:27:37Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Bill Hitchens",
+"Carolyn Hugley",
+"Chris Luchey",
+"David Dillie",
+"Mike Cheokas",
+"Soo Hong"
+],
+"assignments": 0,
+"snippet": "Two Georgia House Republicans are challenging their defeats in the Nov. 3 midterm election after House Democrats flipped enough seats to claim control of the chamber with a slim majority in January. House Democrats currently have a one-seat majority with three races unresolved, including one of the ",
+"social": false,
+"foundAt": "2026-11-26T05:19:45Z"
+},
 {
 "id": "333fe3fac471efac",
 "title": "University of North Georgia gets new president",
@@ -3982,6 +4023,26 @@
 "snippet": "Georgia Democratic Gov.-elect Keisha Lance Bottoms celebrates her victory on Nov. 3 in Atlanta. Bottoms made full Medicaid expansion central to her campaign and has called it \u201ca day one priority.\u201d Democratic victories could bring Medicaid expansion to a handful of other states. (Photo by Ross Willia",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "c5524f4a27d17fd2",
+"title": "Midterm election upsets give Democrats narrow majority in Georgia House for first time in decades",
+"url": "https://www.cbsnews.com/atlanta/news/midterm-election-upsets-give-democrats-narrow-majority-in-georgia-house-for-first-time-in-decades/",
+"outlet": "Bing News",
+"date": "2026-11-09T12:27:00Z",
+"kinds": [
+"assignment",
+"leadership"
+],
+"people": [
+"Carolyn Hugley",
+"Mike Cheokas",
+"Scott Soracco"
+],
+"assignments": 0,
+"snippet": "November 9, 2026 / 3:27 PM EST / CBS Atlanta Democrats have secured enough seats to take control of the Georgia House of Representatives for the first time in 22 years. On Monday, the Associated Press called Georgia's state House District 29 for Democratic candidate Scott Soracco , flipping the dist",
+"social": false,
+"foundAt": "2026-11-26T05:19:45Z"
 },
 {
 "id": "f1b06d1646345ad1",
