@@ -1272,7 +1272,49 @@
 "9a9dac1aa7a1ed50": "2026-11-18T16:01:00Z",
 "5fd78f5d28f3ec56": "2026-11-25T16:00:00Z",
 "1061ab3078a1f5d0": "2026-11-25T11:33:00Z",
-"d51891443caa12a4": "2026-11-23T06:08:00Z"
+"d51891443caa12a4": "2026-11-23T06:08:00Z",
+"e06c0ed071642935": "2026-11-26T09:00:41Z",
+"d0b0c1382582214d": "2026-11-26T14:36:21Z",
+"53e1d441a8b35295": "2026-11-26T14:18:26Z",
+"511ce50e2ab5df08": "2026-11-26T14:45:00Z",
+"9fdf444914b72a4c": "2026-11-26T11:50:39Z",
+"68bfd9b68d85c29d": "2026-11-26T09:00:00Z",
+"14e571af6a5ed518": "2026-11-26T14:42:53Z",
+"34d044d9509c94c9": "2026-11-26T14:28:21Z",
+"0207af0793d83b9b": "2026-11-26T13:12:00Z",
+"b21a8059cf080d13": "2026-11-26T12:57:42Z",
+"134d3ef6d286daa6": "2026-11-26T12:54:52Z",
+"7427395fe0420fe2": "2026-11-26T12:33:31Z",
+"7214fa909a441154": "2026-11-26T12:24:29Z",
+"3768ea05392f382a": "2026-11-26T11:44:30Z",
+"041e87bc206e28f9": "2026-11-26T11:44:25Z",
+"1095dd583237d098": "2026-11-26T06:53:09Z",
+"264c9c1003b4c0a4": "2026-11-26T06:34:20Z",
+"ea95c7b9c1d140ed": "2026-11-26T06:26:03Z",
+"6f3019d7a6986e23": "2026-11-26T15:09:21Z",
+"d584beefbcc0f870": "2026-11-26T15:06:53Z",
+"cdf8c3fcea484aef": "2026-11-26T15:00:00Z",
+"cfbb13466180c416": "2026-11-26T13:56:31Z",
+"808e9e51a4f32d03": "2026-11-26T13:44:24Z",
+"87e8fcd672abeb38": "2026-11-26T13:26:51Z",
+"c0daec75b4db16f5": "2026-11-26T12:38:28Z",
+"5d7a6ccf5c5e5279": "2026-11-26T10:19:27Z",
+"dadd9c8fc203140a": "2026-11-13T08:00:00Z",
+"486a47e79a5b068c": "2026-11-17T08:00:00Z",
+"253d8fa5e383900d": "2026-11-13T22:11:00Z",
+"ea83ddc30847b703": "2026-11-26T10:54:03Z",
+"6772b575ffa4d79a": "2026-11-26T10:08:31Z",
+"ec8e86e82e9d4a80": "2026-11-25T19:46:00Z",
+"784a04b49cec2f2d": "2026-11-26T11:00:00Z",
+"43cc814ae2b4199d": "2026-11-26T03:00:00Z",
+"21ed526076c5dbf4": "2026-11-25T16:00:00Z",
+"0f14971cd88514f6": "2026-11-25T09:40:25Z",
+"37f305dcf8f0155e": "2026-11-10T04:34:00Z",
+"b66a770d191c1a70": "2026-11-26T13:50:32Z",
+"1949534f6cf93811": "2026-11-26T13:48:06Z",
+"2aec8813da340944": "2026-11-17T20:30:00Z",
+"0828bba1cca66274": "2026-11-05T08:00:00Z",
+"507f764922c9535f": "2026-11-26T12:00:00Z"
 },
 "reports": [
 {
@@ -1311,6 +1353,45 @@
 }
 ],
 "news": [
+{
+"id": "53e1d441a8b35295",
+"title": "Two Georgia GOP House lawmakers challenge losses that helped House Democrats flip chamber",
+"url": "https://thecurrentga.org/2026/11/26/two-georgia-gop-house-lawmakers-challenge-losses-that-helped-house-democrats-flip-chamber/",
+"outlet": "The Current",
+"date": "2026-11-26T14:18:26Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Bill Hitchens",
+"Carolyn Hugley",
+"Chris Luchey",
+"David Dillie",
+"Mike Cheokas",
+"Soo Hong"
+],
+"assignments": 0,
+"snippet": "Two Georgia House Republicans are challenging their defeats in the Nov. 3 midterm election after House Democrats flipped enough seats to claim control of the chamber with a slim majority in January. House Democrats currently have a one-seat majority with three races unresolved, including one of the ",
+"social": false,
+"foundAt": "2026-11-26T15:35:24Z"
+},
+{
+"id": "6772b575ffa4d79a",
+"title": "Future House Speaker Carolyn Hugley announces transition team",
+"url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWUo0eEwwbENkQU1RSlZtU3BRYjdrR3ZoRHRoektuOVd4QThpQmtJcVRZaEEwa2dWT3Vkbm5EbzRxc3h1dUllczFCeWlmcmhtR29MazhSckhZcXZBbWFmeEtTY2V1QVB6Q1VnZEdYV1ZQWWcwbGVoa3ZUVXZyTG1VMmFGQ3BEOW91azVkbS1B?oc=5",
+"outlet": "Now Georgia",
+"date": "2026-11-26T10:08:31Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "Future House Speaker Carolyn Hugley announces transition team Now Georgia",
+"social": false,
+"foundAt": "2026-11-26T15:35:24Z"
+},
 {
 "id": "2d8e79e388dad571",
 "title": "Two Georgia GOP House lawmakers are challenging losses that helped House Democrats flip chamber",
@@ -3203,6 +3284,24 @@
 "foundAt": "2026-11-21T22:15:23Z"
 },
 {
+"id": "253d8fa5e383900d",
+"title": "Central Georgia House Representatives discuss goals ahead of 2027 legislative session | Here's what they said",
+"url": "https://www.yahoo.com/news/politics/articles/central-georgia-house-representatives-discuss-061132341.html",
+"outlet": "Bing News",
+"date": "2026-11-13T22:11:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Anissa Jones",
+"Dale Washburn"
+],
+"assignments": 0,
+"snippet": "Democrats now hold a majority in the State House of Representatives for the first time in two decades. On Thursday, Democrats met to discuss their new leadership ahead of the 2027 legislative session. District 143 Representative Anissa Jones was among them, and is now the Majority Caucus Secretary. ",
+"social": false,
+"foundAt": "2026-11-26T15:35:24Z"
+},
+{
 "id": "37cd1fb3125856fe",
 "title": "Carolyn Hugley Could Become Georgia\u2019s First Black Woman House Speaker",
 "url": "https://atlantadailyworld.com/2026/11/13/carolyn-hugley-could-become-georgias-first-black-woman-house-speaker/",
@@ -3238,6 +3337,23 @@
 "snippet": "November 13, 2026 / 11:06 AM EST / CBS Atlanta Georgia House Democrats have picked state Rep. Carolyn Hugley of Columbus to lead the chamber. The full House will vote for speaker Jan. 11, when lawmakers convene for the 2027 session. \"Putting the needs of Georgia's citizens at the center of our campa",
 "social": false,
 "foundAt": "2026-11-20T16:52:58Z"
+},
+{
+"id": "dadd9c8fc203140a",
+"title": "Georgia Democrats nominate Carolyn Hugley. She could become the state's first Black woman House speaker.",
+"url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcFczSGRLV2dlb2FObG9iOFJJQ1RiTDR4aTBUUDVMVjRoUHJ4OFVBQjk5Zl9UUXVaSWN0LTNpXzlyNWw2cVAycXVrOUlUT251WHhNN3JqU0JlYlZ0b2pHNWRFRTJHb0VwalFWdDZuVVU2V3RObzJDdW1qY0JBd19janBWVlhYZmJrN2RBQWNfVF9pTkRGakxTTmY2OGtMd3R1RWtwSkdIVTdhVXJ1ckxiVkRzT05YN1ozYkpoYnpnM2JRMlExZzdfc21WcmdYT3oxYWR3ZnN3?oc=5",
+"outlet": "CBS News",
+"date": "2026-11-13T08:00:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "Georgia Democrats nominate Carolyn Hugley. She could become the state's first Black woman House speaker. CBS News",
+"social": false,
+"foundAt": "2026-11-26T15:35:24Z"
 },
 {
 "id": "14801a9b0653cd4c",
