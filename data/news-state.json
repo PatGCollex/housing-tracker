@@ -1209,7 +1209,51 @@
 "437f22063e6667df": "2026-11-25T16:02:00Z",
 "86d24f5492970874": "2026-11-25T14:29:00Z",
 "2135e23c9a555d3b": "2026-11-24T15:55:00Z",
-"26b7913946e4bb1f": "2026-11-24T15:19:00Z"
+"26b7913946e4bb1f": "2026-11-24T15:19:00Z",
+"333fe3fac471efac": "2026-11-25T21:45:51Z",
+"efeda0b9d5f5d19f": "2026-11-25T23:01:29Z",
+"31cb8357e74aede1": "2026-11-25T21:55:00Z",
+"4ff8e332ac82a87e": "2026-11-25T21:40:12Z",
+"4cdbb0b67aa9eca6": "2026-11-25T21:17:13Z",
+"b1a8df785b96d58d": "2026-11-25T20:26:19Z",
+"4a3d3cd4f015dc2a": "2026-11-25T20:55:36Z",
+"42aed2e1072a2843": "2026-11-26T00:54:40Z",
+"46ad8ae405fb30f7": "2026-11-26T00:48:27Z",
+"f380d42f84fa0e24": "2026-11-26T00:31:56Z",
+"ef955843a8747906": "2026-11-26T00:26:53Z",
+"bc8a0ac7acecf7ca": "2026-11-26T00:20:22Z",
+"19d5889ed1ae9530": "2026-11-26T00:12:03Z",
+"b655854ea91d0387": "2026-11-25T23:57:08Z",
+"47189beff84b37fc": "2026-11-25T23:47:42Z",
+"c06457352b61aa92": "2026-11-25T23:36:59Z",
+"74a5bba10397dbb6": "2026-11-25T23:33:52Z",
+"9f740713cb98d293": "2026-11-25T23:22:30Z",
+"976b28197c7d22bd": "2026-11-25T22:18:35Z",
+"222fc6ce5bacb2aa": "2026-11-25T21:55:12Z",
+"0f5b9ea8c700fe7a": "2026-11-25T21:15:19Z",
+"77980e4f4d6e5bc1": "2026-11-25T20:35:28Z",
+"82d5d9d554d8342a": "2026-11-06T10:44:00Z",
+"094fa66a7c6e55e0": "2026-11-04T08:00:00Z",
+"b35283022fb7e2bf": "2026-11-25T14:32:00Z",
+"0b1571a0c46aa096": "2026-11-25T15:42:00Z",
+"6cd2add0feb7e649": "2026-11-25T03:02:00Z",
+"684310f20b4ab817": "2026-11-17T16:00:00Z",
+"a93eeee2106e7d73": "2026-11-25T16:00:00Z",
+"437e5ab3e404afcb": "2026-11-25T21:53:00Z",
+"541350f536d59c8c": "2026-11-25T15:57:00Z",
+"0e8b45a191119b64": "2026-11-25T13:53:00Z",
+"5dc64b514e33cbb7": "2026-11-25T12:14:00Z",
+"47fce410a04d9f04": "2026-11-25T11:55:00Z",
+"750319433be8a938": "2026-11-25T06:24:00Z",
+"ec1f03a3753b06d6": "2026-11-25T13:09:00Z",
+"f5d6bb7056f83515": "2026-11-17T10:23:45Z",
+"69b17fce71d14b01": "2026-11-25T21:55:00Z",
+"28b4d01a47d0eb4f": "2026-11-25T15:30:26Z",
+"5d08a513552e8757": "2026-11-25T14:31:00Z",
+"f950a37061376cd9": "2026-11-25T13:53:00Z",
+"b62107c01ccbdbda": "2026-11-25T06:29:00Z",
+"1a54e991aed7715a": "2026-11-24T15:59:00Z",
+"b3604c9a0e81c8cb": "2026-11-24T15:59:00Z"
 },
 "reports": [
 {
@@ -1248,6 +1292,21 @@
 }
 ],
 "news": [
+{
+"id": "333fe3fac471efac",
+"title": "University of North Georgia gets new president",
+"url": "https://roughdraftatlanta.com/2026/11/25/university-north-georgia-president-john-fuchko/",
+"outlet": "Rough Draft Atlanta",
+"date": "2026-11-25T21:45:51Z",
+"kinds": [
+"leadership"
+],
+"people": [],
+"assignments": 0,
+"snippet": "The University of North Georgia will get a new president next year. The state Board of Regents announced Tuesday that it had named Dalton State College President John M. Fuchko III the next president of UNG effective Jan. 1. The university enrolls more than 20,000 students across five campuses. Its ",
+"social": false,
+"foundAt": "2026-11-26T01:04:16Z"
+},
 {
 "id": "a68b41de3fbb5981",
 "title": "Two Georgia GOP House lawmakers are challenging November losses",
@@ -1323,6 +1382,23 @@
 "snippet": "Rep. Carolyn Hugley attends news conference after Georgia House Democrats voted for her to be the presumptive speaker, making her the first Black woman elected to lead the Georgia House. 11/12/2026 Georgia House Speaker-nominee Carolyn Hugley (D-Columbus) announced her transition team Tuesday, which",
 "social": false,
 "foundAt": "2026-11-25T20:32:48Z"
+},
+{
+"id": "6cd2add0feb7e649",
+"title": "Georgia House Speaker-nominee Carolyn Hugley announces transition team",
+"url": "https://www.ledger-enquirer.com/news/politics-government/article318251225.html",
+"outlet": "Bing News",
+"date": "2026-11-25T03:02:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "I\u2019m so honored that Georgians have given us the opportunity to lead and deliver for them on the issues most important to working families.\u201d ...",
+"social": false,
+"foundAt": "2026-11-26T01:04:16Z"
 },
 {
 "id": "f35b55c7fb96447e",
