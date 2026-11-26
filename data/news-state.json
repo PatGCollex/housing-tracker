@@ -1314,7 +1314,34 @@
 "1949534f6cf93811": "2026-11-26T13:48:06Z",
 "2aec8813da340944": "2026-11-17T20:30:00Z",
 "0828bba1cca66274": "2026-11-05T08:00:00Z",
-"507f764922c9535f": "2026-11-26T12:00:00Z"
+"507f764922c9535f": "2026-11-26T12:00:00Z",
+"e68e3557999a79dc": "2026-11-26T18:54:00Z",
+"f50531e032d32e4b": "2026-11-26T16:18:59Z",
+"4a10e8c4a6375635": "2026-11-26T15:46:14Z",
+"b2c9c017b9cf1f67": "2026-11-26T19:00:08Z",
+"2ab51a608a60addb": "2026-11-26T18:44:00Z",
+"323942de4e963551": "2026-11-26T17:23:00Z",
+"d8d4bb809b96024e": "2026-11-26T15:49:30Z",
+"7397474301367ac8": "2026-11-26T20:11:02Z",
+"3b389b95a848034b": "2026-11-26T20:08:46Z",
+"079c0283bb55e7d7": "2026-11-26T20:07:17Z",
+"ee41ced4a44983b3": "2026-11-26T19:43:15Z",
+"914ef574b685646f": "2026-11-26T19:30:47Z",
+"92df53c35b2c69cd": "2026-11-26T18:28:19Z",
+"c4356e8983bea71f": "2026-11-26T17:42:42Z",
+"ebf2f9b20820b647": "2026-11-26T16:17:06Z",
+"0ccc256c39d8b75c": "2026-11-12T08:00:00Z",
+"aac29b78d365f5b8": "2026-11-26T03:26:00Z",
+"45273e88b1996a14": "2026-11-22T16:00:00Z",
+"cc7ae0fd6597dca5": "2026-11-06T08:00:00Z",
+"97722289c0619a50": "2026-11-04T08:00:00Z",
+"cedf89b73d99e6dd": "2026-11-26T18:24:02Z",
+"4bf2684b461453d0": "2026-11-12T03:32:00Z",
+"3f02182edff880fb": "2026-11-25T21:09:34Z",
+"c27cb94c95935aee": "2026-11-25T22:18:49Z",
+"9d84c424b9b5005b": "2026-11-25T11:59:00Z",
+"64b4a2941c64c4d3": "2026-11-24T20:18:42Z",
+"44ec5980b9c0aa97": "2026-11-06T08:00:00Z"
 },
 "reports": [
 {
@@ -1353,6 +1380,40 @@
 }
 ],
 "news": [
+{
+"id": "ee41ced4a44983b3",
+"title": "2 campaign workers for Georgia state representative killed in car crash on way home for Thanksgiving",
+"url": "https://www.atlantanewsfirst.com/2026/11/26/2-campaign-workers-georgia-state-representative-killed-car-crash-way-home-thanksgiving/",
+"outlet": "Atlanta News First",
+"date": "2026-11-26T19:43:15Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Jon Burns",
+"Mike Cheokas"
+],
+"assignments": 0,
+"snippet": "ATLANTA, Ga. (Atlanta News First) \u2014 Two young campaign workers for a Georgia state representative were killed in a car crash Wednesday night on their way home for Thanksgiving, according to lawmakers. Around 1 p.m. Thursday, state Rep. Mike Cheokas, R-Americus, shared a statement on the deaths of Be",
+"social": false,
+"foundAt": "2026-11-26T20:20:36Z"
+},
+{
+"id": "f50531e032d32e4b",
+"title": "Rally Foundation raises $3 million for childhood cancer research",
+"url": "https://roughdraftatlanta.com/2026/11/26/rally-benefit-bash-raises-millions/",
+"outlet": "Rough Draft Atlanta",
+"date": "2026-11-26T16:18:59Z",
+"kinds": [
+"assignment",
+"leadership"
+],
+"people": [],
+"assignments": 0,
+"snippet": "The Rally Foundation for Childhood Cancer Research hosted its 19th annual Benefit Bash at the Georgia Aquarium\u2019s Oceans Ballroom on Nov. 13, raising more than $3.77 million. This milestone brings the total funds raised by this event over the past 19 years to more than $28 million. Gail Grimmett, Pre",
+"social": false,
+"foundAt": "2026-11-26T20:20:36Z"
+},
 {
 "id": "53e1d441a8b35295",
 "title": "Two Georgia GOP House lawmakers challenge losses that helped House Democrats flip chamber",
