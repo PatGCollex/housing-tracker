@@ -1,4 +1,4 @@
-Checked 2026-11-27T04:51:44.008802+00:00
+Checked 2026-11-27T14:44:42.242000+00:00
 
 == home page
 https://www.legis.ga.gov/
@@ -93,11 +93,11 @@ status 401 type None
 
 == old web service: committees
 https://webservices.legis.ga.gov/GGAServices/Committees/Service.svc?wsdl
-ERROR HTTPSConnectionPool(host='webservices.legis.ga.gov', port=443): Max retries exceeded with url: /GGAServices/Committees/Service.svc?wsdl (Caused by ConnectTimeoutError(<HTTPSConnection(host='webservices.legis.ga.gov', port=443) at 0x7243be4e41a0>, 'Connection to webservices.legis.ga.gov timed out. (connect timeout=30)'))
+ERROR HTTPSConnectionPool(host='webservices.legis.ga.gov', port=443): Max retries exceeded with url: /GGAServices/Committees/Service.svc?wsdl (Caused by ConnectTimeoutError(<HTTPSConnection(host='webservices.legis.ga.gov', port=443) at 0x7fe86f5b4260>, 'Connection to webservices.legis.ga.gov timed out. (connect timeout=30)'))
 
 == old web service: sessions
 https://webservices.legis.ga.gov/GGAServices/Session/Service.svc?wsdl
-ERROR HTTPSConnectionPool(host='webservices.legis.ga.gov', port=443): Max retries exceeded with url: /GGAServices/Session/Service.svc?wsdl (Caused by ConnectTimeoutError(<HTTPSConnection(host='webservices.legis.ga.gov', port=443) at 0x7243be4e45f0>, 'Connection to webservices.legis.ga.gov timed out. (connect timeout=30)'))
+ERROR HTTPSConnectionPool(host='webservices.legis.ga.gov', port=443): Max retries exceeded with url: /GGAServices/Session/Service.svc?wsdl (Caused by ConnectTimeoutError(<HTTPSConnection(host='webservices.legis.ga.gov', port=443) at 0x7fe86f5b48f0>, 'Connection to webservices.legis.ga.gov timed out. (connect timeout=30)'))
 
 == script https://www.legis.ga.gov/runtime.c1fda2df42dadafc24c6.js
 2460 chars
