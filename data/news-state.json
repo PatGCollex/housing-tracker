@@ -1341,7 +1341,32 @@
 "c27cb94c95935aee": "2026-11-25T22:18:49Z",
 "9d84c424b9b5005b": "2026-11-25T11:59:00Z",
 "64b4a2941c64c4d3": "2026-11-24T20:18:42Z",
-"44ec5980b9c0aa97": "2026-11-06T08:00:00Z"
+"44ec5980b9c0aa97": "2026-11-06T08:00:00Z",
+"d469b7f87e360b49": "2026-11-26T22:05:31Z",
+"9f0e7f7f4fc38dc3": "2026-11-26T21:43:39Z",
+"544717f678d22a5b": "2026-11-27T00:54:40Z",
+"9e3c9f07d40d03dd": "2026-11-27T00:32:26Z",
+"2cb57e12e5bf98c6": "2026-11-26T23:31:10Z",
+"6278d8b3bc1c0026": "2026-11-26T22:57:41Z",
+"76c55f07b5cfc237": "2026-11-26T22:42:31Z",
+"90cf93a20718566d": "2026-11-26T22:37:19Z",
+"50cecd7dbb465ca1": "2026-11-26T22:35:03Z",
+"1e13246668da0cfa": "2026-11-26T21:44:11Z",
+"f7c9328fb6f0cdf5": "2026-11-26T21:38:42Z",
+"7fa98e2f7062c998": "2026-11-26T20:30:00Z",
+"4e8589999dd084a6": "2026-11-12T13:41:00Z",
+"e65485b42866799d": "2026-11-06T08:00:00Z",
+"5ce7ba1fc21beaae": "2026-11-06T08:00:00Z",
+"98026781dce02d39": "2026-11-06T08:00:00Z",
+"63e76bc62e3f8a51": "2026-11-06T09:38:00Z",
+"93fe38795f4ef021": "2026-11-06T08:00:00Z",
+"0d1b9d6f09baf326": "2026-11-21T15:59:00Z",
+"cff41d9d75cf5fa9": "2026-11-26T14:12:00Z",
+"f1a657d4004ca53e": "2026-11-12T14:42:00Z",
+"b9c7062a0b7ad201": "2026-11-07T22:41:00Z",
+"cbebb347cd107c84": "2026-11-26T22:14:12Z",
+"bcd2b11976e0d608": "2026-11-24T11:28:00Z",
+"6a8d595e29ea595f": "2026-11-05T08:00:00Z"
 },
 "reports": [
 {
@@ -1380,6 +1405,21 @@
 }
 ],
 "news": [
+{
+"id": "9e3c9f07d40d03dd",
+"title": "Georgia State Capitol visitors reflect on history as Keisha Lance Bottoms prepares to take office",
+"url": "https://www.atlantanewsfirst.com/2026/11/27/georgia-state-capitol-visitors-reflect-history-keisha-lance-bottoms-prepares-take-office/",
+"outlet": "Atlanta News First",
+"date": "2026-11-27T00:32:26Z",
+"kinds": [
+"leadership"
+],
+"people": [],
+"assignments": 0,
+"snippet": "ATLANTA, Ga. (Atlanta News First) \u2014 As Gov.-elect Keisha Lance Bottoms prepares to take office, visitors to the Georgia State Capitol are reflecting on the state\u2019s past and what her historic election could mean for the next generation. Bottoms\u2019 name is already outside the governor\u2019s office, where ho",
+"social": false,
+"foundAt": "2026-11-27T01:05:32Z"
+},
 {
 "id": "ee41ced4a44983b3",
 "title": "2 campaign workers for Georgia state representative killed in car crash on way home for Thanksgiving",
@@ -3585,6 +3625,27 @@
 "snippet": "Georgia House Speaker nominee Rep. Carolyn Hugley, a Columbus Democrat, speaks at a press conference on Nov. 12, 2026, at the state Capitol announcing the caucus' picks for leadership roles. Alander Rocha/Georgia Recorder Georgia House Democrats unveiled their picks to lead the chamber Thursday afte",
 "social": false,
 "foundAt": "2026-11-21T18:07:26Z"
+},
+{
+"id": "f1a657d4004ca53e",
+"title": "How Georgia Democrats are reshaping state leadership",
+"url": "https://www.fox5atlanta.com/news/how-georgia-democrats-reshaping-state-leadership",
+"outlet": "Bing News",
+"date": "2026-11-12T14:42:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Billy Mitchell",
+"Carolyn Hugley",
+"Samuel Park",
+"Spencer Frye",
+"Stacey Evans"
+],
+"assignments": 0,
+"snippet": "Columbus Democrat Carolyn Hugley made history at the Gold Dome in downtown Atlanta as the first woman and first Black person nominated for Georgia House speaker after Democrats won control of the chamber for the first time in two decades. ATLANTA - Georgia House Democrats nominated Rep. Carolyn Hugl",
+"social": false,
+"foundAt": "2026-11-27T01:05:32Z"
 },
 {
 "id": "aa4f86da9ffa4953",
