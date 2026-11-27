@@ -1431,7 +1431,33 @@
 "2d31d16b8234cb89": "2026-11-26T16:00:00Z",
 "38b4c4f9e3016cbf": "2026-11-04T08:00:00Z",
 "05a4abf2c9a2add0": "2026-11-04T08:00:00Z",
-"f468721238586848": "2026-11-26T16:00:00Z"
+"f468721238586848": "2026-11-26T16:00:00Z",
+"b50428a198f57e05": "2026-11-27T18:48:49Z",
+"8dfe8062dc85b7f5": "2026-11-25T21:05:28Z",
+"28306a80b11be26b": "2026-11-27T18:45:00Z",
+"78a6390fea14e562": "2026-11-27T17:00:00Z",
+"79e69ae5cf654af6": "2026-11-27T16:04:00Z",
+"96fb7e481bf6260c": "2026-11-27T15:00:00Z",
+"7c0239a654273d57": "2026-11-27T18:32:00Z",
+"6980639fbc22865f": "2026-11-27T19:37:02Z",
+"114b47ca7799834b": "2026-11-27T19:28:43Z",
+"97cf88521813354e": "2026-11-27T19:26:53Z",
+"d114f863effcf180": "2026-11-27T19:05:23Z",
+"810a808b7618ee71": "2026-11-27T18:35:49Z",
+"d115b4fe3a70d336": "2026-11-27T18:07:53Z",
+"65a4a7bd9b1412c6": "2026-11-27T17:33:53Z",
+"0b40efd1d9430d06": "2026-11-27T17:29:49Z",
+"eedf067f95fe4125": "2026-11-27T17:27:31Z",
+"b9289b8ca29f4e54": "2026-11-27T15:51:57Z",
+"c3ce1295e485890a": "2026-11-25T16:23:43Z",
+"8ab2fb3c060e76a4": "2026-11-27T03:00:00Z",
+"9c49e3026cf846d7": "2026-11-04T08:00:00Z",
+"f107947a1e3051a7": "2026-11-12T12:55:00Z",
+"8db91cb581b2cf00": "2026-11-23T20:12:00Z",
+"44da5f316cd28a09": "2026-11-27T12:04:19Z",
+"76bcfdfc04a3c077": "2026-11-09T13:08:00Z",
+"8c9fb1816325fa54": "2026-11-04T08:00:00Z",
+"204c281aea63a8c2": "2026-11-20T14:34:00Z"
 },
 "reports": [
 {
@@ -1470,6 +1496,23 @@
 }
 ],
 "news": [
+{
+"id": "b50428a198f57e05",
+"title": "Computer equipment tax break yields little return for Georgia, analysis for state finds",
+"url": "https://capitol-beat.org/2026/11/computer-equipment-tax-break-yields-little-return-for-georgia-analysis-for-state-finds/?utm_source=rss&utm_medium=rss&utm_campaign=computer-equipment-tax-break-yields-little-return-for-georgia-analysis-for-state-finds",
+"outlet": "Capitol Beat",
+"date": "2026-11-27T18:48:49Z",
+"kinds": [
+"assignment"
+],
+"people": [
+"Blake Tillery"
+],
+"assignments": 0,
+"snippet": "A new report for Georgia auditors says a state tax break on computer equipment purchases costs at least twice as much as it returns to the economy and produces little new tax revenue. The exemption is limited to technology companies that spend at least $15 million a year on computer equipment. Recip",
+"social": false,
+"foundAt": "2026-11-27T20:06:04Z"
+},
 {
 "id": "9e3c9f07d40d03dd",
 "title": "Georgia State Capitol visitors reflect on history as Keisha Lance Bottoms prepares to take office",
@@ -3821,6 +3864,24 @@
 "foundAt": "2026-11-24T07:02:22Z"
 },
 {
+"id": "f107947a1e3051a7",
+"title": "Georgia House Democrats select Carolyn Hugley as state\u2019s first Black woman Speaker",
+"url": "https://www.yahoo.com/news/politics/articles/georgia-house-democrats-select-carolyn-205552191.html",
+"outlet": "Bing News",
+"date": "2026-11-12T12:55:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley",
+"Teddy Reese"
+],
+"assignments": 0,
+"snippet": "The Democratic caucus in the Georgia House of Representatives voted Thursday to make state Rep. Carolyn Hugley (D-Columbus) the presumptive Speaker of the House. If the full House officially votes for her in January, when the Democrats will be in the majority, Hugley would become the first Black wom",
+"social": false,
+"foundAt": "2026-11-27T20:06:04Z"
+},
+{
 "id": "3b00f531194852a4",
 "title": "House Democrats nominate Carolyn Hugley as Georgia\u2019s first Black speaker",
 "url": "https://www.ajc.com/politics/2026/11/house-democrats-nominate-carolyn-hugley-as-georgias-first-black-speaker/",
@@ -4740,6 +4801,23 @@
 "snippet": "State Rep. Carolyn Hugley (D-Columbus), the Georgia House of Representatives minority leader, poses for a photo during a news conference at the state capitol in Atlanta on Nov. 4, 2026, the day after ...",
 "social": false,
 "foundAt": "2026-11-21T18:07:26Z"
+},
+{
+"id": "9c49e3026cf846d7",
+"title": "Minority Leader Carolyn Hugley poised to be next Speaker of the Georgia House",
+"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM3htWDlXY2lmeXhHMGhyTzJiRDJVV1Rua1BoQkVpRzU1c3ltUkUtLTVmM3Zxb3g4dUZiNjU3NG94cEFZWFBudkVXRko1LXZtMlJMVkFJYzVGaW9uSXNqZXkzZzdqY21PdVFkdUxCU084WjEwVU94RGM4eWpRUXlQNWFoUDI?oc=5",
+"outlet": "Columbus Ledger-Enquirer",
+"date": "2026-11-04T08:00:00Z",
+"kinds": [
+"leadership"
+],
+"people": [
+"Carolyn Hugley"
+],
+"assignments": 0,
+"snippet": "Minority Leader Carolyn Hugley poised to be next Speaker of the Georgia House Columbus Ledger-Enquirer",
+"social": false,
+"foundAt": "2026-11-27T20:06:04Z"
 },
 {
 "id": "1d130f67c21044cc",
